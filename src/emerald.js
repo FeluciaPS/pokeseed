@@ -284,18 +284,17 @@ async function runGenerator() {
         PokemonCount = Math.floor(pokemon.length / Players);
         output.write(`Unlimited Pok&eacute; with ${Players} players: ${PokemonCount} Pok&eacute;mon.`);
     }
-
+    var hasPokemon = function(y, x) {
+        return !y.pokemon.includes(x);
+    }
     for (var i in players) {
         addPokemon(players[i], select(starters_c));
     }
+    for (var i in players) while (players[i].normal < Normal[0]) addPokemon(players[i], select(normals.filter(x => hasPokemon(players[i], x))));
+    for (var i in players) while (players[i].common < Common[0]) addPokemon(players[i], select(commons.filter(x => hasPokemon(players[i], x))));
+    for (var i in players) while (players[i].legendary < Legendary[0]) addPokemon(players[i], select(legendaries.filter(x => hasPokemon(players[i], x))));
+    for (var i in players) while (players[i].trash < Trash[0]) addPokemon(players[i], select(trash.filter(x => hasPokemon(players[i], x))));
     for (var i in players) {
-        var hasPokemon = function(x) {
-            return !players[i].pokemon.includes(x);
-        }
-        while (players[i].normal < Normal[0]) addPokemon(players[i], select(normals.filter(hasPokemon)));
-        while (players[i].common < Common[0]) addPokemon(players[i], select(commons.filter(hasPokemon)));
-        while (players[i].legendary < Legendary[0]) addPokemon(players[i], select(legendaries.filter(hasPokemon)));
-        while (players[i].trash < Trash[0]) addPokemon(players[i], select(trash.filter(hasPokemon)));
         while (players[i].pokemon.length < PokemonCount) {
             var filtered = pokemon.filter((a) => {
                 if (players[i].normal >= Normal[1] && normals.includes(a)) return false;
