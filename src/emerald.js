@@ -280,10 +280,14 @@ async function runGenerator() {
         return arr[Math.floor(Math.random() * arr.length)];
     }
 
+    if (PokemonCount === Infinity) {
+        PokemonCount = Math.floor(pokemon.length / Players);
+        output.write(`Unlimited Pok&eacute; with ${Players} players: ${PokemonCount} Pok&eacute;mon.`);
+    }
+
     for (var i in players) {
         addPokemon(players[i], select(starters_c));
     }
-
     for (var i in players) {
         var hasPokemon = function(x) {
             return !players[i].pokemon.includes(x);
