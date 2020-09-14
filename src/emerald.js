@@ -155,7 +155,7 @@ async function runGenerator() {
         output.write(`Allowing Duplicates...`);
     }
 
-    if (Legendary[0] + Normal[0] + Trash[0] > PokemonCount || Common[0] > PokemonCount) {
+    if (Legendary[0] + Normal[0] + Trash[0] + 1 > PokemonCount || Common[0] > PokemonCount) {
         output.msg(`Oi mate you can't set those minimums when you only have ${PokemonCount} Pok&eacute;mon`);
         output.err(`More specific categories asked than Pok&eacute;mon required.`);
         error++;
