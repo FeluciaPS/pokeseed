@@ -55,6 +55,7 @@ var addTag = function(mon) {
     if (bad.includes(mon.trim())) return `<span class="result trash">${mon}</span>`;
 }
 var fill = function(str, left = false) {
+    if (!str) str = "";
     if (left) while (str.length < 9) str = " " + str;
     else while (str.length < 9) str += " ";
     return addTag(str);
