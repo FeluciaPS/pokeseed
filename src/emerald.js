@@ -303,6 +303,7 @@ async function runGenerator() {
                 if (players[i].trash >= Trash[1] && trash.includes(a)) return false;
                 return !players[i].pokemon.includes(a);
             })
+            if (!filtered.length) break;
             addPokemon(players[i], select(filtered));
         }
     }
