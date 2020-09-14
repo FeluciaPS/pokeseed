@@ -295,6 +295,7 @@ async function runGenerator() {
     for (var i in players) while (players[i].legendary < Legendary[0]) addPokemon(players[i], select(legendaries.filter(x => hasPokemon(players[i], x))));
     for (var i in players) while (players[i].trash < Trash[0]) addPokemon(players[i], select(trash.filter(x => hasPokemon(players[i], x))));
     for (var i in players) {
+        var yeet = false;
         while (players[i].pokemon.length < PokemonCount) {
             var filtered = pokemon.filter((a) => {
                 if (players[i].normal >= Normal[1] && normals.includes(a)) return false;
@@ -303,9 +304,13 @@ async function runGenerator() {
                 if (players[i].trash >= Trash[1] && trash.includes(a)) return false;
                 return !players[i].pokemon.includes(a);
             })
-            if (!filtered.length) break;
+            if (!filtered.length) {
+                yeet = true;
+                break;
+            }
             addPokemon(players[i], select(filtered));
         }
+        if (yeet) break;
     }
     output.write(`legendary = <span class="result legendary">yellow</span>, normal = <span class="result normal">blue</span>, trash = <span class="result trash">red</span>`)
     output.write(buildTableOutput(players));
