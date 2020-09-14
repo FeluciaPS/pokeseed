@@ -202,7 +202,6 @@ async function runGenerator() {
     }
     var legendaries = pokemon.filter((a) => {return a.type.startsWith("Legendary")}).map((x) => x.name);;
     output.write(`Loaded ${legendaries.length} Legendary Pok&eacute;mon`);
-    output.write(JSON.stringify(pokemon));
     if (legendaries.length < Players * Legendary[0] && !AllowDupes) {
         output.err(`${Players} players with ${Legendary[0]} Legendary Pok&eacute;mon requires ${Players * Legendary[0]}`);
         error++;
