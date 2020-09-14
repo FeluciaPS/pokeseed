@@ -86,12 +86,10 @@ var buildTableOutput = function(players) {
     return ret;
 }
 var starters = [
-    "Wurmple",
     "Poochyena",
     "Zigzagoon",
     "Lotad",
     "Ralts",
-    "Seedot",
     "Wingull"
 ]
 async function runGenerator() {
