@@ -1,0 +1,61 @@
+.iamirresponsible {
+    overflow-x: auto;
+}
+
+.output {
+    border: 1px solid #EEE;
+    color: #EEE;
+    background: #070707;
+    min-width: 650px;
+    width:60%;
+    min-height: 300px;
+    max-height: 550px;
+    overflow-y: auto;
+    font-family: 'Courier New', Courier, Consolas, monospace;
+    white-space: pre;
+}
+
+.inputs {
+    margin-bottom: 15px;
+}
+
+.console.msg {
+    color: #FFF;
+}
+
+.console.log {
+    color: #777;
+}
+
+.console.err {
+    color: #BB0;
+}
+
+.result.legendary {
+    color: #FFFFBB;
+}
+
+.result.normal {
+    color: #BBBBFF;
+}
+
+.result.trash {
+    color: #FFBBBB;
+}
+.inputs > h2 {
+    margin: 0px;
+    font-size: 1.4em;
+}
+
+.small {
+    font-size: 0.8em;
+    margin:3px;
+    color: #555;
+    text-decoration: underline;
+}
+
+body {
+    font-size:14px;
+    background:#EEE;
+    color: #070707;
+}
