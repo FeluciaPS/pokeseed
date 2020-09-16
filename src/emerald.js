@@ -1,5 +1,5 @@
 var isRunning = false;
-var dex = json('/pokeseed/data/dex.json');
+var dex = json('../../data/dex.json');
 
 function json(target) {
     var json = null;
@@ -33,7 +33,7 @@ var escapeHTML = function(str) {
 }
 
 
-var mondata = json('/pokeseed/data/pokemon.json');
+var mondata = json('../../data/pokemon.json');
 var pkmn = [];
 for (var i in mondata) {
     pkmn.push({
@@ -219,7 +219,7 @@ async function runGenerator() {
     }
 
     // Generate a list of "Common" encounters
-    var encounterdata = json('/pokeseed/data/encounters.json');
+    var encounterdata = json('../../data/encounters.json');
     var commons = [];
     for (var loc in encounterdata) {
         var location = encounterdata[loc];
