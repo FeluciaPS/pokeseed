@@ -1,19 +1,31 @@
 <html>
     <head>
         <title>Pok&eacute;mon Emerald seeder</title>
-        <script>
-            var generateSeed = function() {
-                output.write("Hello There");
-            }
-        </script>
-        <link rel="stylesheet" href="style.css" />
+        <link rel="stylesheet" href="css/style.css" />
+        <link rel="stylesheet" href="css/header.css" />
         <script src="./lib/jquery-2.1.4.min.js"></script>
         <script src="./src/logger.js"></script>
         <script src="./src/buildpage.js"></script>
         <script src="./src/emerald.js"></script>
     </head>
     <body>
-        <div class="iamirresponsible">
+        <header class="menu navbar">
+            <div class="logo">
+                <img src="./img/logo.png">
+                <h1>PokeSeed</h1>
+            </div>
+            <nav>
+                <a href="/games/red.html">
+                    <button class="disabled">
+                        Red
+                    </button>
+                </a>
+                <button class="current">
+                    Emerald
+                </button>
+            </nav>
+        </header>
+        <div class="content">
             <div class="inputs">
                 <h2>Player info</h2>
                 Players:<span class="small" title="Comma-separated, max. 7">?</span><br>

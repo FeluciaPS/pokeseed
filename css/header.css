@@ -1,0 +1,75 @@
+* {
+    margin:0;
+    padding:0;
+}
+
+.menu {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 40px;
+    box-shadow: 0 2px 5px black;
+    margin-bottom:40px;
+    background: rgb(215, 215, 220);
+    z-index: 100;
+}
+
+.navbar {
+    position: fixed;
+    top:0px;
+    width:100%;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    color: rgb(40, 40, 40);
+}
+
+nav > a > button, nav > button {
+    border:none;
+    border-bottom: 1px solid black;
+    box-shadow: 0 4px 3px -3px black;
+    background: none;
+    font-weight: bold;
+    font-size: 1em;
+    min-width: 120px;
+    color: rgb(40, 40, 40);
+    margin: 0px 10px;
+}
+
+button.disabled {
+    box-shadow: none;
+    color: rgb(60, 60, 60);
+    border-bottom: 1px solid rgb(60, 60, 60);
+}
+
+.content {
+    position: absolute;
+    top:40px;
+    overflow-x: auto;
+    padding: 5px 0px 0px;
+}
+
+/* logo stuff */
+.menu > .logo {
+    width: auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.menu > .logo > * {
+    padding: 0px 8px;
+}
+
+.menu > .logo > h1 {
+    margin:0;
+    display: inline-block;
+    text-decoration: underline solid black 3px;
+}
+
+.menu > nav {
+    width:70%;
+    height:38px;
+}
