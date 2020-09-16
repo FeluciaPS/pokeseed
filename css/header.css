@@ -4,15 +4,15 @@
     align-items: center;
     height: 40px;
     box-shadow: 0 2px 5px black;
-    margin-bottom:40px;
+    margin-bottom: 40px;
     background: rgb(215, 215, 220);
     z-index: 100;
 }
 
 .navbar {
     position: fixed;
-    top:0px;
-    width:100%;
+    top: 0px;
+    width: 100%;
 }
 
 nav {
@@ -21,50 +21,84 @@ nav {
     color: rgb(40, 40, 40);
 }
 
-nav > a > button, nav > button {
-    border:none;
+nav>.dropdown{
+    min-width: 100px;
+}
+
+nav>.dropdown>p {
+    border: none;
     border-bottom: 1px solid black;
     box-shadow: 0 4px 3px -3px black;
     background: none;
+    font-family: arial;
     font-weight: bold;
     font-size: 1em;
-    min-width: 120px;
+    min-width: inherit;
     color: rgb(40, 40, 40);
     margin: 0px 10px;
+    text-align: center;
+    position: relative;
 }
 
-button.disabled {
-    box-shadow: none;
-    color: rgb(60, 60, 60);
-    border-bottom: 1px solid rgb(60, 60, 60);
-}
-
-.content {
+nav>.dropdown>.dropdown-content {
+    display: none;
     position: absolute;
-    top:40px;
-    overflow-x: auto;
-    padding: 5px 0px 0px;
+    font-family: arial;
+    font-weight: bold;
+    font-size: 1em;
+    min-width: inherit;
+    margin: 0px 10px;
+    text-align: center;
 }
 
-/* logo stuff */
-.menu > .logo {
-    width: auto;
+nav>.dropdown:hover>.dropdown-content { /*When hovering over .dropdown item, change properties of .dropdown-content*/
     display: flex;
+    flex-direction: column;
     justify-content: space-around;
     align-items: center;
 }
 
-.menu > .logo > * {
+nav>.dropdown>.dropdown-content>a {
+    float: left;
+    clear: left;
+    min-width: inherit;
+    max-width: 100px;
+    text-decoration: none;
+    border-bottom: 1px solid rgb(60, 60, 60);
+    color: rgb(40, 40, 40);
+    background: linear-gradient(to right, rgba(215, 215, 220, 0), rgb(215, 215, 220) 5%, rgb(215, 215, 220) 95%, rgba(215, 215, 220, 0) 100%);
+    box-shadow: 0 4px 3px -3px black;
+    overflow-wrap: break-word;
+}
+
+.disabled {
+    box-shadow: none;
+    color: rgb(150, 150, 150) !important;
+    cursor: default;
+    pointer-events: none;
+}
+
+/* logo stuff */
+.menu>.logo {
+    width: auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-decoration: none;
+    color: rgb(40, 40, 40);
+}
+
+.menu>.logo>* {
     padding: 0px 8px;
 }
 
-.menu > .logo > h1 {
-    margin:0;
+.menu>.logo>h1 {
+    margin: 0;
     display: inline-block;
     text-decoration: underline solid black 3px;
 }
 
-.menu > nav {
-    width:70%;
-    height:38px;
+.menu>nav {
+    width: 70%;
+    height: 38px;
 }

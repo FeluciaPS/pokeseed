@@ -1,110 +1,259 @@
 <!DOCTYPE html>
+
 <html>
-    <head>
-        <title>Pok&eacute;mon Emerald seeder</title>
-        <link rel="stylesheet" href="/pokeseed/css/style.css" />
-        <link rel="stylesheet" href="/pokeseed/css/header.css" />
-        <script src="/pokeseed/lib/jquery-2.1.4.min.js"></script>
-        <script src="/pokeseed/src/logger.js"></script>
-        <script src="/pokeseed/src/buildpage.js"></script>
-        <script src="/pokeseed/src/emerald.js"></script>
-    </head>
-    <body>
-        <header class="menu navbar">
-            <div class="logo">
-                <img src="./img/logo.png">
-                <h1>PokeSeed</h1>
-            </div>
-            <nav>
-                <a href="/games/red.html">
-                    <button class="disabled">
+
+<head>
+    <title>Pok&eacute;mon Emerald seeder</title>
+    <link rel="stylesheet" href="/pokeseed/css/style.css" />
+    <link rel="stylesheet" href="/pokeseed/css/header.css" />
+    <script src="./lib/jquery-2.1.4.min.js"></script>
+    <script src="./src/logger.js"></script>
+    <script src="./src/buildpage.js"></script>
+    <script src="./src/emerald.js"></script>
+</head>
+
+<body>
+    <header class="menu navbar">
+        <a href="/pokeseed/index.html" class="logo">    <!--Logo functions as link to home page. Add actual link for clarity later?-->
+            <img src="./img/logo.png">              
+            <h1>PokeSeed</h1>
+        </a>
+        <nav>                                           <!--Navbar-->
+            <div class="dropdown">                      <!--Single dropdown menu hover. On hover: show invis items-->
+                <p>Gen 1</p>                            <!--Text of hover item-->
+                <div class="dropdown-content">          <!--Content. display: none by default. Becomes flex on p:hover-->
+                    <a href="" class="disabled">        <!--links-->
                         Red
-                    </button>
-                </a>
-                <button class="current">
-                    Emerald
-                </button>
-            </nav>
-        </header>
-        <div class="content">
-            <div class="inputs">
-                <h2>Player info</h2>
-                Players:<span class="small" title="Comma-separated, max. 7">?</span><br>
-                <textarea id="players"></textarea><br>
-                Pokemon per player: 
-                <select name="Pokemon Per Player" id="moncount">
-                    <option value="2">2</option>
-                    <option value="3">3</option>
-                    <option value="4">4</option>
-                    <option value="5">5</option>
-                    <option value="6">6</option>
-                    <option value="7">7</option>
-                    <option value="8" selected="selected">8</option>
-                    <option value="9">9</option>
-                    <option value="10">10</option>
-                    <option value="-1">Unlimited</option>
-                </select><span class="small" title="If the amount of Pok&eacute;mon is impossible, 'allow duplicates' will automatically be turned on.">?</span>
+                    </a>
+                    <a href="" class="disabled">
+                        Blue/Green
+                    </a>
+                    <a href="" class="disabled">
+                        Yellow
+                    </a>
+                </div>
             </div>
-
-            <div class="inputs">
-                <h2>Pok&eacute;mon info</h2>
-                Min legendaries
-                <select name="Min legendary" id="minleg">
-                    
-                </select>
-                Max legendaries
-                <select name="Max legendary" id="maxleg">
-                    
-                </select><span class="small" title="Legendary as defined by the value of a Pok&eacute;mon by its power and availability.">?</span>
-                <br />
-                Min normal
-                <select name="Min normal" id="minavg">
-                    
-                </select>
-                Max normal
-                <select name="Max normal" id="maxavg">
-                    
-                </select>
-                <br />
-                Min trash
-                <select name="Min trash" id="minbad">
-                    
-                </select>
-                Max trash
-                <select name="Max trash" id="maxbad">
-                    
-                </select>
-                <br />
-                Min common
-                <select name="Min common" id="mincom">
-                    
-                </select>
-                Max common
-                <select name="Max common" id="maxcom">
-                    
-                </select>
-                <br />
-                Common cutoff
-                <select name="Common cutoff" id="compct">
-
-                </select><span class="small" title="The lowest encounter rate that can be considered common. Low values can make the generation impossible and force allow duplicates or reject your settings.">?</span>
-                <br />
-                Allow Duplicates?
-                <select name="Allow Duplicates?" id="dupes">
-                    <option value="Yes">Yes</option>
-                    <option value="No" selected="selected">No</option>
-                </select>
-                <br />
-                Allow Starters?<span class="small" title="Adds the 3 starters to the Legendary pool of pokemon, does not allow them to be seeded as actual starters.">?</span>
-                <select name="Allow Starters?" id="starters">
-                    <option value="Yes">Yes</option>
-                    <option value="No" selected="selected">No</option>
-                </select>
+            <div class="dropdown">
+                <p>Gen 2</p>
+                <div class="dropdown-content">
+                    <a href="" class="disabled">
+                        Gold
+                    </a>
+                    <a href="" class="disabled">
+                        Silver
+                    </a>
+                    <a href="" class="disabled">
+                        Crystal
+                    </a>
+                </div>
             </div>
+            <div class="dropdown">
+                <p>Gen 3</p>
+                <div class="dropdown-content">
+                    <a href="" class="disabled">
+                        Ruby
+                    </a>
+                    <a href="" class="disabled">
+                        Sapphire
+                    </a>
+                    <a href="/pokeseed/html/gen3/emerald.html">
+                        Emerald
+                    </a>
+                    <a href="" class="disabled">
+                        Fire Red
+                    </a>
+                    <a href="" class="disabled">
+                        Leaf Green
+                    </a>
+                    <a href="" class="disabled">
+                        Colosseum
+                    </a>
+                    <a href="" class="disabled">
+                        Gale of Darkness
+                    </a>
+                </div>
+            </div>
+            <div class="dropdown">
+                <p>Gen 4</p>
+                <div class="dropdown-content">
+                    <a href="" class="disabled">
+                        Pearl
+                    </a>
+                    <a href="" class="disabled">
+                        Diamond
+                    </a>
+                    <a href="" class="disabled">
+                        Platinum
+                    </a>
+                    <a href="" class="disabled">
+                        Heart Gold
+                    </a>
+                    <a href="" class="disabled">
+                        Soul Silver
+                    </a>
+                </div>
+            </div>
+            <div class="dropdown">
+                <p>Gen 5</p>
+                <div class="dropdown-content">
+                    <a href="" class="disabled">
+                        Black
+                    </a>
+                    <a href="" class="disabled">
+                        White
+                    </a>
+                    <a href="" class="disabled">
+                        Black 2
+                    </a>
+                    <a href="" class="disabled">
+                        White 2
+                    </a>
+                </div>
+            </div>
+            <div class="dropdown">
+                <p>Gen 6</p>
+                <div class="dropdown-content">
+                    <a href="" class="disabled">
+                        X
+                    </a>
+                    <a href="" class="disabled">
+                        Y
+                    </a>
+                    <a href="" class="disabled">
+                        Omega Ruby
+                    </a>
+                    <a href="" class="disabled">
+                        Alpha Sapphire
+                    </a>
+                </div>
+            </div>
+            <div class="dropdown">
+                <p>Gen 7</p>
+                <div class="dropdown-content">
+                    <a href="" class="disabled">
+                        Sun
+                    </a>
+                    <a href="" class="disabled">
+                        Moon
+                    </a>
+                    <a href="" class="disabled">
+                        Ultra Sun
+                    </a>
+                    <a href="" class="disabled">
+                        Ultra Moon
+                    </a>
+                    <a href="" class="disabled">
+                        Let's Go Pikachu
+                    </a>
+                    <a href="" class="disabled">
+                        Let's Go Eevee
+                    </a>
+                </div>
+            </div>
+            <div class="dropdown">
+                <p>Gen 8</p>
+                <div class="dropdown-content">
+                    <a href="" class="disabled">
+                        Sword
+                    </a>
+                    <a href="" class="disabled">
+                        Shield
+                    </a>
+                    <a href="" class="disabled">
+                        Sword w/ DLC
+                    </a>
+                    <a href="" class="disabled">
+                        Shield w/ DLC
+                    </a>
+                </div>
+            </div>
+        </nav>
+    </header>
 
-            <button onclick="runGenerator()">Generate Seed</button>
-            <button onclick="output.clear()">clear</button>
-            <div id="output" class="output"></div>
+    <div class="content">
+        <div class="inputs">
+            <h2>Player info</h2>
+            Players:<span class="small" title="Comma-separated, max. 7">?</span><br>
+            <textarea id="players"></textarea><br>
+            Pokemon per player:
+            <select name="Pokemon Per Player" id="moncount">
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+                <option value="6">6</option>
+                <option value="7">7</option>
+                <option value="8" selected="selected">8</option>
+                <option value="9">9</option>
+                <option value="10">10</option>
+                <option value="-1">Unlimited</option>
+            </select><span class="small"
+                title="If the amount of Pok&eacute;mon is impossible, 'allow duplicates' will automatically be turned on.">?</span>
         </div>
-    </body>
+
+        <div class="inputs">
+            <h2>Pok&eacute;mon info</h2>
+            Min legendaries
+            <select name="Min legendary" id="minleg">
+
+            </select>
+            Max legendaries
+            <select name="Max legendary" id="maxleg">
+
+            </select><span class="small"
+                title="Legendary as defined by the value of a Pok&eacute;mon by its power and availability.">?</span>
+            <br />
+            Min normal
+            <select name="Min normal" id="minavg">
+
+            </select>
+            Max normal
+            <select name="Max normal" id="maxavg">
+
+            </select>
+            <br />
+            Min trash
+            <select name="Min trash" id="minbad">
+
+            </select>
+            Max trash
+            <select name="Max trash" id="maxbad">
+
+            </select>
+            <br />
+            Min common
+            <select name="Min common" id="mincom">
+
+            </select>
+            Max common
+            <select name="Max common" id="maxcom">
+
+            </select>
+            <br />
+            Common cutoff
+            <select name="Common cutoff" id="compct">
+
+            </select><span class="small"
+                title="The lowest encounter rate that can be considered common. Low values can make the generation impossible and force allow duplicates or reject your settings.">?</span>
+            <br />
+            Allow Duplicates?
+            <select name="Allow Duplicates?" id="dupes">
+                <option value="Yes">Yes</option>
+                <option value="No" selected="selected">No</option>
+            </select>
+            <br />
+            Allow Starters?<span class="small"
+                title="Adds the 3 starters to the Legendary pool of pokemon, does not allow them to be seeded as actual starters.">?</span>
+            <select name="Allow Starters?" id="starters">
+                <option value="Yes">Yes</option>
+                <option value="No" selected="selected">No</option>
+            </select>
+        </div>
+
+        <button onclick="runGenerator()">Generate Seed</button>
+        <button onclick="output.clear()">clear</button>
+        <div id="output" class="output"></div>
+    </div>
+</body>
+
 </html>

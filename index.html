@@ -1,39 +1,180 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <title>Pok&eacute;mon Emerald seeder</title>
-        <link rel="stylesheet" href="css/style.css" />
-        <link rel="stylesheet" href="css/header.css" />
-        <script src="./lib/jquery-2.1.4.min.js"></script>
-        <script src="./src/logger.js"></script>
-        <script>
-            jQuery(function() {
-                output.clear();
-                output.write('Welcome to PokeSeed, go to a different page to get started');
-            });
-        </script>
-    </head>
-    <body>
-        <header class="menu navbar">
-            <div class="logo">
-                <img src="./img/logo.png">
-                <h1>PokeSeed</h1>
-            </div>
-            <nav>
-                <a href="/games/red.html">
-                    <button class="disabled">
+
+<head>
+    <title>Pok&eacute;mon Emerald seeder</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/header.css" />
+    <script src="./lib/jquery-2.1.4.min.js"></script>
+    <script src="./src/logger.js"></script>
+    <script>
+        jQuery(function () {
+            output.clear();
+            output.write('Welcome to PokeSeed, go to a different page to get started');
+        });
+    </script>
+</head>
+
+<body>
+    <header class="menu navbar">
+        <a href="/pokeseed/index.html" class="logo">    <!--Logo functions as link to home page. Add actual link for clarity later?-->
+            <img src="./img/logo.png">              
+            <h1>PokeSeed</h1>
+        </a>
+        <nav>                                           <!--Navbar-->
+            <div class="dropdown">                      <!--Single dropdown menu hover. On hover: show invis items-->
+                <p>Gen 1</p>                            <!--Text of hover item-->
+                <div class="dropdown-content">          <!--Content. display: none by default. Becomes flex on p:hover-->
+                    <a href="" class="disabled">        <!--links-->
                         Red
-                    </button>
-                </a>
-                <a href="./html/gen3/emerald.html">
-                    <button>
+                    </a>
+                    <a href="" class="disabled">
+                        Blue/Green
+                    </a>
+                    <a href="" class="disabled">
+                        Yellow
+                    </a>
+                </div>
+            </div>
+            <div class="dropdown">
+                <p>Gen 2</p>
+                <div class="dropdown-content">
+                    <a href="" class="disabled">
+                        Gold
+                    </a>
+                    <a href="" class="disabled">
+                        Silver
+                    </a>
+                    <a href="" class="disabled">
+                        Crystal
+                    </a>
+                </div>
+            </div>
+            <div class="dropdown">
+                <p>Gen 3</p>
+                <div class="dropdown-content">
+                    <a href="" class="disabled">
+                        Ruby
+                    </a>
+                    <a href="" class="disabled">
+                        Sapphire
+                    </a>
+                    <a href="/pokeseed/html/gen3/emerald.html">
                         Emerald
-                    </button>
-                </a>
-            </nav>
-        </header>
-        <div class="content">
-            <div id="output" class="output"></div>
-        </div>
-    </body>
+                    </a>
+                    <a href="" class="disabled">
+                        Fire Red
+                    </a>
+                    <a href="" class="disabled">
+                        Leaf Green
+                    </a>
+                    <a href="" class="disabled">
+                        Colosseum
+                    </a>
+                    <a href="" class="disabled">
+                        Gale of Darkness
+                    </a>
+                </div>
+            </div>
+            <div class="dropdown">
+                <p>Gen 4</p>
+                <div class="dropdown-content">
+                    <a href="" class="disabled">
+                        Pearl
+                    </a>
+                    <a href="" class="disabled">
+                        Diamond
+                    </a>
+                    <a href="" class="disabled">
+                        Platinum
+                    </a>
+                    <a href="" class="disabled">
+                        Heart Gold
+                    </a>
+                    <a href="" class="disabled">
+                        Soul Silver
+                    </a>
+                </div>
+            </div>
+            <div class="dropdown">
+                <p>Gen 5</p>
+                <div class="dropdown-content">
+                    <a href="" class="disabled">
+                        Black
+                    </a>
+                    <a href="" class="disabled">
+                        White
+                    </a>
+                    <a href="" class="disabled">
+                        Black 2
+                    </a>
+                    <a href="" class="disabled">
+                        White 2
+                    </a>
+                </div>
+            </div>
+            <div class="dropdown">
+                <p>Gen 6</p>
+                <div class="dropdown-content">
+                    <a href="" class="disabled">
+                        X
+                    </a>
+                    <a href="" class="disabled">
+                        Y
+                    </a>
+                    <a href="" class="disabled">
+                        Omega Ruby
+                    </a>
+                    <a href="" class="disabled">
+                        Alpha Sapphire
+                    </a>
+                </div>
+            </div>
+            <div class="dropdown">
+                <p>Gen 7</p>
+                <div class="dropdown-content">
+                    <a href="" class="disabled">
+                        Sun
+                    </a>
+                    <a href="" class="disabled">
+                        Moon
+                    </a>
+                    <a href="" class="disabled">
+                        Ultra Sun
+                    </a>
+                    <a href="" class="disabled">
+                        Ultra Moon
+                    </a>
+                    <a href="" class="disabled">
+                        Let's Go Pikachu
+                    </a>
+                    <a href="" class="disabled">
+                        Let's Go Eevee
+                    </a>
+                </div>
+            </div>
+            <div class="dropdown">
+                <p>Gen 8</p>
+                <div class="dropdown-content">
+                    <a href="" class="disabled">
+                        Sword
+                    </a>
+                    <a href="" class="disabled">
+                        Shield
+                    </a>
+                    <a href="" class="disabled">
+                        Sword w/ DLC
+                    </a>
+                    <a href="" class="disabled">
+                        Shield w/ DLC
+                    </a>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <div class="content">
+        <div id="output" class="output"></div>
+    </div>
+</body>
+
 </html>
