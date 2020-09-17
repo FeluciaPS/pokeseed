@@ -41,8 +41,10 @@ var bad = [];
 var fwg = [];
 var starters = [];
 var page = "";
+var gen = 0;
 var loadSeeder = function(target) {
-    page = target
+    page = target;
+    gen = parseInt(target.split('/')[0].charAt(3));
     mondata = json(`../../data/${target}/pokemon.json`);
     for (var i in mondata) {
         pkmn.push({
@@ -68,16 +70,41 @@ var addTag = function(mon) {
 }
 var fill = function(str, left = false) {
     if (!str) str = "";
-    if (left) while (str.length < 9) str = " " + str;
-    else while (str.length < 9) str += " ";
+    if (left) while (str.length < 10) str = " " + str;
+    else while (str.length < 10) str += " ";
     return addTag(str);
+}
+
+var toId = function(str) {
+    return '' + str.replace(/[^0-9a-z]/gi, '').toLowerCase()
+}
+var getGen = function(mon) {
+    var num = Object.keys(dex).indexOf(toId(mon));
+    if (num < 1) return 0;
+    if (num >= 810) {
+        return 8;
+    } else if (num >= 722) {
+        return 7;
+    } else if (num >= 650) {
+        return 6;
+    } else if (num >= 494) {
+        return 5;
+    } else if (num >= 387) {
+        return 4;
+    } else if (num >= 252) {
+        return 3;
+    } else if (num >= 152) {
+        return 2;
+    } else {
+        return 1;
+    }
 }
 
 var buildTableOutput = function(players) {
     var ret = '';
     var temp = []
     for (let i in players) {
-        temp.push('-----------');
+        temp.push('------------');
     }
     var div = '+' + temp.join('+') + '+\n';
     ret += div;
@@ -230,10 +257,15 @@ async function runGenerator() {
         for (var enctype in location) {
             var encountertype = location[enctype];
             for (var enc in encountertype) {
+                if (!toId(enc)) continue;
                 var chance = encountertype[enc];
-                var mondt = dex[enc.toLowerCase()];
+                var mondt = dex[toId(enc)];
                 if (chance >= Cutoff) {
-                    while (mondt.prevo) mondt = dex[mondt.prevo.toLowerCase()];
+                    console.log(enc);
+                    while (mondt.prevo) {
+                        if (getGen(mondt.prevo) > gen) break;
+                        mondt = dex[toId(mondt.prevo)];
+                    }
                     if (commons.includes(mondt.name)) continue;
                     commons.push(mondt.name);
                 }

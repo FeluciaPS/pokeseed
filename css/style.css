@@ -16,6 +16,7 @@
     overflow-y: auto;
     font-family: 'Courier New', Courier, Consolas, monospace;
     white-space: pre;
+    overflow-x: visible;
 }
 
 .content {
@@ -23,6 +24,7 @@
     top: 40px;
     overflow-x: auto;
     padding: 5px 0px 0px;
+    width:100%;
 }
 
 .inputs {

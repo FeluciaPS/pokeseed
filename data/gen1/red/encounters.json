@@ -1,0 +1,687 @@
+{
+    "ceruleancave1f": {
+      "Land": {
+        "Golbat": 20,
+        "Hypno": 20,
+        "Magneton": 15,
+        "Dodrio": 10,
+        "Venomoth": 10,
+        "Arbok": 10,
+        "Kadabra": 5,
+        "Parasect": 5,
+        "Raichu": 4,
+        "Ditto": 1
+      }
+    },
+    "ceruleancave2f": {
+      "Land": {
+        "Dodrio": 20,
+        "Venomoth": 20,
+        "Kadabra": 15,
+        "Rhydon": 10,
+        "Marowak": 10,
+        "Electrode": 10,
+        "Chansey": 5,
+        "Wigglytuff": 5,
+        "Ditto": 5
+      }
+    },
+    "ceruleancaveb1f": {
+      "Land": {
+        "Rhydon": 20,
+        "Marowak": 20,
+        "Electrode": 15,
+        "Chansey": 10,
+        "Parasect": 10,
+        "Raichu": 10,
+        "Arbok": 5,
+        "Ditto": 10
+      }
+    },
+    "diglettscave": {
+      "Land": {
+        "Diglett": 95,
+        "Dugtrio": 5
+      }
+    },
+    "mtmoon1f": {
+      "Land": {
+        "Zubat": 79,
+        "Geodude": 15,
+        "Paras": 5,
+        "Clefairy": 1
+      }
+    },
+    "mtmoonb1f": {
+      "Land": {
+        "Zubat": 60,
+        "Geodude": 26,
+        "Paras": 10,
+        "Clefairy": 4
+      }
+    },
+    "mtmoonb2f": {
+      "Land": {
+        "Zubat": 49,
+        "Geodude": 30,
+        "Paras": 15,
+        "Clefairy": 6
+      }
+    },
+    "pokemonmansion1f": {
+      "Land": {
+        "Koffing": 40,
+        "Ponyta": 40,
+        "Growlithe": 10,
+        "Grimer": 5,
+        "Weezing": 4,
+        "Muk": 1
+      }
+    },
+    "pokemonmansion2f": {
+      "Land": {
+        "Growlithe": 20,
+        "Koffing": 45,
+        "Ponyta": 25,
+        "Grimer": 5,
+        "Weezing": 4,
+        "Muk": 1
+      }
+    },
+    "pokemonmansion3f": {
+      "Land": {
+        "Koffing": 35,
+        "Growlithe": 20,
+        "Ponyta": 24,
+        "Weezing": 15,
+        "Grimer": 5,
+        "Muk": 1
+      }
+    },
+    "pokemonmansion4f": {
+      "Land": {
+        "Koffing": 50,
+        "Growlithe": 15,
+        "Ponyta": 15,
+        "Weezing": 14,
+        "Grimer": 5,
+        "Muk": 1
+      }
+    },
+    "pokemontower3f": {
+      "Land": {
+        "Gastly": 90,
+        "Cubone": 9,
+        "Haunter": 1
+      }
+    },
+    "pokemontower4f": {
+      "Land": {
+        "Gastly": 86,
+        "Haunter": 5,
+        "Cubone": 9
+      }
+    },
+    "pokemontower5f": {
+      "Land": {
+        "Gastly": 86,
+        "Haunter": 5,
+        "Cubone": 9
+      }
+    },
+    "pokemontower6f": {
+      "Land": {
+        "Gastly": 85,
+        "Haunter": 6,
+        "Cubone": 9
+      }
+    },
+    "pokemontower7f": {
+      "Land": {
+        "Gastly": 75,
+        "Haunter": 15,
+        "Cubone": 10
+      }
+    },
+    "powerplant": {
+      "Land": {
+        "Voltorb": 30,
+        "Magnemite": 30,
+        "Pikachu": 25,
+        "Magneton": 10,
+        "Electabuzz": 5
+      }
+    },
+    "rocktunnel1f": {
+      "Land": {
+        "Zubat": 55,
+        "Geodude": 25,
+        "Machop": 15,
+        "Onix": 5
+      }
+    },
+    "rocktunnelb1f": {
+      "Land": {
+        "Zubat": 50,
+        "Geodude": 26,
+        "Machop": 15,
+        "Onix": 9
+      }
+    },
+    "route1": {
+      "Land": {
+        "Pidgey": 50,
+        "Rattata": 50
+      }
+    },
+    "route10": {
+      "Land": {
+        "Voltorb": 40,
+        "Spearow": 35,
+        "Ekans": 25
+      },
+      "Super": {
+        "Poliwhirl": 50,
+        "Slowpoke": 50
+      }
+    },
+    "route11": {
+      "Land": {
+        "Ekans": 40,
+        "Spearow": 35,
+        "Drowzee": 25
+      },
+      "Super": {
+        "Krabby": 50,
+        "Shellder": 50
+      }
+    },
+    "route12": {
+      "Land": {
+        "Oddish": 35,
+        "Pidgey": 40,
+        "Venonat": 20,
+        "Gloom": 5
+      },
+      "Super": {
+        "Tentacool": 25,
+        "Krabby": 25,
+        "Goldeen": 25,
+        "Magikarp": 25
+      }
+    },
+    "route13": {
+      "Land": {
+        "Oddish": 35,
+        "Pidgey": 35,
+        "Venonat": 20,
+        "Ditto": 5,
+        "Gloom": 5
+      },
+      "Super": {
+        "Tentacool": 25,
+        "Krabby": 25,
+        "Goldeen": 25,
+        "Magikarp": 25
+      }
+    },
+    "route14": {
+      "Land": {
+        "Oddish": 35,
+        "Pidgey": 20,
+        "Ditto": 15,
+        "Venonat": 20,
+        "Gloom": 5,
+        "Pidgeotto": 5
+      }
+    },
+    "route15": {
+      "Land": {
+        "Oddish": 35,
+        "Ditto": 20,
+        "Pidgey": 15,
+        "Venonat": 20,
+        "Gloom": 5,
+        "Pidgeotto": 5
+      }
+    },
+    "route16": {
+      "Land": {
+        "Spearow": 40,
+        "Rattata": 30,
+        "Doduo": 25,
+        "Raticate": 5
+      }
+    },
+    "route17": {
+      "Land": {
+        "Spearow": 40,
+        "Raticate": 30,
+        "Doduo": 25,
+        "Fearow": 5
+      },
+      "Super": {
+        "Tentacool": 25,
+        "Krabby": 25,
+        "Goldeen": 25,
+        "Magikarp": 25
+      }
+    },
+    "route18": {
+      "Land": {
+        "Spearow": 40,
+        "Raticate": 20,
+        "Doduo": 25,
+        "Fearow": 15
+      },
+      "Super": {
+        "Tentacool": 25,
+        "Krabby": 25,
+        "Goldeen": 25,
+        "Magikarp": 25
+      }
+    },
+    "route19water": {
+      "Land": {
+        "Tentacool": 100
+      }
+    },
+    "route2": {
+      "Land": {
+        "Rattata": 40,
+        "Pidgey": 45,
+        "Weedle": 15
+      }
+    },
+    "route20water": {
+      "Land": {
+        "Tentacool": 100
+      }
+    },
+    "route21": {
+      "Land": {
+        "Rattata": 30,
+        "Pidgey": 30,
+        "Raticate": 15,
+        "Pidgeotto": 15,
+        "Tangela": 10
+      },
+      "Super": {
+        "Staryu": 25,
+        "Horsea": 25,
+        "Shellder": 25,
+        "Goldeen": 25
+      }
+    },
+    "route21water": {
+      "Land": {
+        "Tentacool": 100
+      }
+    },
+    "route22": {
+      "Land": {
+        "Rattata": 45,
+        "Nidoran-M": 40,
+        "Spearow": 10,
+        "Nidoran-F": 5
+      },
+      "Super": {
+        "Goldeen": 50,
+        "Poliwag": 50
+      }
+    },
+    "route23": {
+      "Land": {
+        "Ekans": 20,
+        "Ditto": 35,
+        "Spearow": 15,
+        "Fearow": 25,
+        "Arbok": 5
+      },
+      "Super": {
+        "Slowbro": 25,
+        "Seaking": 25,
+        "Kingler": 25,
+        "Seadra": 25
+      }
+    },
+    "route24": {
+      "Land": {
+        "Weedle": 20,
+        "Kakuna": 20,
+        "Pidgey": 20,
+        "Oddish": 25,
+        "Abra": 15
+      },
+      "Super": {
+        "Psyduck": 25,
+        "Goldeen": 25,
+        "Krabby": 25,
+        "-": 25
+      }
+    },
+    "route25": {
+      "Land": {
+        "Weedle": 20,
+        "Kakuna": 20,
+        "Pidgey": 15,
+        "Oddish": 25,
+        "Abra": 15,
+        "Metapod": 4,
+        "Caterpie": 1
+      },
+      "Super": {
+        "Psyduck": 25,
+        "Goldeen": 25,
+        "Krabby": 25,
+        "-": 25
+      }
+    },
+    "route3": {
+      "Land": {
+        "Pidgey": 45,
+        "Spearow": 45,
+        "Jigglypuff": 10
+      }
+    },
+    "route4": {
+      "Land": {
+        "Rattata": 40,
+        "Spearow": 35,
+        "Ekans": 25
+      },
+      "Super": {
+        "Psyduck": 25,
+        "Goldeen": 25,
+        "Krabby": 25,
+        "-": 25
+      }
+    },
+    "route5": {
+      "Land": {
+        "Oddish": 35,
+        "Pidgey": 40,
+        "Mankey": 25
+      }
+    },
+    "route6": {
+      "Land": {
+        "Oddish": 35,
+        "Pidgey": 40,
+        "Mankey": 25
+      },
+      "Super": {
+        "Krabby": 50,
+        "Shellder": 50
+      }
+    },
+    "route7": {
+      "Land": {
+        "Pidgey": 30,
+        "Oddish": 30,
+        "Mankey": 30,
+        "Growlithe": 10
+      }
+    },
+    "route8": {
+      "Land": {
+        "Pidgey": 30,
+        "Mankey": 30,
+        "Ekans": 20,
+        "Growlithe": 20
+      }
+    },
+    "route9": {
+      "Land": {
+        "Rattata": 40,
+        "Spearow": 35,
+        "Ekans": 25
+      }
+    },
+    "safarizonearea1": {
+      "Land": {
+        "Nidoran-M": 20,
+        "Rhyhorn": 20,
+        "Venonat": 15,
+        "Exeggcute": 20,
+        "Nidorino": 10,
+        "Nidorina": 5,
+        "Parasect": 5,
+        "Scyther": 4,
+        "Chansey": 1
+      }
+    },
+    "safarizonearea2": {
+      "Land": {
+        "Nidoran-M": 20,
+        "Doduo": 20,
+        "Paras": 15,
+        "Exeggcute": 20,
+        "Nidorino": 10,
+        "Nidoran-F": 5,
+        "Parasect": 5,
+        "Kangaskhan": 4,
+        "Scyther": 1
+      }
+    },
+    "safarizonearea3": {
+      "Land": {
+        "Nidoran-M": 20,
+        "Rhyhorn": 20,
+        "Paras": 15,
+        "Exeggcute": 20,
+        "Nidorino": 10,
+        "Nidorina": 5,
+        "Venomoth": 5,
+        "Chansey": 4,
+        "Tauros": 1
+      }
+    },
+    "safarizonearea4": {
+      "Land": {
+        "Nidoran-M": 20,
+        "Doduo": 20,
+        "Venonat": 15,
+        "Exeggcute": 20,
+        "Nidorino": 10,
+        "Nidoran-F": 5,
+        "Venomoth": 5,
+        "Tauros": 4,
+        "Kangaskhan": 1
+      }
+    },
+    "seafoamislands1f": {
+      "Land": {
+        "Seel": 20,
+        "Slowpoke": 20,
+        "Shellder": 19,
+        "Horsea": 20,
+        "Zubat": 10,
+        "Golbat": 5,
+        "Psyduck": 5,
+        "Golduck": 1
+      }
+    },
+    "seafoamislandsb1f": {
+      "Land": {
+        "Staryu": 20,
+        "Horsea": 30,
+        "Shellder": 15,
+        "Slowpoke": 15,
+        "Seel": 15,
+        "Dewgong": 4,
+        "Seadra": 1
+      }
+    },
+    "seafoamislandsb2f": {
+      "Land": {
+        "Seel": 35,
+        "Slowpoke": 30,
+        "Horsea": 15,
+        "Staryu": 10,
+        "Shellder": 5,
+        "Golbat": 4,
+        "Slowbro": 1
+      }
+    },
+    "seafoamislandsb3f": {
+      "Land": {
+        "Slowpoke": 35,
+        "Seel": 30,
+        "Horsea": 15,
+        "Shellder": 15,
+        "Seadra": 4,
+        "Dewgong": 1
+      }
+    },
+    "seafoamislandsb4f": {
+      "Land": {
+        "Horsea": 35,
+        "Shellder": 30,
+        "Slowpoke": 15,
+        "Seel": 15,
+        "Slowbro": 4,
+        "Golbat": 1
+      }
+    },
+    "victoryroad1f": {
+      "Land": {
+        "Machop": 20,
+        "Geodude": 20,
+        "Zubat": 15,
+        "Onix": 30,
+        "Machoke": 5,
+        "Golbat": 5,
+        "Marowak": 4,
+        "Graveler": 1
+      }
+    },
+    "victoryroad2f": {
+      "Land": {
+        "Machop": 20,
+        "Geodude": 20,
+        "Zubat": 15,
+        "Onix": 20,
+        "Venomoth": 10,
+        "Graveler": 5,
+        "Golbat": 5,
+        "Machoke": 5
+      }
+    },
+    "victoryroad3f": {
+      "Land": {
+        "Machop": 20,
+        "Geodude": 20,
+        "Zubat": 15,
+        "Onix": 30,
+        "Graveler": 5,
+        "Golbat": 5,
+        "Machoke": 4,
+        "Marowak": 1
+      }
+    },
+    "viridianforest": {
+      "Land": {
+        "Weedle": 45,
+        "Kakuna": 40,
+        "Metapod": 5,
+        "Caterpie": 5,
+        "Pikachu": 5
+      }
+    },
+    "all": {
+      "Old": {
+        "MAGIKARP": 100
+      },
+      "Good": {
+        "Goldeen": 50,
+        "Poliwag": 50
+      }
+    },
+    "celadoncity": {
+      "Super": {
+        "Poliwhirl": 50,
+        "Slowpoke": 50
+      }
+    },
+    "ceruleancity": {
+      "Super": {
+        "Psyduck": 25,
+        "Goldeen": 25,
+        "Krabby": 25,
+        "-": 25
+      }
+    },
+    "cinnabarisland": {
+      "Super": {
+        "Staryu": 25,
+        "Horsea": 25,
+        "Shellder": 25,
+        "Goldeen": 25
+      }
+    },
+    "fushiacity": {
+      "Super": {
+        "Seaking": 25,
+        "Krabby": 25,
+        "Goldeen": 25,
+        "Magikarp": 25
+      }
+    },
+    "pallettown": {
+      "Super": {
+        "Tentacool": 50,
+        "Poliwag": 50
+      }
+    },
+    "route19": {
+      "Super": {
+        "Staryu": 25,
+        "Horsea": 25,
+        "Shellder": 25,
+        "Goldeen": 25
+      }
+    },
+    "route20": {
+      "Super": {
+        "Staryu": 25,
+        "Horsea": 25,
+        "Shellder": 25,
+        "Goldeen": 25
+      }
+    },
+    "safarizone": {
+      "Super": {
+        "Dratini": 25,
+        "Krabby": 25,
+        "Psyduck": 25,
+        "Slowpoke": 25
+      }
+    },
+    "seafoamislands": {
+      "Super": {
+        "Staryu": 25,
+        "Horsea": 25,
+        "Shellder": 25,
+        "Goldeen": 25
+      }
+    },
+    "vermilioncity": {
+      "Super": {
+        "Krabby": 50,
+        "Shellder": 50
+      }
+    },
+    "vermilioncityharbor": {
+      "Super": {
+        "Krabby": 50,
+        "Shellder": 50
+      }
+    },
+    "viridiancity": {
+      "Super": {
+        "Tentacool": 50,
+        "Poliwag": 50
+      }
+    }
+  }
