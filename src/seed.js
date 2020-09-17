@@ -33,22 +33,34 @@ var escapeHTML = function(str) {
 }
 
 
-var mondata = json('../../data/pokemon.json');
+var mondata = '';
 var pkmn = [];
-for (var i in mondata) {
-    pkmn.push({
-        name: i,
-        type: mondata[i]
-    });
+var leg = [];
+var nor = [];
+var bad = [];
+var fwg = [];
+var starters = [];
+var page = "";
+var loadSeeder = function(target) {
+    page = target
+    mondata = json(`../../data/${target}/pokemon.json`);
+    for (var i in mondata) {
+        pkmn.push({
+            name: i,
+            type: mondata[i]
+        });
+    }
+    leg = pkmn.filter((a) => {return a.type.startsWith("Legendary")}).map((x) => x.name);
+    nor = pkmn.filter((a) => {return a.type.startsWith("Normal")}).map((x) => x.name);
+    bad = pkmn.filter((a) => {return a.type.startsWith("Trash")}).map((x) => x.name);
+    pkmn = pkmn.map(x => x.name);
+    fwg = json(`../../data/${target}/starters.json`);
+    starters = json(`../../data/${target}/startmons.json`);
 }
-var leg = pkmn.filter((a) => {return a.type.startsWith("Legendary")}).map((x) => x.name);
-var nor = pkmn.filter((a) => {return a.type.startsWith("Normal")}).map((x) => x.name);
-var bad = pkmn.filter((a) => {return a.type.startsWith("Trash")}).map((x) => x.name);
-pkmn = pkmn.map(x => x.name);
-var hst = ["Mudkip", "Treecko", "Torchic"]
+
 var addTag = function(mon) {
     if (!mon || !mon.trim()) return mon;
-    if (hst.includes(mon.trim())) return `<span class="result legendary">${mon}</span>`;
+    if (fwg.includes(mon.trim())) return `<span class="result legendary">${mon}</span>`;
     if (!pkmn.includes(mon.trim())) return mon;
     if (leg.includes(mon.trim())) return `<span class="result legendary">${mon}</span>`;
     if (nor.includes(mon.trim())) return `<span class="result normal">${mon}</span>`;
@@ -85,13 +97,6 @@ var buildTableOutput = function(players) {
     ret += div;
     return ret;
 }
-var starters = [
-    "Poochyena",
-    "Zigzagoon",
-    "Lotad",
-    "Ralts",
-    "Wingull"
-]
 async function runGenerator() {
     if (isRunning) return;
     isRunning = true;
@@ -138,10 +143,9 @@ async function runGenerator() {
         });
     }
     if (AllowStarters) {
-        var hoennStarters = ["Mudkip", "Torchic", "Treecko"];
-        for (let i in hoennStarters) {
+        for (let i in fwg) {
             pokemon.push({
-                name: hoennStarters[i],
+                name: fwg[i],
                 type: "Legendary"
             });
         }
@@ -219,7 +223,7 @@ async function runGenerator() {
     }
 
     // Generate a list of "Common" encounters
-    var encounterdata = json('../../data/encounters.json');
+    var encounterdata = json(`../../data/${page}/encounters.json`);
     var commons = [];
     for (var loc in encounterdata) {
         var location = encounterdata[loc];

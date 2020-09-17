@@ -26,6 +26,5 @@ var output = {
 
 $(document).ready(() => {
     output.target = document.getElementById("output");
-    output.write("Welcome to the Pok&eacute;mon Emerald team seeder!");
-    output.write("Change the settings and hit Generate Seed to get started.");
+    output.write("This is the default console message. Should be overwritten");
 })
