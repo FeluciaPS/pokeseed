@@ -43,6 +43,10 @@
     color: #BB0;
 }
 
+.console.wrn {
+    color: #FBB;
+}
+
 .result.legendary {
     color: #FFFFBB;
 }

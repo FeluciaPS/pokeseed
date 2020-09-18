@@ -17,6 +17,9 @@ var output = {
     msg: function(text) {
         this.write(text, '<span class="console msg">[MSG] </span>');
     },
+    warn: function(text) {
+        this.write(`<div class="console wrn">${text}</div>`, '<span class="console wrn">[WRN] </span>');
+    },
     clear: function() {
         this.content = [];
         this.write();

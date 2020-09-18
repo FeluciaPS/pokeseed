@@ -58,6 +58,7 @@ var loadSeeder = function (target) {
     pkmn = pkmn.map(x => x.name);
     fwg = json(`../../data/${target}/starters.json`);
     starters = json(`../../data/${target}/startmons.json`);
+    if (leg.length === 0 && bad.length === 0) output.warn("This page is WIP, the Pok&eacute;mon have not been categorised yet.");
 }
 
 var addTag = function (mon) {
