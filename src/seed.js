@@ -130,6 +130,7 @@ async function runGenerator() {
     output.clear();
     output.write('Starting Generation...');
     var PlayerNames = document.getElementById("players").value.split(",").map(escapeHTML).map(x => x.trim());
+    storage.setItem("names", PlayerNames.join(', '));
     var Players = PlayerNames.length;
     if (!PlayerNames[0]) {
         output.err("Invalid player count");
@@ -261,7 +262,6 @@ async function runGenerator() {
                 var chance = encountertype[enc];
                 var mondt = dex[toId(enc)];
                 if (chance >= Cutoff) {
-                    console.log(enc);
                     while (mondt.prevo) {
                         if (getGen(mondt.prevo) > gen) break;
                         mondt = dex[toId(mondt.prevo)];

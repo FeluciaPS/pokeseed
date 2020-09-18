@@ -41,4 +41,11 @@ var fillSelectors = function() {
     }
 }
 
+var storage = window.localStorage;
+
 $(document).ready(fillSelectors);
+jQuery(function (){
+    var PlayerInput = document.getElementById('players');
+    var names = storage.getItem("names");
+    if (names) PlayerInput.innerText = names;
+})
