@@ -1,4 +1,4 @@
-var fillSelectors = function() {
+var fillSelectors = function () {
     var maxleg = document.getElementById("maxleg");
     for (var i = 0; i < 2; i++) {
         maxleg.innerHTML += `<option value="${i}">${i}</option>`;
@@ -36,7 +36,7 @@ var fillSelectors = function() {
     }
     maxcom.innerHTML += `<option value="-1" selected="selected">Unlimited</option>`;
     var compct = document.getElementById("compct");
-    for (i = 0; i <= 100; i+=10) {
+    for (i = 0; i <= 100; i += 10) {
         compct.innerHTML += `<option value="${i}">${i}</option>`;
     }
 }
@@ -44,7 +44,7 @@ var fillSelectors = function() {
 var storage = window.localStorage;
 
 $(document).ready(fillSelectors);
-jQuery(function (){
+jQuery(function () {
     var PlayerInput = document.getElementById('players');
     var names = storage.getItem("names");
     if (names) PlayerInput.innerText = names;

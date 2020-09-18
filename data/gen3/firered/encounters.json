@@ -1,0 +1,1144 @@
+{
+  "berryforest": {
+    "Land": {
+      "PIDGEOTTO": 20,
+      "GLOOM": 20,
+      "PIDGEY": 10,
+      "ODDISH": 10,
+      "VENONAT": 10,
+      "DROWZEE": 10,
+      "EXEGGCUTE": 5,
+      "PSYDUCK": 5,
+      "VENOMOTH": 5,
+      "HYPNO": 5
+    },
+    "Water": {
+      "SLOWPOKE": 95,
+      "SLOWBRO": 5
+    },
+    "Old": {
+      "MAGIKARP": 100
+    },
+    "Good": {
+      "GOLDEEN": 60,
+      "MAGIKARP": 20,
+      "POLIWAG": 20
+    },
+    "Super": {
+      "GOLDEEN": 40,
+      "SEAKING": 40,
+      "GYARADOS": 15,
+      "SLOWPOKE": 5
+    }
+  },
+  "bondbridge": {
+    "Land": {
+      "PIDGEY": 30,
+      "ODDISH": 20,
+      "GLOOM": 10,
+      "PIDGEOTTO": 15,
+      "MEOWTH": 10,
+      "VENONAT": 5,
+      "PSYDUCK": 5,
+      "PERSIAN": 5
+    },
+    "Water": {
+      "TENTACOOL": 95,
+      "TENTACRUEL": 5
+    },
+    "Old": {
+      "MAGIKARP": 100
+    },
+    "Good": {
+      "KRABBY": 80,
+      "MAGIKARP": 20
+    },
+    "Super": {
+      "KRABBY": 80,
+      "GYARADOS": 15,
+      "KINGLER": 4,
+      "SLOWPOKE": 1
+    }
+  },
+  "capebrink": {
+    "Land": {
+      "SPEAROW": 20,
+      "ODDISH": 30,
+      "GLOOM": 15,
+      "FEAROW": 10,
+      "MEOWTH": 10,
+      "PSYDUCK": 5,
+      "GOLDUCK": 5,
+      "PERSIAN": 5
+    },
+    "Water": {
+      "SLOWPOKE": 95,
+      "SLOWBRO": 5
+    },
+    "Old": {
+      "MAGIKARP": 100
+    },
+    "Good": {
+      "POLIWAG": 60,
+      "MAGIKARP": 20,
+      "GOLDEEN": 20
+    },
+    "Super": {
+      "POLIWAG": 40,
+      "POLIWHIRL": 40,
+      "GYARADOS": 15,
+      "SLOWPOKE": 5
+    }
+  },
+  "diglettscave": {
+    "Land": {
+      "DIGLETT": 95,
+      "DUGTRIO": 5
+    }
+  },
+  "kindleroad": {
+    "Land": {
+      "SPEAROW": 25,
+      "PONYTA": 30,
+      "FEAROW": 10,
+      "GEODUDE": 10,
+      "MEOWTH": 10,
+      "PSYDUCK": 5,
+      "RAPIDASH": 5,
+      "PERSIAN": 5
+    },
+    "Water": {
+      "TENTACOOL": 95,
+      "TENTACRUEL": 5
+    },
+    "Old": {
+      "MAGIKARP": 100
+    },
+    "Good": {
+      "KRABBY": 80,
+      "MAGIKARP": 20
+    },
+    "Super": {
+      "KRABBY": 80,
+      "GYARADOS": 15,
+      "KINGLER": 4,
+      "SLOWPOKE": 1
+    },
+    "Rock": {
+      "GEODUDE": 95,
+      "GRAVELER": 5
+    }
+  },
+  "mtemberexterior": {
+    "Land": {
+      "PONYTA": 35,
+      "FEAROW": 25,
+      "SPEAROW": 15,
+      "MACHOP": 10,
+      "GEODUDE": 10,
+      "RAPIDASH": 5
+    },
+    "Rock": {
+      "GEODUDE": 95,
+      "GRAVELER": 5
+    }
+  },
+  "mtembersummitpath1f": {
+    "Land": {
+      "GEODUDE": 50,
+      "MACHOP": 50
+    }
+  },
+  "mtembersummitpath2f": {
+    "Land": {
+      "GEODUDE": 40,
+      "MACHOP": 40,
+      "MACHOKE": 20
+    },
+    "Rock": {
+      "GEODUDE": 95,
+      "GRAVELER": 5
+    }
+  },
+  "mtembersummitpath3f": {
+    "Land": {
+      "GEODUDE": 50,
+      "MACHOP": 50
+    }
+  },
+  "mtmoon1f": {
+    "Land": {
+      "ZUBAT": 69,
+      "GEODUDE": 25,
+      "PARAS": 5,
+      "CLEFAIRY": 1
+    }
+  },
+  "mtmoonb1f": {
+    "Land": {
+      "PARAS": 100
+    }
+  },
+  "mtmoonb2f": {
+    "Land": {
+      "ZUBAT": 49,
+      "GEODUDE": 30,
+      "PARAS": 15,
+      "CLEFAIRY": 6
+    }
+  },
+  "pokmonmansionbasement": {
+    "Land": {
+      "KOFFING": 30,
+      "RATICATE": 30,
+      "DITTO": 10,
+      "GROWLITHE": 15,
+      "GRIMER": 5,
+      "WEEZING": 5,
+      "RATTATA": 5
+    }
+  },
+  "pokmonmansionupperfloors": {
+    "Land": {
+      "KOFFING": 30,
+      "RATICATE": 30,
+      "GROWLITHE": 15,
+      "RATTATA": 15,
+      "GRIMER": 5,
+      "WEEZING": 5
+    }
+  },
+  "pokmontower3f": {
+    "Land": {
+      "GASTLY": 90,
+      "CUBONE": 9,
+      "HAUNTER": 1
+    }
+  },
+  "pokmontower4f": {
+    "Land": {
+      "GASTLY": 86,
+      "HAUNTER": 5,
+      "CUBONE": 9
+    }
+  },
+  "pokmontower5f": {
+    "Land": {
+      "GASTLY": 86,
+      "HAUNTER": 5,
+      "CUBONE": 9
+    }
+  },
+  "pokmontower6f": {
+    "Land": {
+      "GASTLY": 85,
+      "HAUNTER": 6,
+      "CUBONE": 9
+    }
+  },
+  "pokmontower7f": {
+    "Land": {
+      "GASTLY": 75,
+      "HAUNTER": 15,
+      "CUBONE": 10
+    }
+  },
+  "powerplant": {
+    "Land": {
+      "VOLTORB": 30,
+      "MAGNEMITE": 30,
+      "PIKACHU": 25,
+      "MAGNETON": 10,
+      "ELECTABUZZ": 5
+    }
+  },
+  "rocktunnel1f": {
+    "Land": {
+      "ZUBAT": 30,
+      "GEODUDE": 35,
+      "MANKEY": 15,
+      "MACHOP": 15,
+      "ONIX": 5
+    }
+  },
+  "rocktunnelb1f": {
+    "Land": {
+      "ZUBAT": 30,
+      "GEODUDE": 35,
+      "MANKEY": 15,
+      "MACHOP": 10,
+      "ONIX": 10
+    },
+    "Rock": {
+      "GEODUDE": 95,
+      "GRAVELER": 5
+    }
+  },
+  "route1": {
+    "Land": {
+      "PIDGEY": 50,
+      "RATTATA": 50
+    }
+  },
+  "route10": {
+    "Land": {
+      "SPEAROW": 35,
+      "VOLTORB": 40,
+      "EKANS": 25
+    },
+    "Water": {
+      "TENTACOOL": 100
+    },
+    "Old": {
+      "MAGIKARP": 100
+    },
+    "Good": {
+      "KRABBY": 60,
+      "MAGIKARP": 20,
+      "HORSEA": 20
+    },
+    "Super": {
+      "KRABBY": 84,
+      "GYARADOS": 15,
+      "SLOWPOKE": 1
+    }
+  },
+  "route11": {
+    "Land": {
+      "EKANS": 40,
+      "SPEAROW": 35,
+      "DROWZEE": 25
+    },
+    "Water": {
+      "TENTACOOL": 100
+    },
+    "Old": {
+      "MAGIKARP": 100
+    },
+    "Good": {
+      "KRABBY": 60,
+      "MAGIKARP": 20,
+      "HORSEA": 20
+    },
+    "Super": {
+      "KRABBY": 84,
+      "GYARADOS": 15,
+      "SLOWPOKE": 1
+    }
+  },
+  "route12": {
+    "Land": {
+      "ODDISH": 35,
+      "VENONAT": 30,
+      "PIDGEY": 30,
+      "GLOOM": 5
+    },
+    "Water": {
+      "TENTACOOL": 100
+    },
+    "Old": {
+      "MAGIKARP": 100
+    },
+    "Good": {
+      "KRABBY": 60,
+      "MAGIKARP": 20,
+      "HORSEA": 20
+    },
+    "Super": {
+      "KRABBY": 84,
+      "GYARADOS": 15,
+      "SLOWPOKE": 1
+    }
+  },
+  "route13": {
+    "Land": {
+      "ODDISH": 35,
+      "VENONAT": 30,
+      "PIDGEY": 20,
+      "DITTO": 5,
+      "PIDGEOTTO": 5,
+      "GLOOM": 5
+    },
+    "Water": {
+      "TENTACOOL": 100
+    },
+    "Old": {
+      "MAGIKARP": 100
+    },
+    "Good": {
+      "KRABBY": 60,
+      "MAGIKARP": 20,
+      "HORSEA": 20
+    },
+    "Super": {
+      "KRABBY": 84,
+      "GYARADOS": 15,
+      "SLOWPOKE": 1
+    }
+  },
+  "route14": {
+    "Land": {
+      "ODDISH": 35,
+      "VENONAT": 30,
+      "DITTO": 15,
+      "PIDGEY": 10,
+      "GLOOM": 5,
+      "PIDGEOTTO": 5
+    }
+  },
+  "route15": {
+    "Land": {
+      "ODDISH": 35,
+      "VENONAT": 30,
+      "PIDGEY": 20,
+      "DITTO": 5,
+      "PIDGEOTTO": 5,
+      "GLOOM": 5
+    }
+  },
+  "route16": {
+    "Land": {
+      "SPEAROW": 30,
+      "DODUO": 35,
+      "RATTATA": 30,
+      "RATICATE": 5
+    }
+  },
+  "route17": {
+    "Land": {
+      "SPEAROW": 30,
+      "DODUO": 35,
+      "RATICATE": 25,
+      "RATTATA": 5,
+      "FEAROW": 5
+    }
+  },
+  "route18": {
+    "Land": {
+      "SPEAROW": 30,
+      "DODUO": 35,
+      "RATICATE": 15,
+      "FEAROW": 15,
+      "RATTATA": 5
+    }
+  },
+  "route2": {
+    "Land": {
+      "RATTATA": 45,
+      "PIDGEY": 45,
+      "CATERPIE": 5,
+      "WEEDLE": 5
+    }
+  },
+  "route21": {
+    "Land": {
+      "TANGELA": 100
+    },
+    "Water": {
+      "TENTACOOL": 100
+    },
+    "Old": {
+      "MAGIKARP": 100
+    },
+    "Good": {
+      "KRABBY": 60,
+      "MAGIKARP": 20,
+      "HORSEA": 20
+    },
+    "Super": {
+      "KRABBY": 80,
+      "GYARADOS": 15,
+      "KINGLER": 4,
+      "SLOWPOKE": 1
+    }
+  },
+  "route22": {
+    "Land": {
+      "RATTATA": 45,
+      "MANKEY": 45,
+      "SPEAROW": 10
+    },
+    "Water": {
+      "SLOWPOKE": 100
+    },
+    "Old": {
+      "MAGIKARP": 100
+    },
+    "Good": {
+      "POLIWAG": 60,
+      "MAGIKARP": 20,
+      "GOLDEEN": 20
+    },
+    "Super": {
+      "POLIWAG": 40,
+      "POLIWHIRL": 40,
+      "GYARADOS": 15,
+      "SLOWPOKE": 5
+    }
+  },
+  "route23": {
+    "Land": {
+      "MANKEY": 30,
+      "FEAROW": 25,
+      "SPEAROW": 15,
+      "EKANS": 20,
+      "PRIMEAPE": 5,
+      "ARBOK": 5
+    },
+    "Water": {
+      "SLOWPOKE": 100
+    },
+    "Old": {
+      "MAGIKARP": 100
+    },
+    "Good": {
+      "POLIWAG": 60,
+      "MAGIKARP": 20,
+      "GOLDEEN": 20
+    },
+    "Super": {
+      "POLIWAG": 40,
+      "POLIWHIRL": 40,
+      "GYARADOS": 15,
+      "SLOWPOKE": 5
+    }
+  },
+  "route24": {
+    "Land": {
+      "WEEDLE": 20,
+      "CATERPIE": 20,
+      "PIDGEY": 15,
+      "ODDISH": 25,
+      "ABRA": 15,
+      "KAKUNA": 4,
+      "METAPOD": 1
+    },
+    "Water": {
+      "TENTACOOL": 100
+    },
+    "Old": {
+      "MAGIKARP": 100
+    },
+    "Good": {
+      "KRABBY": 60,
+      "MAGIKARP": 20,
+      "HORSEA": 20
+    },
+    "Super": {
+      "KRABBY": 84,
+      "GYARADOS": 15,
+      "SLOWPOKE": 1
+    }
+  },
+  "route25": {
+    "Land": {
+      "WEEDLE": 20,
+      "CATERPIE": 20,
+      "PIDGEY": 15,
+      "ODDISH": 25,
+      "ABRA": 15,
+      "KAKUNA": 4,
+      "METAPOD": 1
+    },
+    "Water": {
+      "SLOWPOKE": 100
+    },
+    "Old": {
+      "MAGIKARP": 100
+    },
+    "Good": {
+      "POLIWAG": 60,
+      "MAGIKARP": 20,
+      "GOLDEEN": 20
+    },
+    "Super": {
+      "POLIWAG": 40,
+      "POLIWHIRL": 40,
+      "GYARADOS": 15,
+      "SLOWPOKE": 5
+    }
+  },
+  "route3": {
+    "Land": {
+      "SPEAROW": 35,
+      "PIDGEY": 30,
+      "MANKEY": 10,
+      "NIDORANM": 14,
+      "JIGGLYPUFF": 10,
+      "NIDORANF": 1
+    }
+  },
+  "route4": {
+    "Land": {
+      "SPEAROW": 35,
+      "RATTATA": 35,
+      "EKANS": 25,
+      "MANKEY": 5
+    },
+    "Water": {
+      "TENTACOOL": 100
+    },
+    "Old": {
+      "MAGIKARP": 100
+    },
+    "Good": {
+      "KRABBY": 60,
+      "MAGIKARP": 20,
+      "HORSEA": 20
+    },
+    "Super": {
+      "KRABBY": 84,
+      "GYARADOS": 15,
+      "SLOWPOKE": 1
+    }
+  },
+  "route5": {
+    "Land": {
+      "MEOWTH": 35,
+      "PIDGEY": 40,
+      "ODDISH": 25
+    }
+  },
+  "route6": {
+    "Land": {
+      "MEOWTH": 35,
+      "PIDGEY": 40,
+      "ODDISH": 25
+    },
+    "Water": {
+      "SLOWPOKE": 100
+    },
+    "Old": {
+      "MAGIKARP": 100
+    },
+    "Good": {
+      "POLIWAG": 60,
+      "MAGIKARP": 20,
+      "GOLDEEN": 20
+    },
+    "Super": {
+      "POLIWAG": 40,
+      "POLIWHIRL": 40,
+      "GYARADOS": 15,
+      "SLOWPOKE": 5
+    }
+  },
+  "route7": {
+    "Land": {
+      "PIDGEY": 30,
+      "MEOWTH": 40,
+      "ODDISH": 20,
+      "GROWLITHE": 10
+    }
+  },
+  "route8": {
+    "Land": {
+      "PIDGEY": 30,
+      "MEOWTH": 30,
+      "GROWLITHE": 20,
+      "EKANS": 20
+    }
+  },
+  "route9": {
+    "Land": {
+      "SPEAROW": 35,
+      "RATTATA": 40,
+      "EKANS": 25
+    }
+  },
+  "safarizonearea1east": {
+    "Land": {
+      "NIDORANM": 20,
+      "DODUO": 20,
+      "EXEGGCUTE": 20,
+      "PARAS": 15,
+      "NIDORINO": 10,
+      "NIDORANF": 5,
+      "PARASECT": 5,
+      "KANGASKHAN": 4,
+      "SCYTHER": 1
+    },
+    "Water": {
+      "SLOWPOKE": 100
+    },
+    "Old": {
+      "MAGIKARP": 100
+    },
+    "Good": {
+      "GOLDEEN": 60,
+      "MAGIKARP": 20,
+      "POLIWAG": 20
+    },
+    "Super": {
+      "GOLDEEN": 40,
+      "SEAKING": 40,
+      "DRATINI": 15,
+      "SLOWPOKE": 4,
+      "DRAGONAIR": 1
+    }
+  },
+  "safarizonearea2north": {
+    "Land": {
+      "RHYHORN": 20,
+      "NIDORANM": 20,
+      "EXEGGCUTE": 20,
+      "PARAS": 15,
+      "NIDORINO": 10,
+      "NIDORINA": 5,
+      "VENOMOTH": 5,
+      "CHANSEY": 4,
+      "TAUROS": 1
+    },
+    "Water": {
+      "SLOWPOKE": 100
+    },
+    "Old": {
+      "MAGIKARP": 100
+    },
+    "Good": {
+      "GOLDEEN": 60,
+      "MAGIKARP": 20,
+      "POLIWAG": 20
+    },
+    "Super": {
+      "GOLDEEN": 40,
+      "SEAKING": 40,
+      "DRATINI": 15,
+      "SLOWPOKE": 4,
+      "DRAGONAIR": 1
+    }
+  },
+  "safarizonearea3west": {
+    "Land": {
+      "DODUO": 20,
+      "NIDORANM": 20,
+      "EXEGGCUTE": 20,
+      "VENONAT": 15,
+      "NIDORINO": 10,
+      "NIDORANF": 5,
+      "VENOMOTH": 5,
+      "TAUROS": 4,
+      "KANGASKHAN": 1
+    },
+    "Water": {
+      "SLOWPOKE": 100
+    },
+    "Old": {
+      "MAGIKARP": 100
+    },
+    "Good": {
+      "GOLDEEN": 60,
+      "MAGIKARP": 20,
+      "POLIWAG": 20
+    },
+    "Super": {
+      "GOLDEEN": 40,
+      "SEAKING": 40,
+      "DRATINI": 15,
+      "SLOWPOKE": 4,
+      "DRAGONAIR": 1
+    }
+  },
+  "safarizoneentrance": {
+    "Land": {
+      "RHYHORN": 20,
+      "NIDORANM": 20,
+      "EXEGGCUTE": 20,
+      "VENONAT": 15,
+      "NIDORINO": 10,
+      "NIDORINA": 5,
+      "PARASECT": 5,
+      "SCYTHER": 4,
+      "CHANSEY": 1
+    },
+    "Water": {
+      "SLOWPOKE": 100
+    },
+    "Old": {
+      "MAGIKARP": 100
+    },
+    "Good": {
+      "GOLDEEN": 60,
+      "MAGIKARP": 20,
+      "POLIWAG": 20
+    },
+    "Super": {
+      "GOLDEEN": 40,
+      "SEAKING": 40,
+      "DRATINI": 15,
+      "SLOWPOKE": 4,
+      "DRAGONAIR": 1
+    }
+  },
+  "seafoamislands1f": {
+    "Land": {
+      "PSYDUCK": 55,
+      "ZUBAT": 34,
+      "GOLBAT": 11
+    }
+  },
+  "seafoamislandsb1f": {
+    "Land": {
+      "PSYDUCK": 40,
+      "SEEL": 10,
+      "ZUBAT": 34,
+      "GOLBAT": 11,
+      "GOLDUCK": 5
+    }
+  },
+  "seafoamislandsb2f": {
+    "Land": {
+      "PSYDUCK": 40,
+      "SEEL": 20,
+      "ZUBAT": 20,
+      "GOLBAT": 10,
+      "GOLDUCK": 10
+    }
+  },
+  "seafoamislandsb3f": {
+    "Land": {
+      "SEEL": 40,
+      "PSYDUCK": 20,
+      "GOLDUCK": 15,
+      "ZUBAT": 10,
+      "GOLBAT": 10,
+      "DEWGONG": 5
+    },
+    "Water": {
+      "SEEL": 60,
+      "KRABBY": 30,
+      "DEWGONG": 5,
+      "SLOWPOKE": 4,
+      "SLOWBRO": 1
+    },
+    "Old": {
+      "MAGIKARP": 100
+    },
+    "Good": {
+      "KRABBY": 60,
+      "MAGIKARP": 20,
+      "HORSEA": 20
+    },
+    "Super": {
+      "KRABBY": 80,
+      "GYARADOS": 16,
+      "SLOWPOKE": 4
+    }
+  },
+  "seafoamislandsb4f": {
+    "Land": {
+      "SEEL": 50,
+      "PSYDUCK": 10,
+      "GOLDUCK": 15,
+      "GOLBAT": 15,
+      "DEWGONG": 10
+    },
+    "Water": {
+      "SEEL": 60,
+      "KRABBY": 30,
+      "DEWGONG": 5,
+      "SLOWPOKE": 4,
+      "SLOWBRO": 1
+    },
+    "Old": {
+      "MAGIKARP": 100
+    },
+    "Good": {
+      "KRABBY": 60,
+      "MAGIKARP": 20,
+      "HORSEA": 20
+    },
+    "Super": {
+      "KRABBY": 80,
+      "GYARADOS": 16,
+      "SLOWPOKE": 4
+    }
+  },
+  "threeisleport": {
+    "Land": {
+      "DUNSPARCE": 100
+    }
+  },
+  "treasurebeach": {
+    "Land": {
+      "SPEAROW": 30,
+      "TANGELA": 30,
+      "FEAROW": 20,
+      "MEOWTH": 10,
+      "PSYDUCK": 5,
+      "PERSIAN": 5
+    },
+    "Water": {
+      "TENTACOOL": 95,
+      "TENTACRUEL": 5
+    },
+    "Old": {
+      "MAGIKARP": 100
+    },
+    "Good": {
+      "KRABBY": 80,
+      "MAGIKARP": 20
+    },
+    "Super": {
+      "KRABBY": 80,
+      "GYARADOS": 15,
+      "KINGLER": 4,
+      "SLOWPOKE": 1
+    }
+  },
+  "victoryroad1f": {
+    "Land": {
+      "MACHOP": 20,
+      "GEODUDE": 20,
+      "ONIX": 30,
+      "ZUBAT": 10,
+      "ARBOK": 5,
+      "GOLBAT": 5,
+      "MAROWAK": 5,
+      "MACHOKE": 5
+    }
+  },
+  "victoryroad2f": {
+    "Land": {
+      "MACHOP": 20,
+      "GEODUDE": 20,
+      "PRIMEAPE": 10,
+      "ONIX": 20,
+      "ZUBAT": 10,
+      "ARBOK": 5,
+      "GOLBAT": 5,
+      "MAROWAK": 5,
+      "MACHOKE": 5
+    }
+  },
+  "victoryroad3f": {
+    "Land": {
+      "MACHOP": 20,
+      "GEODUDE": 20,
+      "ONIX": 30,
+      "ZUBAT": 10,
+      "ARBOK": 5,
+      "GOLBAT": 5,
+      "MAROWAK": 5,
+      "MACHOKE": 5
+    }
+  },
+  "viridianforest": {
+    "Land": {
+      "CATERPIE": 40,
+      "WEEDLE": 40,
+      "METAPOD": 5,
+      "KAKUNA": 10,
+      "PIKACHU": 5
+    }
+  },
+  "celadoncity": {
+    "Water": {
+      "SLOWPOKE": 99,
+      "KOFFING": 1
+    },
+    "Old": {
+      "MAGIKARP": 100
+    },
+    "Good": {
+      "MAGIKARP": 100
+    },
+    "Super": {
+      "MAGIKARP": 99,
+      "GRIMER": 1
+    }
+  },
+  "ceruleancity": {
+    "Water": {
+      "TENTACOOL": 100
+    },
+    "Old": {
+      "MAGIKARP": 100
+    },
+    "Good": {
+      "KRABBY": 60,
+      "MAGIKARP": 20,
+      "HORSEA": 20
+    },
+    "Super": {
+      "KRABBY": 84,
+      "GYARADOS": 15,
+      "SLOWPOKE": 1
+    }
+  },
+  "cinnabarisland": {
+    "Water": {
+      "TENTACOOL": 100
+    },
+    "Old": {
+      "MAGIKARP": 100
+    },
+    "Good": {
+      "KRABBY": 60,
+      "MAGIKARP": 20,
+      "HORSEA": 20
+    },
+    "Super": {
+      "KRABBY": 40,
+      "STARYU": 40,
+      "GYARADOS": 15,
+      "SLOWBRO": 4,
+      "SLOWPOKE": 1
+    }
+  },
+  "fuchsiacity": {
+    "Water": {
+      "SLOWPOKE": 100
+    },
+    "Old": {
+      "MAGIKARP": 100
+    },
+    "Good": {
+      "GOLDEEN": 60,
+      "MAGIKARP": 20,
+      "POLIWAG": 20
+    },
+    "Super": {
+      "GOLDEEN": 40,
+      "SEAKING": 40,
+      "GYARADOS": 15,
+      "SLOWPOKE": 5
+    }
+  },
+  "oneisland": {
+    "Water": {
+      "TENTACOOL": 95,
+      "TENTACRUEL": 5
+    },
+    "Old": {
+      "MAGIKARP": 100
+    },
+    "Good": {
+      "KRABBY": 80,
+      "MAGIKARP": 20
+    },
+    "Super": {
+      "KRABBY": 40,
+      "STARYU": 40,
+      "GYARADOS": 15,
+      "KINGLER": 4,
+      "SLOWPOKE": 1
+    }
+  },
+  "pallettown": {
+    "Water": {
+      "TENTACOOL": 100
+    },
+    "Old": {
+      "MAGIKARP": 100
+    },
+    "Good": {
+      "KRABBY": 60,
+      "MAGIKARP": 20,
+      "HORSEA": 20
+    },
+    "Super": {
+      "KRABBY": 40,
+      "STARYU": 40,
+      "GYARADOS": 15,
+      "KINGLER": 4,
+      "SLOWPOKE": 1
+    }
+  },
+  "route19": {
+    "Water": {
+      "TENTACOOL": 100
+    },
+    "Old": {
+      "MAGIKARP": 100
+    },
+    "Good": {
+      "KRABBY": 60,
+      "MAGIKARP": 20,
+      "HORSEA": 20
+    },
+    "Super": {
+      "KRABBY": 80,
+      "GYARADOS": 15,
+      "KINGLER": 4,
+      "SLOWPOKE": 1
+    }
+  },
+  "route20": {
+    "Water": {
+      "TENTACOOL": 100
+    },
+    "Old": {
+      "MAGIKARP": 100
+    },
+    "Good": {
+      "KRABBY": 60,
+      "MAGIKARP": 20,
+      "HORSEA": 20
+    },
+    "Super": {
+      "KRABBY": 80,
+      "GYARADOS": 15,
+      "KINGLER": 4,
+      "SLOWPOKE": 1
+    }
+  },
+  "ssanne": {
+    "Water": {
+      "TENTACOOL": 100
+    },
+    "Old": {
+      "MAGIKARP": 100
+    },
+    "Good": {
+      "KRABBY": 60,
+      "MAGIKARP": 20,
+      "HORSEA": 20
+    },
+    "Super": {
+      "KRABBY": 44,
+      "STARYU": 40,
+      "GYARADOS": 15,
+      "SLOWPOKE": 1
+    }
+  },
+  "vermilioncity": {
+    "Water": {
+      "TENTACOOL": 100
+    },
+    "Old": {
+      "MAGIKARP": 100
+    },
+    "Good": {
+      "KRABBY": 60,
+      "MAGIKARP": 20,
+      "HORSEA": 20
+    },
+    "Super": {
+      "KRABBY": 40,
+      "STARYU": 40,
+      "GYARADOS": 15,
+      "HORSEA": 4,
+      "SLOWPOKE": 1
+    }
+  },
+  "viridiancity": {
+    "Water": {
+      "SLOWPOKE": 100
+    },
+    "Old": {
+      "MAGIKARP": 100
+    },
+    "Good": {
+      "POLIWAG": 60,
+      "MAGIKARP": 20,
+      "GOLDEEN": 20
+    },
+    "Super": {
+      "POLIWAG": 40,
+      "POLIWHIRL": 40,
+      "GYARADOS": 15,
+      "SLOWPOKE": 5
+    }
+  }
+}

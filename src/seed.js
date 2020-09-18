@@ -13,8 +13,8 @@ function json(target) {
         }
     });
     return json;
-}; 
-var getVal = function(target) {
+};
+var getVal = function (target) {
     var obj = document.getElementById(target);
     var val = obj.options[obj.selectedIndex].value;
     if (!isNaN(parseInt(val, 10))) {
@@ -24,11 +24,11 @@ var getVal = function(target) {
     return val;
 }
 
-var toCaps = function(str) {
+var toCaps = function (str) {
     return str.charAt(0).toUpperCase() + str.slice(1).toLowerCase();
 }
 
-var escapeHTML = function(str) {
+var escapeHTML = function (str) {
     return str.replace(/</gi, "&lt;").replace(/>/gi, "&gt;").replace(/'/gi, '&quot;');
 }
 
@@ -42,7 +42,7 @@ var fwg = [];
 var starters = [];
 var page = "";
 var gen = 0;
-var loadSeeder = function(target) {
+var loadSeeder = function (target) {
     page = target;
     gen = parseInt(target.split('/')[0].charAt(3));
     mondata = json(`../../data/${target}/pokemon.json`);
@@ -52,15 +52,15 @@ var loadSeeder = function(target) {
             type: mondata[i]
         });
     }
-    leg = pkmn.filter((a) => {return a.type.startsWith("Legendary")}).map((x) => x.name);
-    nor = pkmn.filter((a) => {return a.type.startsWith("Normal")}).map((x) => x.name);
-    bad = pkmn.filter((a) => {return a.type.startsWith("Trash")}).map((x) => x.name);
+    leg = pkmn.filter(a => a.type.startsWith("Legendary")).map((x) => x.name);
+    nor = pkmn.filter(a => a.type.startsWith("Normal")).map((x) => x.name);
+    bad = pkmn.filter(a => a.type.startsWith("Trash")).map((x) => x.name);
     pkmn = pkmn.map(x => x.name);
     fwg = json(`../../data/${target}/starters.json`);
     starters = json(`../../data/${target}/startmons.json`);
 }
 
-var addTag = function(mon) {
+var addTag = function (mon) {
     if (!mon || !mon.trim()) return mon;
     if (fwg.includes(mon.trim())) return `<span class="result legendary">${mon}</span>`;
     if (!pkmn.includes(mon.trim())) return mon;
@@ -68,17 +68,19 @@ var addTag = function(mon) {
     if (nor.includes(mon.trim())) return `<span class="result normal">${mon}</span>`;
     if (bad.includes(mon.trim())) return `<span class="result trash">${mon}</span>`;
 }
-var fill = function(str, left = false) {
+var fill = function (str, left = false) {
     if (!str) str = "";
-    if (left) while (str.length < 10) str = " " + str;
-    else while (str.length < 10) str += " ";
+    if (left)
+        while (str.length < 10) str = " " + str;
+    else
+        while (str.length < 10) str += " ";
     return addTag(str);
 }
 
-var toId = function(str) {
+var toId = function (str) {
     return '' + str.replace(/[^0-9a-z]/gi, '').toLowerCase()
 }
-var getGen = function(mon) {
+var getGen = function (mon) {
     var num = Object.keys(dex).indexOf(toId(mon));
     if (num < 1) return 0;
     if (num >= 810) {
@@ -100,7 +102,7 @@ var getGen = function(mon) {
     }
 }
 
-var buildTableOutput = function(players) {
+var buildTableOutput = function (players) {
     var ret = '';
     var temp = []
     for (let i in players) {
@@ -231,19 +233,19 @@ async function runGenerator() {
             trash: 0
         });
     }
-    var legendaries = pokemon.filter((a) => {return a.type.startsWith("Legendary")}).map((x) => x.name);;
+    var legendaries = pokemon.filter(a => a.type.startsWith("Legendary")).map((x) => x.name);
     output.write(`Loaded ${legendaries.length} Legendary Pok&eacute;mon`);
     if (legendaries.length < Players * Legendary[0] && !AllowDupes) {
         output.err(`${Players} players with ${Legendary[0]} Legendary Pok&eacute;mon requires ${Players * Legendary[0]}`);
         error++;
     }
-    var normals = pokemon.filter((a) => {return a.type.startsWith("Normal")}).map((x) => x.name);;
+    var normals = pokemon.filter(a => a.type.startsWith("Normal")).map((x) => x.name);
     output.write(`Loaded ${normals.length} Normal Pok&eacute;mon`);
     if (normals.length < Players * Normal[0] && !AllowDupes) {
         output.err(`${Players} players with ${Normal[0]} Normal Pok&eacute;mon requires ${Players * Normal[0]}`);
         error++;
     }
-    var trash = pokemon.filter((a) => {return a.type.startsWith("Trash")}).map((x) => x.name);;
+    var trash = pokemon.filter(a => a.type.startsWith("Trash")).map(x => x.name);
     output.write(`Loaded ${trash.length} Trash Pok&eacute;mon`);
     if (trash.length < Players * Trash[0] && !AllowDupes) {
         output.err(`${Players} players with ${Trash[0]} trash Pok&eacute;mon requires ${Players * Trash[0]}`);
@@ -286,7 +288,7 @@ async function runGenerator() {
     var starters_c = JSON.parse(JSON.stringify(starters));
     pokemon = pokemon.map(x => x.name);
     // We can start handing them out now!
-    var addPokemon = function(player, mon) {
+    var addPokemon = function (player, mon) {
         player.pokemon.push(mon);
         if (commons.includes(mon)) {
             if (!AllowDupes) commons.splice(commons.indexOf(mon), 1);
@@ -311,24 +313,25 @@ async function runGenerator() {
             if (!AllowDupes) pokemon.splice(pokemon.indexOf(mon), 1);
         }
     }
-    var select = function(arr) {
-        return arr[Math.floor(Math.random() * arr.length)];
-    }
+
+    var select = arr => arr[Math.floor(Math.random() * arr.length)];
 
     if (PokemonCount === Infinity) {
         PokemonCount = Math.floor(pokemon.length / Players);
         output.write(`Unlimited Pok&eacute; with ${Players} players: ${PokemonCount} Pok&eacute;mon.`);
     }
-    var hasPokemon = function(y, x) {
-        return !y.pokemon.includes(x);
-    }
-    for (var i in players) {
+    var hasPokemon = (y, x) => !y.pokemon.includes(x);
+
+    for (var i in players) 
         addPokemon(players[i], select(starters_c));
-    }
-    for (var i in players) while (players[i].normal < Normal[0]) addPokemon(players[i], select(normals.filter(x => hasPokemon(players[i], x))));
-    for (var i in players) while (players[i].common < Common[0]) addPokemon(players[i], select(commons.filter(x => hasPokemon(players[i], x))));
-    for (var i in players) while (players[i].legendary < Legendary[0]) addPokemon(players[i], select(legendaries.filter(x => hasPokemon(players[i], x))));
-    for (var i in players) while (players[i].trash < Trash[0]) addPokemon(players[i], select(trash.filter(x => hasPokemon(players[i], x))));
+    for (var i in players)
+        while (players[i].normal < Normal[0]) addPokemon(players[i], select(normals.filter(x => hasPokemon(players[i], x))));
+    for (var i in players)
+        while (players[i].common < Common[0]) addPokemon(players[i], select(commons.filter(x => hasPokemon(players[i], x))));
+    for (var i in players)
+        while (players[i].legendary < Legendary[0]) addPokemon(players[i], select(legendaries.filter(x => hasPokemon(players[i], x))));
+    for (var i in players)
+        while (players[i].trash < Trash[0]) addPokemon(players[i], select(trash.filter(x => hasPokemon(players[i], x))));
     for (var i in players) {
         var yeet = false;
         while (players[i].pokemon.length < PokemonCount) {
