@@ -154,7 +154,43 @@ nav>.dropdown>.dropdown-content>a {
         transform: translateY(1px);
     }
 
-    #menu-button:hover + #navigation {
+    #menu-button:hover + #navigation, #navigation:hover {
         display: flex;
+        width:auto;
+        flex-direction: column;
+        position: absolute;
+        right: 0px;
+        top: 40px;
+    }
+
+    #navigation:hover >.dropdown>.dropdown-content>a {
+        position: relative;
+        right: 120px;
+    }
+
+    #navigation:hover > .dropdown>.dropdown-content {
+        top: 1px;
+        width: 120px;
+        height: 32px;
+        font-size: 1.5em;
+    }
+
+    #navigation>.dropdown>p {
+        border: none;
+        border-bottom: 1px solid black;
+        box-shadow: none;
+        background: none;
+        font-size: 1.5em;
+        width: 120px;
+        height: 32px;
+        margin: 2px;
+    }
+    
+    #navigation>.dropdown {
+        background: #666;
+        width: 120px;
+    }
+    #navigation>.dropdown>.dropdown-content {
+        
     }
 }
