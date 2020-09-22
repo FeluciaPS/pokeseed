@@ -1,34 +1,14 @@
-<!DOCTYPE html>
+var HeaderMatch = new RegExp(`<header class="menu navbar">(.|\n|\r)*(?=<\/header>)`, 'gmi');
 
-<html>
-
-<head>
-    <title>Pok&eacute;mon Leaf Green - PokeSeed</title>
-    <link rel="stylesheet" href="/pokeseed/css/style.css" />
-    <link rel="stylesheet" href="/pokeseed/css/header.css" />
-    <script src="/pokeseed/lib/jquery-2.1.4.min.js"></script>
-    <script src="/pokeseed/src/logger.js"></script>
-    <script src="/pokeseed/src/buildpage.js"></script>
-    <script src="/pokeseed/src/seed.js"></script>
-    <script>
-        jQuery(function () {
-            output.clear();
-            output.write("Welcome to the Pok&eacute;mon Leaf Green team seeder!");
-            output.write("Change the settings and hit Generate Seed to get started.");
-            loadSeeder('gen3/leafgreen');
-        })
-    </script>
-</head>
-
-<body>
-    <header class="menu navbar">                        <!-- Header is loaded in build/build.js-->
+// ~
+var headerhtml = `                        <!-- Header is loaded in build/build.js and loaded in src/header.js-->
         <a href="/pokeseed/index.html" class="logo">    <!--Logo functions as link to home page. Add actual link for clarity later?-->
             <img src="./img/logo.png">              
             <h1>PokeSeed</h1>
         </a>
         <nav>
             <div class="dropdown">
-                <p>Gen 1</p>
+                <p>Gen1</p>
                 <div class="dropdown-content">
                     <a href="/pokeseed/html/gen1/red.html">
                         Red
@@ -42,7 +22,7 @@
                 </div>
             </div>
             <div class="dropdown">
-                <p>Gen 2</p>
+                <p>Gen2</p>
                 <div class="dropdown-content">
                     <a href="" class="disabled">
                         Gold
@@ -56,7 +36,7 @@
                 </div>
             </div>
             <div class="dropdown">
-                <p>Gen 3</p>
+                <p>Gen3</p>
                 <div class="dropdown-content">
                     <a href="" class="disabled">
                         Ruby
@@ -67,10 +47,10 @@
                     <a href="/pokeseed/html/gen3/emerald.html">
                         Emerald
                     </a>
-                    <a href="/pokeseed/html/gen3/firered.html">
+                    <a href="/pokeseed/html/gen3/fire-red.html">
                         Fire Red
                     </a>
-                    <a href="/pokeseed/html/gen3/leafgreen.html">
+                    <a href="/pokeseed/html/gen3/leaf-green.html">
                         Leaf Green
                     </a>
                     <a href="" class="disabled">
@@ -82,7 +62,7 @@
                 </div>
             </div>
             <div class="dropdown">
-                <p>Gen 4</p>
+                <p>Gen4</p>
                 <div class="dropdown-content">
                     <a href="" class="disabled">
                         Pearl
@@ -102,7 +82,7 @@
                 </div>
             </div>
             <div class="dropdown">
-                <p>Gen 5</p>
+                <p>Gen5</p>
                 <div class="dropdown-content">
                     <a href="" class="disabled">
                         Black
@@ -119,7 +99,7 @@
                 </div>
             </div>
             <div class="dropdown">
-                <p>Gen 6</p>
+                <p>Gen6</p>
                 <div class="dropdown-content">
                     <a href="" class="disabled">
                         X
@@ -136,7 +116,7 @@
                 </div>
             </div>
             <div class="dropdown">
-                <p>Gen 7</p>
+                <p>Gen7</p>
                 <div class="dropdown-content">
                     <a href="" class="disabled">
                         Sun
@@ -159,7 +139,7 @@
                 </div>
             </div>
             <div class="dropdown">
-                <p>Gen 8</p>
+                <p>Gen8</p>
                 <div class="dropdown-content">
                     <a href="" class="disabled">
                         Sword
@@ -175,93 +155,18 @@
                     </a>
                 </div>
             </div>
+            <div class="dropdown">
+                <p>Tools</p>
+                <div class="dropdown-content">
+                    <a href="/pokeseed/html/tools/type-coverage.html">
+                        Type Coverage
+                    </a>
+                </div>
+            </div>
         </nav>
-    </header>
+    `
+// ~
 
-    <div class="content">
-        <div class="inputs">
-            <h2>Player info</h2>
-            Players:<span class="small" title="Comma-separated, max. 7">?</span><br>
-            <textarea id="players"></textarea><br>
-            Pokemon per player:
-            <select name="Pokemon Per Player" id="moncount">
-                <option value="2">2</option>
-                <option value="3">3</option>
-                <option value="4">4</option>
-                <option value="5">5</option>
-                <option value="6">6</option>
-                <option value="7">7</option>
-                <option value="8" selected="selected">8</option>
-                <option value="9">9</option>
-                <option value="10">10</option>
-                <option value="-1">Unlimited</option>
-            </select><span class="small"
-                title="If the amount of Pok&eacute;mon is impossible, 'allow duplicates' will automatically be turned on.">?</span>
-        </div>
-
-        <div class="inputs">
-            <h2>Pok&eacute;mon info</h2>
-            Min legendaries
-            <select name="Min legendary" id="minleg">
-
-            </select>
-            Max legendaries
-            <select name="Max legendary" id="maxleg">
-
-            </select><span class="small"
-                title="Legendary as defined by the value of a Pok&eacute;mon by its power and availability.">?</span>
-            <br />
-            Min normal
-            <select name="Min normal" id="minavg">
-
-            </select>
-            Max normal
-            <select name="Max normal" id="maxavg">
-
-            </select>
-            <br />
-            Min trash
-            <select name="Min trash" id="minbad">
-
-            </select>
-            Max trash
-            <select name="Max trash" id="maxbad">
-
-            </select>
-            <br />
-            Min common
-            <select name="Min common" id="mincom">
-
-            </select>
-            Max common
-            <select name="Max common" id="maxcom">
-
-            </select>
-            <br />
-            Common cutoff
-            <select name="Common cutoff" id="compct">
-
-            </select><span class="small"
-                title="The lowest encounter rate that can be considered common. Low values can make the generation impossible and force allow duplicates or reject your settings.">?</span>
-            <br />
-            Allow Duplicates?
-            <select name="Allow Duplicates?" id="dupes">
-                <option value="Yes">Yes</option>
-                <option value="No" selected="selected">No</option>
-            </select>
-            <br />
-            Allow Starters?<span class="small"
-                title="Adds the 3 starters to the Legendary pool of pokemon, does not allow them to be seeded as actual starters.">?</span>
-            <select name="Allow Starters?" id="starters">
-                <option value="Yes">Yes</option>
-                <option value="No" selected="selected">No</option>
-            </select>
-        </div>
-
-        <button onclick="runGenerator()">Generate Seed</button>
-        <button onclick="output.clear()">clear</button>
-        <div id="output" class="output"></div>
-    </div>
-</body>
-
-</html>
+jQuery(function() {
+    document.getElementsByClassName("menu navbar")[0].innerHTML = headerhtml;
+})

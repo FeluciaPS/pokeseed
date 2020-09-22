@@ -14,6 +14,7 @@ function json(target) {
     });
     return json;
 };
+
 var getVal = function (target) {
     var obj = document.getElementById(target);
     var val = obj.options[obj.selectedIndex].value;

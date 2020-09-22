@@ -3,20 +3,23 @@
 const FS = require('fs');
 const root = "../html/";
 
-let toId = function(str) {if (!str) return undefined;return '' + str.replace(/[^0-9a-z]/gi, '').toLowerCase();}
+let toPageId = function(str) {
+    if (!str) return undefined;
+    return '' + str.replace(/\s/g, '-').replace(/[^0-9a-z\-]/gi, '').toLowerCase();
+}
 
 let headers = {
-    "Gen 1": [
+    "Gen1": [
         "Red",
         "Blue/Green",
         "Yellow"
     ],
-    "Gen 2": [
+    "Gen2": [
         "Gold",
         "Silver",
         "Crystal"
     ],
-    "Gen 3": [
+    "Gen3": [
         "Ruby",
         "Sapphire",
         "Emerald",
@@ -25,26 +28,26 @@ let headers = {
         "Colosseum",
         "Gale of Darkness",
     ],
-    "Gen 4": [
+    "Gen4": [
         "Pearl",
         "Diamond",
         "Platinum",
         "Heart Gold",
         "Soul Silver"
     ],
-    "Gen 5": [
+    "Gen5": [
         "Black",
         "White",
         "Black 2",
         "White 2"
     ],
-    "Gen 6": [
+    "Gen6": [
         "X",
         "Y",
         "Omega Ruby",
         "Alpha Sapphire"
     ],
-    "Gen 7": [
+    "Gen7": [
         "Sun",
         "Moon",
         "Ultra Sun",
@@ -52,15 +55,18 @@ let headers = {
         "Let's Go Pikachu",
         "Let's Go Eevee"
     ],
-    "Gen 8": [
+    "Gen8": [
         "Sword",
         "Shield",
         "DLC Sword",
         "DLC Shield"
+    ],
+    "Tools": [
+        "Type Coverage"
     ]
 }
 
-let header = `<header class="menu navbar">                        <!-- Header is loaded in build/build.js-->
+let header = `                        <!-- Header is loaded in build/build.js and loaded in src/header.js-->
         <a href="/pokeseed/index.html" class="logo">    <!--Logo functions as link to home page. Add actual link for clarity later?-->
             <img src="./img/logo.png">              
             <h1>PokeSeed</h1>
@@ -76,8 +82,8 @@ for (let dirname in headers) {
     header += tab+tab+tab+tab+`<div class="dropdown-content">\r\n`
     let folders = headers[dirname];
     for (let name of folders) {
-        let exists = FS.existsSync(root + `${toId(dirname)}`) && FS.existsSync(root + `${toId(dirname)}/${toId(name)}.html`);
-        let href = exists ? `/pokeseed/html/${toId(dirname)}/${toId(name)}.html` : "";
+        let exists = FS.existsSync(root + `${toPageId(dirname)}`) && FS.existsSync(root + `${toPageId(dirname)}/${toPageId(name)}.html`);
+        let href = exists ? `/pokeseed/html/${toPageId(dirname)}/${toPageId(name)}.html` : "";
         header += tab+tab+tab+tab+tab+`<a href="${href}"${exists ? '' : ' class="disabled"'}>\r\n`;
         header += tab+tab+tab+tab+tab+tab+`${name}\r\n`;
         header += tab+tab+tab+tab+tab+`</a>\r\n`;
@@ -88,16 +94,8 @@ for (let dirname in headers) {
 header += tab+tab+`</nav>\r\n`;
 header += tab;
 
-let HeaderMatch = new RegExp(`<header class="menu navbar">(.|\n|\r)*(?=<\/header>)`, 'gmi');
-for (let i of FS.readdirSync(root)) {
-    for (let x of FS.readdirSync(root + i)) {
-        let text = FS.readFileSync(root + i + '/' + x, 'utf8');
-        console.log(text, text.match(HeaderMatch));
-        text = text.replace(text.match(HeaderMatch), header);
-        FS.writeFileSync(root + i + '/' + x, text);
-    }
-}
-let text = FS.readFileSync('../index.html', 'utf8');
-//console.log(text, text.match(HeaderMatch));
-text = text.replace(HeaderMatch, header);
-FS.writeFileSync('../index.html', text);
+let HeaderMatch = new RegExp("~[^~]*~", 'gmi');
+let text = FS.readFileSync('../src/header.js', 'utf8');
+console.log(text.match(HeaderMatch));
+text = text.replace(HeaderMatch, "~\nvar headerhtml = `" + header + "`\n// ~");
+FS.writeFileSync('../src/header.js', text);
