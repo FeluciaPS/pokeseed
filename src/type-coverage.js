@@ -39,6 +39,7 @@ var typechart = json('/pokeseed/data/typechart.json');
 
 var getEffectiveness = function (type1, type2, type3) {
     if (!typechart[type1] || !typechart[type2] || !typechart[type3]) return 0;
+    if (type2 === type3) return typechart[type1][type2];
     return typechart[type1][type2] * typechart[type1][type3];
 }
 
