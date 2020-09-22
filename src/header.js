@@ -1,5 +1,10 @@
 var HeaderMatch = new RegExp(`<header class="menu navbar">(.|\n|\r)*(?=<\/header>)`, 'gmi');
 
+let toId = function(str) {
+    if (!str) return undefined;
+    return '' + str.replace(/[^0-9a-z]/gi, '').toLowerCase();
+}
+
 // ~
 var headerhtml = `                        <!-- Header is loaded in build/build.js and loaded in src/header.js-->
         <a href="/pokeseed/index.html" class="logo">    <!--Logo functions as link to home page. Add actual link for clarity later?-->

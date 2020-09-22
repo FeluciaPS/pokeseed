@@ -115,6 +115,53 @@ input.hidden {
     border-radius: 8px
 }
 
+/* typechart */
+.typechart {
+    font-family: 'Courier New', Courier, monospace;
+    margin: 10px auto;
+    text-align: center;
+    border-spacing: 1px;
+    border-collapse: collapse;
+    border: 1px solid #777;
+}
+
+.typechart > tbody > tr > td, .typechart > tbody > tr > th {
+    font-size: 0.8em;
+    min-width: 30px;
+    height: 30px;
+}
+
+.leftheader {
+    width:auto;
+    padding-left: 8px;
+    padding-right: 8px;
+}
+
+.eff.immune {
+    background: #555;
+    color: white;
+    border-color:black;
+}
+
+.eff.resist {
+    background: #DD2222;
+    color:white;
+    border-color:black;
+}
+
+.eff.neutral {
+    background: #AAA;
+}
+
+.eff.super {
+    background: #33AA33;
+    color:black;
+}
+
+.eff.strong, .eff.immune {
+    font-weight: bold;
+}
+
 /* tooltips */
 .hastooltip>.tooltip {
     display: none;
