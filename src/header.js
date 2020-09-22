@@ -166,6 +166,9 @@ var headerhtml = `                        <!-- Header is loaded in build/build.j
                     <a href="/pokeseed/html/tools/type-coverage.html">
                         Type Coverage
                     </a>
+                    <a href="" class="disabled">
+                        Randomizer
+                    </a>
                 </div>
             </div>
         </nav>
