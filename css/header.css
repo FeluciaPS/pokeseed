@@ -16,13 +16,18 @@
 }
 
 nav {
-    display: flex;
     align-items: center;
     color: rgb(40, 40, 40);
+    display: flex;
 }
 
 nav>.dropdown{
-    min-width: 100px;
+    min-width: 70px;
+    width: 10%;
+    max-width: 120px;
+    position: relative;
+    display: flex;
+    justify-content: center;
 }
 
 nav>.dropdown>p {
@@ -33,7 +38,8 @@ nav>.dropdown>p {
     font-family: arial;
     font-weight: bold;
     font-size: 1em;
-    min-width: inherit;
+    width: calc(100% - (10px * 2));
+    height: 18px;
     color: rgb(40, 40, 40);
     margin: 0px 10px;
     text-align: center;
@@ -47,8 +53,11 @@ nav>.dropdown>.dropdown-content {
     font-weight: bold;
     font-size: 1em;
     min-width: inherit;
+    width: calc(100% - (10px * 2));
+    max-width: inherit;
     margin: 0px 10px;
     text-align: center;
+    top: 18px;
 }
 
 nav>.dropdown:hover>.dropdown-content { /*When hovering over .dropdown item, change properties of .dropdown-content*/
@@ -62,7 +71,8 @@ nav>.dropdown>.dropdown-content>a {
     float: left;
     clear: left;
     min-width: inherit;
-    max-width: 100px;
+    width: calc(100%);
+    max-width: inherit;
     text-decoration: none;
     border-bottom: 1px solid rgb(60, 60, 60);
     color: rgb(40, 40, 40);
@@ -76,6 +86,19 @@ nav>.dropdown>.dropdown-content>a {
     color: rgb(150, 150, 150) !important;
     cursor: default;
     pointer-events: none;
+}
+
+#navigation{
+    display: flex;
+}
+
+#menu-button{
+    display: none;
+    width: 30px;
+    height: 30px;
+    background: red;  
+    position: absolute;
+    cursor: pointer;
 }
 
 /* logo stuff */
@@ -101,4 +124,33 @@ nav>.dropdown>.dropdown-content>a {
 .menu>nav {
     width: 70%;
     height: 38px;
+}
+/*
+@media screen and (max-width: 800px){
+    nav>.dropdown{
+        min-width: 70px;
+    }
+
+    nav>.dropdown>.dropdown-content {
+        min-width: 100px;
+    }
+    
+    #navigation{
+        /*display: none;
+        position: absolute;
+    }
+
+    .menu{
+        justify-content: center;
+        position: relative;
+    }
+
+    #menu-button{
+        display: block;
+        right: 6px;
+    }
+
+    #menu-button:active{
+        transform: translateY(1px);
+    }
 }
