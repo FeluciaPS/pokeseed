@@ -72,7 +72,8 @@ let header = `                        <!-- Header is loaded in build/build.js an
             <img src="./img/logo.png">              
             <h1>PokeSeed</h1>
         </a>
-        <nav>\r\n`;
+        <div id="menu-button"></div>
+        <nav id="navigation">\r\n`;
 
 let tab = `    `;
 

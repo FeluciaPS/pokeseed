@@ -11,7 +11,8 @@ var headerhtml = `                        <!-- Header is loaded in build/build.j
             <img src="./img/logo.png">              
             <h1>PokeSeed</h1>
         </a>
-        <nav>
+        <div id="menu-button"></div>
+        <nav id="navigation">
             <div class="dropdown">
                 <p>Gen1</p>
                 <div class="dropdown-content">

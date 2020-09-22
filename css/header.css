@@ -125,7 +125,7 @@ nav>.dropdown>.dropdown-content>a {
     width: 70%;
     height: 38px;
 }
-/*
+
 @media screen and (max-width: 800px){
     nav>.dropdown{
         min-width: 70px;
@@ -136,7 +136,7 @@ nav>.dropdown>.dropdown-content>a {
     }
     
     #navigation{
-        /*display: none;
+        display: none;
         position: absolute;
     }
 
@@ -150,7 +150,11 @@ nav>.dropdown>.dropdown-content>a {
         right: 6px;
     }
 
-    #menu-button:active{
+    #menu-button:hover {
         transform: translateY(1px);
+    }
+
+    #menu-button:hover + #navigation {
+        display: flex;
     }
 }
