@@ -62,7 +62,8 @@ let headers = {
         "DLC Shield"
     ],
     "Tools": [
-        "Type Coverage"
+        "Type Coverage",
+        "Randomizer"
     ]
 }
 
