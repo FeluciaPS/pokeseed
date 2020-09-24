@@ -161,13 +161,16 @@ var headerhtml = `                        <!-- Header is loaded in build/build.j
                 </div>
             </div>
             <div class="dropdown">
-                <p>Tools</p>
+                <p>Other</p>
                 <div class="dropdown-content">
-                    <a href="/pokeseed/html/tools/type-coverage.html">
+                    <a href="/pokeseed/html/other/type-coverage.html">
                         Type Coverage
                     </a>
                     <a href="" class="disabled">
                         Randomizer
+                    </a>
+                    <a href="/pokeseed/html/other/about-us.html">
+                        About Us
                     </a>
                 </div>
             </div>

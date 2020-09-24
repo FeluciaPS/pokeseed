@@ -25,6 +25,7 @@
     overflow-x: auto;
     padding: 5px 0px 0px;
     width:100%;
+    height: calc(100% - 40px);
 }
 
 .inputs {
@@ -180,6 +181,15 @@ input.hidden {
     align-items: center;
     position: relative;
     left: 40px;
+}
+
+.subtle-link {
+    text-decoration: inherit;
+    color: inherit;
+}
+
+.subtle-link:hover {
+    text-decoration: underline;
 }
 
 @media screen and (max-width: 1024px) {

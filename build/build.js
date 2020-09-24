@@ -61,9 +61,10 @@ let headers = {
         "DLC Sword",
         "DLC Shield"
     ],
-    "Tools": [
+    "Other": [
         "Type Coverage",
-        "Randomizer"
+        "Randomizer",
+        "About Us"
     ]
 }
 
