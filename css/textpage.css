@@ -37,7 +37,7 @@
     width: 80px;
     height: 80px;
     margin: 0 auto;
-    border-radius: 32px;
+    border-radius: 16px;
     box-shadow: inset 0 0 5px 3px black;
     background-size: cover;
 }
@@ -88,5 +88,6 @@
     .profile > .pic {
         width: 160px;
         height: 160px;
+        border-radius: 32px;
     }
 }
