@@ -4,6 +4,15 @@
     box-sizing: border-box;
 }
 
+html, body {
+    height: 100%; 
+}
+
+@font-face {
+    font-family: 'Pokemon Solid';
+    src: url('/pokeseed/fonts/Pokemon_Solid.ttf')  format('truetype');
+}
+
 .output {
     border: 1px solid #EEE;
     color: #EEE;
@@ -20,10 +29,9 @@
 }
 
 .content {
-    position: absolute;
-    top: 40px;
+    position: relative;
+    display: flex;
     overflow-x: auto;
-    padding: 5px 0px 0px;
     width:100%;
     height: calc(100% - 40px);
 }

@@ -4,13 +4,13 @@
     align-items: center;
     height: 40px;
     box-shadow: 0 2px 5px black;
-    margin-bottom: 40px;
+    /*margin-bottom: 40px;*/
     background: rgb(215, 215, 220);
     z-index: 100;
 }
 
 .navbar {
-    position: fixed;
+    position: sticky;
     top: 0px;
     width: 100%;
 }
@@ -118,16 +118,24 @@ nav>.dropdown>.dropdown-content>a {
     align-items: center;
     text-decoration: none;
     color: rgb(40, 40, 40);
+    font-family: 'Pokemon Solid'
+}
+
+.menu > .logo > img {
+    height: 32px;
+    width: auto;
 }
 
 .menu>.logo>* {
-    padding: 0px 8px;
+    margin: 0px 8px;
 }
 
 .menu>.logo>h1 {
     margin: 0;
     display: inline-block;
-    text-decoration: underline solid black 3px;
+    position:relative;
+    top: -8px;
+    font-size: 32px;
 }
 
 .menu>nav {
@@ -214,9 +222,5 @@ nav>.dropdown>.dropdown-content>a {
     }
     .menu {
         height: 50px;
-    }
-
-    .content {
-        top: 50px;
     }
 }

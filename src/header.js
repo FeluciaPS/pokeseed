@@ -7,7 +7,7 @@ var toId = function (str) {
 // ~
 var headerhtml = `                        <!-- Header is loaded in build/build.js and loaded in src/header.js-->
         <a href="/pokeseed/index.html" class="logo">    <!--Logo functions as link to home page. Add actual link for clarity later?-->
-            <img src="./img/logo.png">              
+            <img src="/pokeseed/img/pokeseed.png">              
             <h1>PokeSeed</h1>
         </a>
         <div id="menu-button"></div>
