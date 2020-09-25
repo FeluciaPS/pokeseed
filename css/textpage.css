@@ -75,12 +75,23 @@
         overflow-x: auto;
     }
 
+    .profile {
+        width: auto;
+        height: 256px;
+    }
+
     .about {
         min-width: 100%;
         flex-direction: column;
-        margin: 0 10px;
+        margin: 0 16px;
         padding: 15px 5px;
         scroll-snap-align: center;
+    }
+
+    .about > p {
+        width: auto;
+        margin: 0px 16px;
+        height: calc(100% - 256px - 64px);
     }
 
     .mirror > p {
