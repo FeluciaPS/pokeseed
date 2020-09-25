@@ -80,9 +80,6 @@ var fill = function (str, left = false) {
     return addTag(str);
 }
 
-var toId = function (str) {
-    return '' + str.replace(/[^0-9a-z]/gi, '').toLowerCase()
-}
 var getGen = function (mon) {
     var num = Object.keys(dex).indexOf(toId(mon));
     if (num < 1) return 0;

@@ -103,9 +103,9 @@ nav>.dropdown>.dropdown-content>a {
 
 #menu-button{
     display: none;
-    width: 30px;
-    height: 30px;
-    background: red;  
+    width: 32px;
+    height: 32px;
+    background: url(/pokeseed/img/menu.svg);
     position: absolute;
     cursor: pointer;
 }

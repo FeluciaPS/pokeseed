@@ -7,6 +7,11 @@
     display: flex;
     flex-direction: column;
     padding: 25px 8px;
+    position:relative;
+}
+
+.scrolldisplay {
+    display: none;
 }
 
 .about {
@@ -53,11 +58,15 @@
 }
 
 .pic.customashable {
-    background-image: url(https://avatars0.githubusercontent.com/u/22681179);
+    background-image: url(/pokeseed/img/customashable.png);
 }
 
 .pic.felucia {
-    background-image: url(https://play.pokemonshowdown.com/sprites/trainers-custom/unleashourpassion.png);
+    background-image: url(/pokeseed/img/felucia.png);
+}
+
+.pic.svoner {
+    background-image: url(/pokeseed/img/svoner.png)
 }
 
 @media screen and (max-width: 1024px) {
@@ -102,5 +111,31 @@
         width: 160px;
         height: 160px;
         border-radius: 32px;
+    }
+
+    .scrolldisplay {
+        display: flex;
+        position: absolute;
+        height: 20px;
+        width: 100%;
+        top: 32px;
+        left: 0;
+        justify-content: center;
+        z-index: 2;
+    }
+
+    .selectedpage {
+        height:10px;
+        width:10px;
+        border: 1px solid black;
+        background: black;
+        border-radius:5px;
+    }
+
+    .unselectedpage {
+        height:10px;
+        width:10px;
+        border: 1px solid black;
+        border-radius:5px;
     }
 }
