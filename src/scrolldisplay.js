@@ -2,7 +2,7 @@ var curpos = 0;
 var c = ['selectedpage', 'unselectedpage'];
 var pages = 0;
 var scrolldisplay = false;
-
+var scrollwidth = 0;
 function buildDisplay() {
     scrolldisplay.innerHTML = '';
     for (var i = 0; i < pages; i++) {
@@ -11,10 +11,14 @@ function buildDisplay() {
     }
 }
 
+window.onresize = function() {
+    scrollwidth = $('.about').width() + 32 + 5;
+}
+
 jQuery(function() {
     scrolldisplay = document.getElementsByClassName('scrolldisplay')[0];
     pages = $('.infopage').children().length;
-    var scrollwidth = $('.about').width() + 32 + 5;
+    scrollwidth = $('.about').width() + 32 + 5;
     var page = document.getElementsByClassName('infopage')[0];
     buildDisplay();
     $('.infopage').scroll(function() {

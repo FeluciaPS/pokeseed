@@ -1,8 +1,11 @@
+:root {
+    --menuheight: 40px;
+}
 .menu {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    height: 40px;
+    height: var(--menuheight);
     box-shadow: 0 2px 5px black;
     /*margin-bottom: 40px;*/
     background: rgb(215, 215, 220);
@@ -134,8 +137,9 @@ nav>.dropdown>.dropdown-content>a {
     margin: 0;
     display: inline-block;
     position:relative;
-    top: -8px;
-    font-size: 32px;
+    line-height: var(--menuheight);
+    top: calc(var(--menuheight) / -10);
+    font-size: 24px;
 }
 
 .menu>nav {
@@ -221,6 +225,6 @@ nav>.dropdown>.dropdown-content>a {
         margin: 2px 0;
     }
     .menu {
-        height: 50px;
+        --menuheight: 50px;
     }
 }
