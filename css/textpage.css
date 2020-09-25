@@ -57,6 +57,11 @@
     float: right;
 }
 
+.pic {
+    image-rendering: pixelated;
+    /* all images that don't scale well should be sprites, 
+     * others should be larger than 160x160 */
+}
 .pic.customashable {
     background-image: url(/pokeseed/img/customashable.png);
 }
