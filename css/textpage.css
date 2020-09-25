@@ -67,7 +67,8 @@
 }
 
 .pic.felucia {
-    background-image: url(/pokeseed/img/felucia.png);
+    background: url(/pokeseed/img/felucia.png) #BFB;
+    background-size: cover;
 }
 
 .pic.svoner {
