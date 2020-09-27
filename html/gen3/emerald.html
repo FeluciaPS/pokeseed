@@ -23,92 +23,90 @@
 </head>
 
 <body>
-    <header class="menu navbar"></header> <!-- Header is built in build/build.js and loaded in src/header.js-->
+    <header class="navbar"></header> <!-- Header is built in build/build.js and loaded in src/header.js-->
 
-    <div class="content">
-        <div class="inputs">
-            <h2>Player info</h2>
-            Players:<span class="small" title="Comma-separated, max. 7">?</span><br>
-            <textarea id="players"></textarea><br>
-            Pokemon per player:
-            <select name="Pokemon Per Player" id="moncount">
-                <option value="2">2</option>
-                <option value="3">3</option>
-                <option value="4">4</option>
-                <option value="5">5</option>
-                <option value="6">6</option>
-                <option value="7">7</option>
-                <option value="8" selected="selected">8</option>
-                <option value="9">9</option>
-                <option value="10">10</option>
-                <option value="-1">Unlimited</option>
-            </select><span class="small"
-                title="If the amount of Pok&eacute;mon is impossible, 'allow duplicates' will automatically be turned on.">?</span>
-        </div>
-
-        <div class="inputs">
-            <h2>Pok&eacute;mon info</h2>
-            Min legendaries
-            <select name="Min legendary" id="minleg">
-
-            </select>
-            Max legendaries
-            <select name="Max legendary" id="maxleg">
-
-            </select><span class="small"
-                title="Legendary as defined by the value of a Pok&eacute;mon by its power and availability.">?</span>
-            <br />
-            Min normal
-            <select name="Min normal" id="minavg">
-
-            </select>
-            Max normal
-            <select name="Max normal" id="maxavg">
-
-            </select>
-            <br />
-            Min trash
-            <select name="Min trash" id="minbad">
-
-            </select>
-            Max trash
-            <select name="Max trash" id="maxbad">
-
-            </select>
-            <br />
-            Min common
-            <select name="Min common" id="mincom">
-
-            </select>
-            Max common
-            <select name="Max common" id="maxcom">
-
-            </select>
-            <br />
-            Common cutoff
-            <select name="Common cutoff" id="compct">
-
-            </select><span class="small"
-                title="The lowest encounter rate that can be considered common. Low values can make the generation impossible and force allow duplicates or reject your settings.">?</span>
-            <br />
-            Allow Duplicates?
-            <select name="Allow Duplicates?" id="dupes">
-                <option value="Yes">Yes</option>
-                <option value="No" selected="selected">No</option>
-            </select>
-            <br />
-            Allow Starters?<span class="small"
-                title="Adds the 3 starters to the Legendary pool of pokemon, does not allow them to be seeded as actual starters.">?</span>
-            <select name="Allow Starters?" id="starters">
-                <option value="Yes">Yes</option>
-                <option value="No" selected="selected">No</option>
-            </select>
-        </div>
-
-        <button onclick="runGenerator()">Generate Seed</button>
-        <button onclick="output.clear()">clear</button>
-        <div id="output" class="output"></div>
+    <div class="inputs">
+        <h2>Player info</h2>
+        Players:<span class="small" title="Comma-separated, max. 7">?</span><br>
+        <textarea id="players"></textarea><br>
+        Pokemon per player:
+        <select name="Pokemon Per Player" id="moncount">
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5</option>
+            <option value="6">6</option>
+            <option value="7">7</option>
+            <option value="8" selected="selected">8</option>
+            <option value="9">9</option>
+            <option value="10">10</option>
+            <option value="-1">Unlimited</option>
+        </select><span class="small"
+            title="If the amount of Pok&eacute;mon is impossible, 'allow duplicates' will automatically be turned on.">?</span>
     </div>
+
+    <div class="inputs">
+        <h2>Pok&eacute;mon info</h2>
+        Min legendaries
+        <select name="Min legendary" id="minleg">
+
+        </select>
+        Max legendaries
+        <select name="Max legendary" id="maxleg">
+
+        </select><span class="small"
+            title="Legendary as defined by the value of a Pok&eacute;mon by its power and availability.">?</span>
+        <br />
+        Min normal
+        <select name="Min normal" id="minavg">
+
+        </select>
+        Max normal
+        <select name="Max normal" id="maxavg">
+
+        </select>
+        <br />
+        Min trash
+        <select name="Min trash" id="minbad">
+
+        </select>
+        Max trash
+        <select name="Max trash" id="maxbad">
+
+        </select>
+        <br />
+        Min common
+        <select name="Min common" id="mincom">
+
+        </select>
+        Max common
+        <select name="Max common" id="maxcom">
+
+        </select>
+        <br />
+        Common cutoff
+        <select name="Common cutoff" id="compct">
+
+        </select><span class="small"
+            title="The lowest encounter rate that can be considered common. Low values can make the generation impossible and force allow duplicates or reject your settings.">?</span>
+        <br />
+        Allow Duplicates?
+        <select name="Allow Duplicates?" id="dupes">
+            <option value="Yes">Yes</option>
+            <option value="No" selected="selected">No</option>
+        </select>
+        <br />
+        Allow Starters?<span class="small"
+            title="Adds the 3 starters to the Legendary pool of pokemon, does not allow them to be seeded as actual starters.">?</span>
+        <select name="Allow Starters?" id="starters">
+            <option value="Yes">Yes</option>
+            <option value="No" selected="selected">No</option>
+        </select>
+    </div>
+
+    <button onclick="runGenerator()">Generate Seed</button>
+    <button onclick="output.clear()">clear</button>
+    <div id="output" class="output"></div>
 </body>
 
 </html>

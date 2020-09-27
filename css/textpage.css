@@ -1,4 +1,4 @@
-.infopage {
+/*.infopage {
     width: 50%;
     margin: 0 auto;
     background: white;
@@ -7,7 +7,18 @@
     display: flex;
     flex-direction: column;
     padding: 25px 8px;
-    position:relative;
+    position: relative;
+}*/
+
+.infopage {
+    width: 50%;
+    margin: 0 auto;
+    background: white;
+    height: calc(100% - var(--header-height) - 2px);
+    box-shadow: 6px 0 4px -4px black, -6px 0 4px -4px black;
+    display: flex;
+    flex-direction: column;
+    padding: 25px 8px;
 }
 
 .scrolldisplay {
@@ -124,7 +135,7 @@
         position: absolute;
         height: 20px;
         width: 100%;
-        top: 32px;
+        top: calc(var(--header-height) + 32px);
         left: 0;
         justify-content: center;
         z-index: 2;
@@ -135,12 +146,14 @@
         width:10px;
         border: 1px solid black;
         background: black;
+        margin: 0 1px;
         border-radius:5px;
     }
 
     .unselectedpage {
         height:10px;
         width:10px;
+        margin: 0 1px;
         border: 1px solid black;
         border-radius:5px;
     }
