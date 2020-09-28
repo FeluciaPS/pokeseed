@@ -28,7 +28,7 @@ html, body {
     min-height: 300px;
     max-height: 550px;
     overflow-y: auto;
-    font-family: Courier New', Courier, Consolas, monospace;
+    font-family: 'Courier New', Courier, Consolas, monospace;
     white-space: pre;
     overflow-x: visible;
 }
