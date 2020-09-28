@@ -13,6 +13,11 @@ html, body {
     src: url('/pokeseed/fonts/Pokemon_Solid.ttf')  format('truetype');
 }
 
+@font-face {
+    font-family: 'pkmnem';
+    src: url('/pokeseed/fonts/pkmnem.ttf')  format('truetype');
+}
+
 .output {
     border: 1px solid #EEE;
     color: #EEE;
@@ -23,7 +28,7 @@ html, body {
     min-height: 300px;
     max-height: 550px;
     overflow-y: auto;
-    font-family: 'Courier New', Courier, Consolas, monospace;
+    font-family: 'pkmnem', 'Courier New', Courier, Consolas, monospace;
     white-space: pre;
     overflow-x: visible;
 }
