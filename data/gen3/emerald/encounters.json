@@ -1,1603 +1,462 @@
 {
-    "caveoforigin": {
-      "Land": {
-        "ZUBAT": 90,
-        "GOLBAT": 10
-      }
-    },
-    "caveoforigin1": {
-      "Land": {
-        "ZUBAT": 60,
-        "SABLEYE": 30,
-        "GOLBAT": 10
-      }
-    },
-    "caveoforigin2": {
-      "Land": {
-        "ZUBAT": 60,
-        "SABLEYE": 30,
-        "GOLBAT": 10
-      }
-    },
-    "caveoforigin3": {
-      "Land": {
-        "ZUBAT": 60,
-        "SABLEYE": 30,
-        "GOLBAT": 10
-      }
-    },
-    "caveoforigin4": {
-      "Land": {
-        "ZUBAT": 60,
-        "SABLEYE": 30,
-        "GOLBAT": 10
-      }
-    },
-    "fierypath": {
-      "Land": {
-        "NUMEL": 30,
-        "KOFFING": 25,
-        "MACHOP": 15,
-        "TORKOAL": 18,
-        "SLUGMA": 10,
-        "GRIMER": 2
-      }
-    },
-    "granitecave": {
-      "Land": {
-        "ZUBAT": 30,
-        "MAKUHITA": 50,
-        "ABRA": 10,
-        "GEODUDE": 10
-      },
-      "Rock": {
-        "GEODUDE": 70,
-        "NOSEPASS": 30
-      }
-    },
-    "granitecave1": {
-      "Land": {
-        "ZUBAT": 30,
-        "ARON": 40,
-        "ABRA": 10,
-        "MAKUHITA": 10,
-        "SABLEYE": 10
-      }
-    },
-    "granitecave2": {
-      "Land": {
-        "ZUBAT": 30,
-        "ARON": 40,
-        "ABRA": 10,
-        "SABLEYE": 20
-      }
-    },
-    "granitecave3": {
-      "Land": {
-        "ZUBAT": 30,
-        "MAKUHITA": 50,
-        "ABRA": 10,
-        "ARON": 10
-      }
-    },
-    "jaggedpass": {
-      "Land": {
-        "NUMEL": 55,
-        "MACHOP": 25,
-        "SPOINK": 20
-      }
-    },
-    "magmahideout": {
-      "Land": {
-        "GEODUDE": 55,
-        "TORKOAL": 30,
-        "GRAVELER": 15
-      }
-    },
-    "magmahideout1": {
-      "Land": {
-        "GEODUDE": 55,
-        "TORKOAL": 30,
-        "GRAVELER": 15
-      }
-    },
-    "magmahideout2": {
-      "Land": {
-        "GEODUDE": 55,
-        "TORKOAL": 30,
-        "GRAVELER": 15
-      }
-    },
-    "magmahideout3": {
-      "Land": {
-        "GEODUDE": 55,
-        "TORKOAL": 30,
-        "GRAVELER": 15
-      }
-    },
-    "magmahideout4": {
-      "Land": {
-        "GEODUDE": 55,
-        "TORKOAL": 30,
-        "GRAVELER": 15
-      }
-    },
-    "magmahideout5": {
-      "Land": {
-        "GEODUDE": 55,
-        "TORKOAL": 30,
-        "GRAVELER": 15
-      }
-    },
-    "magmahideout6": {
-      "Land": {
-        "GEODUDE": 55,
-        "TORKOAL": 30,
-        "GRAVELER": 15
-      }
-    },
-    "magmahideout7": {
-      "Land": {
-        "GEODUDE": 55,
-        "TORKOAL": 30,
-        "GRAVELER": 15
-      }
-    },
-    "meteorfalls": {
-      "Land": {
-        "GOLBAT": 50,
-        "BAGON": 25,
-        "SOLROCK": 25
-      },
-      "Water": {
-        "GOLBAT": 90,
-        "SOLROCK": 10
-      },
-      "Old": {
-        "MAGIKARP": 70,
-        "GOLDEEN": 30
-      },
-      "Good": {
-        "MAGIKARP": 60,
-        "GOLDEEN": 20,
-        "BARBOACH": 20
-      },
-      "Super": {
-        "BARBOACH": 80,
-        "WHISCASH": 20
-      }
-    },
-    "meteorfalls1": {
-      "Land": {
-        "ZUBAT": 80,
-        "SOLROCK": 20
-      },
-      "Water": {
-        "ZUBAT": 90,
-        "SOLROCK": 10
-      },
-      "Old": {
-        "MAGIKARP": 70,
-        "GOLDEEN": 30
-      },
-      "Good": {
-        "MAGIKARP": 60,
-        "GOLDEEN": 20,
-        "BARBOACH": 20
-      },
-      "Super": {
-        "BARBOACH": 100
-      }
-    },
-    "meteorfalls2": {
-      "Land": {
-        "GOLBAT": 65,
-        "SOLROCK": 35
-      },
-      "Water": {
-        "GOLBAT": 90,
-        "SOLROCK": 10
-      },
-      "Old": {
-        "MAGIKARP": 70,
-        "GOLDEEN": 30
-      },
-      "Good": {
-        "MAGIKARP": 60,
-        "GOLDEEN": 20,
-        "BARBOACH": 20
-      },
-      "Super": {
-        "BARBOACH": 80,
-        "WHISCASH": 20
-      }
-    },
-    "meteorfalls3": {
-      "Land": {
-        "GOLBAT": 65,
-        "SOLROCK": 35
-      },
-      "Water": {
-        "GOLBAT": 90,
-        "SOLROCK": 10
-      },
-      "Old": {
-        "MAGIKARP": 70,
-        "GOLDEEN": 30
-      },
-      "Good": {
-        "MAGIKARP": 60,
-        "GOLDEEN": 20,
-        "BARBOACH": 20
-      },
-      "Super": {
-        "BARBOACH": 80,
-        "WHISCASH": 20
-      }
-    },
-    "meteorfalls4": {
-      "Land": {
-        "GOLBAT": 65,
-        "SOLROCK": 35
-      }
-    },
-    "miragetower": {
-      "Land": {
-        "SANDSHREW": 50,
-        "TRAPINCH": 50
-      }
-    },
-    "miragetower1": {
-      "Land": {
-        "SANDSHREW": 50,
-        "TRAPINCH": 50
-      }
-    },
-    "miragetower2": {
-      "Land": {
-        "SANDSHREW": 50,
-        "TRAPINCH": 50
-      }
-    },
-    "miragetower3": {
-      "Land": {
-        "SANDSHREW": 50,
-        "TRAPINCH": 50
-      }
-    },
-    "mtpyre": {
-      "Land": {
-        "SHUPPET": 100
-      }
-    },
-    "mtpyre1": {
-      "Land": {
-        "SHUPPET": 100
-      }
-    },
-    "mtpyre2": {
-      "Land": {
-        "SHUPPET": 100
-      }
-    },
-    "mtpyre3": {
-      "Land": {
-        "SHUPPET": 90,
-        "DUSKULL": 10
-      }
-    },
-    "mtpyre4": {
-      "Land": {
-        "SHUPPET": 90,
-        "DUSKULL": 10
-      }
-    },
-    "mtpyre5": {
-      "Land": {
-        "SHUPPET": 90,
-        "DUSKULL": 10
-      }
-    },
-    "mtpyre6": {
-      "Land": {
-        "SHUPPET": 60,
-        "VULPIX": 30,
-        "WINGULL": 10
-      }
-    },
-    "mtpyre7": {
-      "Land": {
-        "SHUPPET": 85,
-        "DUSKULL": 13,
-        "CHIMECHO": 2
-      }
-    },
-    "newmauville": {
-      "Land": {
-        "VOLTORB": 49,
-        "MAGNEMITE": 49,
-        "ELECTRODE": 1,
-        "MAGNETON": 1
-      }
-    },
-    "newmauville1": {
-      "Land": {
-        "VOLTORB": 50,
-        "MAGNEMITE": 50
-      }
-    },
-    "petalburgwoods": {
-      "Land": {
-        "POOCHYENA": 30,
-        "WURMPLE": 25,
-        "SHROOMISH": 15,
-        "SILCOON": 10,
-        "CASCOON": 10,
-        "TAILLOW": 5,
-        "SLAKOTH": 5
-      }
-    },
-    "route101": {
-      "Land": {
-        "WURMPLE": 45,
-        "POOCHYENA": 45,
-        "ZIGZAGOON": 10
-      }
-    },
-    "route102": {
-      "Land": {
-        "POOCHYENA": 30,
-        "WURMPLE": 30,
-        "LOTAD": 20,
-        "ZIGZAGOON": 15,
-        "RALTS": 4,
-        "SEEDOT": 1
-      },
-      "Water": {
-        "MARILL": 99,
-        "GOLDEEN": 1
-      },
-      "Old": {
-        "MAGIKARP": 70,
-        "GOLDEEN": 30
-      },
-      "Good": {
-        "MAGIKARP": 60,
-        "GOLDEEN": 20,
-        "CORPHISH": 20
-      },
-      "Super": {
-        "CORPHISH": 100
-      }
-    },
-    "route103": {
-      "Land": {
-        "POOCHYENA": 60,
-        "WINGULL": 20,
-        "ZIGZAGOON": 20
-      },
-      "Water": {
-        "TENTACOOL": 60,
-        "WINGULL": 35,
-        "PELIPPER": 5
-      },
-      "Old": {
-        "MAGIKARP": 70,
-        "TENTACOOL": 30
-      },
-      "Good": {
-        "MAGIKARP": 60,
-        "TENTACOOL": 20,
-        "WAILMER": 20
-      },
-      "Super": {
-        "SHARPEDO": 40,
-        "WAILMER": 60
-      }
-    },
-    "route104": {
-      "Land": {
-        "POOCHYENA": 40,
-        "WURMPLE": 20,
-        "MARILL": 20,
-        "TAILLOW": 10,
-        "WINGULL": 10
-      },
-      "Water": {
-        "WINGULL": 95,
-        "PELIPPER": 5
-      },
-      "Old": {
-        "MAGIKARP": 100
-      },
-      "Good": {
-        "MAGIKARP": 100
-      },
-      "Super": {
-        "MAGIKARP": 100
-      }
-    },
-    "route110": {
-      "Land": {
-        "POOCHYENA": 20,
-        "ELECTRIKE": 30,
-        "GULPIN": 15,
-        "MINUN": 15,
-        "ODDISH": 10,
-        "WINGULL": 8,
-        "PLUSLE": 2
-      },
-      "Water": {
-        "TENTACOOL": 60,
-        "WINGULL": 35,
-        "PELIPPER": 5
-      },
-      "Old": {
-        "MAGIKARP": 70,
-        "TENTACOOL": 30
-      },
-      "Good": {
-        "MAGIKARP": 60,
-        "TENTACOOL": 20,
-        "WAILMER": 20
-      },
-      "Super": {
-        "WAILMER": 100
-      }
-    },
-    "route111": {
-      "Land": {
-        "SANDSHREW": 35,
-        "TRAPINCH": 35,
-        "BALTOY": 24,
-        "CACNEA": 6
-      },
-      "Water": {
-        "MARILL": 99,
-        "GOLDEEN": 1
-      },
-      "Old": {
-        "MAGIKARP": 70,
-        "GOLDEEN": 30
-      },
-      "Good": {
-        "MAGIKARP": 60,
-        "GOLDEEN": 20,
-        "BARBOACH": 20
-      },
-      "Super": {
-        "BARBOACH": 100
-      },
-      "Rock": {
-        "GEODUDE": 100
-      }
-    },
-    "route112": {
-      "Land": {
-        "NUMEL": 75,
-        "MARILL": 25
-      }
-    },
-    "route113": {
-      "Land": {
-        "SPINDA": 70,
-        "SLUGMA": 25,
-        "SKARMORY": 5
-      }
-    },
-    "route114": {
-      "Land": {
-        "SWABLU": 40,
-        "LOTAD": 30,
-        "LOMBRE": 20,
-        "SEVIPER": 9,
-        "NUZLEAF": 1
-      },
-      "Water": {
-        "MARILL": 99,
-        "GOLDEEN": 1
-      },
-      "Old": {
-        "MAGIKARP": 70,
-        "GOLDEEN": 30
-      },
-      "Good": {
-        "MAGIKARP": 60,
-        "GOLDEEN": 20,
-        "BARBOACH": 20
-      },
-      "Super": {
-        "BARBOACH": 100
-      },
-      "Rock": {
-        "GEODUDE": 100
-      }
-    },
-    "route115": {
-      "Land": {
-        "SWABLU": 30,
-        "TAILLOW": 40,
-        "SWELLOW": 10,
-        "JIGGLYPUFF": 10,
-        "WINGULL": 10
-      },
-      "Water": {
-        "TENTACOOL": 60,
-        "WINGULL": 35,
-        "PELIPPER": 5
-      },
-      "Old": {
-        "MAGIKARP": 70,
-        "TENTACOOL": 30
-      },
-      "Good": {
-        "MAGIKARP": 60,
-        "TENTACOOL": 20,
-        "WAILMER": 20
-      },
-      "Super": {
-        "WAILMER": 100
-      }
-    },
-    "route116": {
-      "Land": {
-        "POOCHYENA": 28,
-        "WHISMUR": 20,
-        "NINCADA": 20,
-        "ABRA": 10,
-        "TAILLOW": 20,
-        "SKITTY": 2
-      }
-    },
-    "route117": {
-      "Land": {
-        "POOCHYENA": 30,
-        "ODDISH": 40,
-        "MARILL": 10,
-        "ILLUMISE": 18,
-        "VOLBEAT": 1,
-        "SEEDOT": 1
-      },
-      "Water": {
-        "MARILL": 99,
-        "GOLDEEN": 1
-      },
-      "Old": {
-        "MAGIKARP": 70,
-        "GOLDEEN": 30
-      },
-      "Good": {
-        "MAGIKARP": 60,
-        "GOLDEEN": 20,
-        "CORPHISH": 20
-      },
-      "Super": {
-        "CORPHISH": 100
-      }
-    },
-    "route118": {
-      "Land": {
-        "ZIGZAGOON": 30,
-        "ELECTRIKE": 30,
-        "LINOONE": 10,
-        "MANECTRIC": 10,
-        "WINGULL": 19,
-        "KECLEON": 1
-      },
-      "Water": {
-        "TENTACOOL": 60,
-        "WINGULL": 35,
-        "PELIPPER": 5
-      },
-      "Old": {
-        "MAGIKARP": 70,
-        "TENTACOOL": 30
-      },
-      "Good": {
-        "MAGIKARP": 60,
-        "TENTACOOL": 20,
-        "CARVANHA": 20
-      },
-      "Super": {
-        "SHARPEDO": 40,
-        "CARVANHA": 60
-      }
-    },
-    "route119": {
-      "Land": {
-        "ZIGZAGOON": 30,
-        "LINOONE": 30,
-        "ODDISH": 30,
-        "TROPIUS": 9,
-        "KECLEON": 1
-      },
-      "Water": {
-        "TENTACOOL": 60,
-        "WINGULL": 35,
-        "PELIPPER": 5
-      },
-      "Old": {
-        "MAGIKARP": 70,
-        "TENTACOOL": 30
-      },
-      "Good": {
-        "MAGIKARP": 60,
-        "TENTACOOL": 20,
-        "CARVANHA": 20
-      },
-      "Super": {
-        "CARVANHA": 100
-      }
-    },
-    "route120": {
-      "Land": {
-        "POOCHYENA": 20,
-        "MIGHTYENA": 30,
-        "ODDISH": 25,
-        "MARILL": 15,
-        "ABSOL": 8,
-        "KECLEON": 1,
-        "SEEDOT": 1
-      },
-      "Water": {
-        "MARILL": 99,
-        "GOLDEEN": 1
-      },
-      "Old": {
-        "MAGIKARP": 70,
-        "GOLDEEN": 30
-      },
-      "Good": {
-        "MAGIKARP": 60,
-        "GOLDEEN": 20,
-        "BARBOACH": 20
-      },
-      "Super": {
-        "BARBOACH": 100
-      }
-    },
-    "route121": {
-      "Land": {
-        "POOCHYENA": 20,
-        "SHUPPET": 30,
-        "MIGHTYENA": 20,
-        "ODDISH": 15,
-        "GLOOM": 5,
-        "WINGULL": 9,
-        "KECLEON": 1
-      },
-      "Water": {
-        "TENTACOOL": 60,
-        "WINGULL": 35,
-        "PELIPPER": 5
-      },
-      "Old": {
-        "MAGIKARP": 70,
-        "TENTACOOL": 30
-      },
-      "Good": {
-        "MAGIKARP": 60,
-        "TENTACOOL": 20,
-        "WAILMER": 20
-      },
-      "Super": {
-        "WAILMER": 100
-      }
-    },
-    "route123": {
-      "Land": {
-        "POOCHYENA": 20,
-        "SHUPPET": 30,
-        "MIGHTYENA": 20,
-        "ODDISH": 15,
-        "GLOOM": 5,
-        "WINGULL": 9,
-        "KECLEON": 1
-      },
-      "Water": {
-        "TENTACOOL": 60,
-        "WINGULL": 35,
-        "PELIPPER": 5
-      },
-      "Old": {
-        "MAGIKARP": 70,
-        "TENTACOOL": 30
-      },
-      "Good": {
-        "MAGIKARP": 60,
-        "TENTACOOL": 20,
-        "WAILMER": 20
-      },
-      "Super": {
-        "WAILMER": 100
-      }
-    },
-    "route130": {
-      "Land": {
-        "WYNAUT": 100
-      },
-      "Water": {
-        "TENTACOOL": 60,
-        "WINGULL": 35,
-        "PELIPPER": 5
-      },
-      "Old": {
-        "MAGIKARP": 70,
-        "TENTACOOL": 30
-      },
-      "Good": {
-        "MAGIKARP": 60,
-        "TENTACOOL": 20,
-        "WAILMER": 20
-      },
-      "Super": {
-        "SHARPEDO": 40,
-        "WAILMER": 60
-      }
-    },
-    "rusturftunnel": {
-      "Land": {
-        "WHISMUR": 100
-      }
-    },
-    "safarizone": {
-      "Land": {
-        "ODDISH": 40,
-        "GIRAFARIG": 20,
-        "NATU": 10,
-        "DODUO": 10,
-        "GLOOM": 5,
-        "WOBBUFFET": 10,
-        "PIKACHU": 5
-      },
-      "Water": {
-        "PSYDUCK": 100
-      },
-      "Old": {
-        "MAGIKARP": 70,
-        "GOLDEEN": 30
-      },
-      "Good": {
-        "MAGIKARP": 60,
-        "GOLDEEN": 40
-      },
-      "Super": {
-        "GOLDEEN": 80,
-        "SEAKING": 20
-      },
-      "Rock": {
-        "GEODUDE": 100
-      }
-    },
-    "safarizone1": {
-      "Land": {
-        "ODDISH": 40,
-        "GIRAFARIG": 20,
-        "NATU": 10,
-        "DODUO": 10,
-        "GLOOM": 5,
-        "WOBBUFFET": 10,
-        "PIKACHU": 5
-      },
-      "Water": {
-        "PSYDUCK": 95,
-        "GOLDUCK": 5
-      },
-      "Old": {
-        "MAGIKARP": 70,
-        "GOLDEEN": 30
-      },
-      "Good": {
-        "MAGIKARP": 60,
-        "GOLDEEN": 40
-      },
-      "Super": {
-        "GOLDEEN": 80,
-        "SEAKING": 20
-      }
-    },
-    "safarizone2": {
-      "Land": {
-        "PHANPY": 30,
-        "ODDISH": 30,
-        "NATU": 15,
-        "GLOOM": 15,
-        "XATU": 5,
-        "HERACROSS": 5
-      },
-      "Old": {
-        "MAGIKARP": 70,
-        "GOLDEEN": 30
-      },
-      "Good": {
-        "MAGIKARP": 60,
-        "GOLDEEN": 20,
-        "REMORAID": 20
-      }
-    },
-    "safarizone3": {
-      "Land": {
-        "RHYHORN": 30,
-        "ODDISH": 30,
-        "DODUO": 15,
-        "GLOOM": 15,
-        "DODRIO": 5,
-        "PINSIR": 5
-      }
-    },
-    "seafloorcavern": {
-      "Land": {
-        "ZUBAT": 90,
-        "GOLBAT": 10
-      },
-      "Water": {
-        "TENTACOOL": 60,
-        "ZUBAT": 35,
-        "GOLBAT": 5
-      },
-      "Old": {
-        "MAGIKARP": 70,
-        "TENTACOOL": 30
-      },
-      "Good": {
-        "MAGIKARP": 60,
-        "TENTACOOL": 20,
-        "WAILMER": 20
-      },
-      "Super": {
-        "WAILMER": 100
-      }
-    },
-    "seafloorcavern1": {
-      "Land": {
-        "ZUBAT": 90,
-        "GOLBAT": 10
-      },
-      "Water": {
-        "TENTACOOL": 60,
-        "ZUBAT": 35,
-        "GOLBAT": 5
-      },
-      "Old": {
-        "MAGIKARP": 70,
-        "TENTACOOL": 30
-      },
-      "Good": {
-        "MAGIKARP": 60,
-        "TENTACOOL": 20,
-        "WAILMER": 20
-      },
-      "Super": {
-        "WAILMER": 100
-      }
-    },
-    "seafloorcavern2": {
-      "Land": {
-        "ZUBAT": 90,
-        "GOLBAT": 10
-      },
-      "Water": {
-        "TENTACOOL": 60,
-        "ZUBAT": 35,
-        "GOLBAT": 5
-      },
-      "Old": {
-        "MAGIKARP": 70,
-        "TENTACOOL": 30
-      },
-      "Good": {
-        "MAGIKARP": 60,
-        "TENTACOOL": 20,
-        "WAILMER": 20
-      },
-      "Super": {
-        "WAILMER": 100
-      }
-    },
-    "seafloorcavern3": {
-      "Land": {
-        "ZUBAT": 90,
-        "GOLBAT": 10
-      }
-    },
-    "seafloorcavern4": {
-      "Land": {
-        "ZUBAT": 90,
-        "GOLBAT": 10
-      }
-    },
-    "seafloorcavern5": {
-      "Land": {
-        "ZUBAT": 90,
-        "GOLBAT": 10
-      }
-    },
-    "seafloorcavern6": {
-      "Land": {
-        "ZUBAT": 90,
-        "GOLBAT": 10
-      }
-    },
-    "seafloorcavern7": {
-      "Land": {
-        "ZUBAT": 90,
-        "GOLBAT": 10
-      }
-    },
-    "shoalcave": {
-      "Land": {
-        "ZUBAT": 45,
-        "SPHEAL": 50,
-        "GOLBAT": 5
-      },
-      "Water": {
-        "TENTACOOL": 60,
-        "ZUBAT": 30,
-        "SPHEAL": 10
-      },
-      "Old": {
-        "MAGIKARP": 70,
-        "TENTACOOL": 30
-      },
-      "Good": {
-        "MAGIKARP": 60,
-        "TENTACOOL": 20,
-        "WAILMER": 20
-      },
-      "Super": {
-        "WAILMER": 100
-      }
-    },
-    "shoalcave1": {
-      "Land": {
-        "ZUBAT": 45,
-        "SPHEAL": 50,
-        "GOLBAT": 5
-      },
-      "Water": {
-        "TENTACOOL": 60,
-        "ZUBAT": 30,
-        "SPHEAL": 10
-      },
-      "Old": {
-        "MAGIKARP": 70,
-        "TENTACOOL": 30
-      },
-      "Good": {
-        "MAGIKARP": 60,
-        "TENTACOOL": 20,
-        "WAILMER": 20
-      },
-      "Super": {
-        "WAILMER": 100
-      }
-    },
-    "shoalcave2": {
-      "Land": {
-        "ZUBAT": 45,
-        "SPHEAL": 50,
-        "GOLBAT": 5
-      }
-    },
-    "shoalcave3": {
-      "Land": {
-        "ZUBAT": 45,
-        "SPHEAL": 50,
-        "GOLBAT": 5
-      }
-    },
-    "shoalcave4": {
-      "Land": {
-        "ZUBAT": 40,
-        "SPHEAL": 45,
-        "SNORUNT": 10,
-        "GOLBAT": 5
-      }
-    },
-    "skypillar": {
-      "Land": {
-        "SABLEYE": 30,
-        "GOLBAT": 30,
-        "CLAYDOL": 25,
-        "BANETTE": 15
-      }
-    },
-    "skypillar1": {
-      "Land": {
-        "SABLEYE": 30,
-        "GOLBAT": 30,
-        "CLAYDOL": 25,
-        "BANETTE": 15
-      }
-    },
-    "skypillar2": {
-      "Land": {
-        "SABLEYE": 30,
-        "GOLBAT": 30,
-        "CLAYDOL": 19,
-        "BANETTE": 15,
-        "ALTARIA": 6
-      }
-    },
-    "victoryroad": {
-      "Land": {
-        "GOLBAT": 25,
-        "HARIYAMA": 25,
-        "LAIRON": 10,
-        "LOUDRED": 10,
-        "ZUBAT": 10,
-        "MAKUHITA": 10,
-        "ARON": 5,
-        "WHISMUR": 5
-      },
-      "Water": {
-        "GOLBAT": 100
-      },
-      "Old": {
-        "MAGIKARP": 70,
-        "GOLDEEN": 30
-      },
-      "Good": {
-        "MAGIKARP": 60,
-        "GOLDEEN": 20,
-        "BARBOACH": 20
-      },
-      "Super": {
-        "BARBOACH": 80,
-        "WHISCASH": 20
-      },
-      "Rock": {
-        "GRAVELER": 70,
-        "GEODUDE": 30
-      }
-    },
-    "victoryroad1": {
-      "Land": {
-        "GOLBAT": 35,
-        "HARIYAMA": 35,
-        "LAIRON": 25,
-        "MAWILE": 5
-      }
-    },
-    "victoryroad2": {
-      "Land": {
-        "GOLBAT": 35,
-        "SABLEYE": 35,
-        "LAIRON": 25,
-        "MAWILE": 5
-      }
-    },
-    "yaboyfeebas": {
-      "Land": {
-        "TREECKO": 20,
-        "TORCHIC": 20,
-        "MUDKIP": 20,
-        "ANORITH": 10,
-        "LILEEP": 10,
-        "CASTFORM": 10,
-        "FEEBAS": 10
-      }
-    },
-    "abandonedship": {
-      "Water": {
-        "TENTACOOL": 99,
-        "TENTACRUEL": 1
-      },
-      "Old": {
-        "MAGIKARP": 70,
-        "TENTACOOL": 30
-      },
-      "Good": {
-        "MAGIKARP": 60,
-        "TENTACOOL": 40
-      },
-      "Super": {
-        "TENTACOOL": 80,
-        "TENTACRUEL": 20
-      }
-    },
-    "abandonedship1": {
-      "Water": {
-        "TENTACOOL": 99,
-        "TENTACRUEL": 1
-      },
-      "Old": {
-        "MAGIKARP": 70,
-        "TENTACOOL": 30
-      },
-      "Good": {
-        "MAGIKARP": 60,
-        "TENTACOOL": 40
-      },
-      "Super": {
-        "TENTACOOL": 80,
-        "TENTACRUEL": 20
-      }
-    },
-    "mossdeepcity": {
-      "Water": {
-        "TENTACOOL": 60,
-        "WINGULL": 35,
-        "PELIPPER": 5
-      },
-      "Old": {
-        "MAGIKARP": 70,
-        "TENTACOOL": 30
-      },
-      "Good": {
-        "MAGIKARP": 60,
-        "TENTACOOL": 20,
-        "WAILMER": 20
-      },
-      "Super": {
-        "SHARPEDO": 40,
-        "WAILMER": 60
-      }
-    },
-    "slateportcity": {
-      "Water": {
-        "TENTACOOL": 60,
-        "WINGULL": 35,
-        "PELIPPER": 5
-      },
-      "Old": {
-        "MAGIKARP": 70,
-        "TENTACOOL": 30
-      },
-      "Good": {
-        "MAGIKARP": 60,
-        "TENTACOOL": 20,
-        "WAILMER": 20
-      },
-      "Super": {
-        "WAILMER": 100
-      }
-    },
-    "petalburgcity": {
-      "Water": {
-        "MARILL": 100
-      },
-      "Old": {
-        "MAGIKARP": 70,
-        "GOLDEEN": 30
-      },
-      "Good": {
-        "MAGIKARP": 60,
-        "GOLDEEN": 20,
-        "CORPHISH": 20
-      },
-      "Super": {
-        "CORPHISH": 100
-      }
-    },
-    "dewfordtown": {
-      "Water": {
-        "TENTACOOL": 60,
-        "WINGULL": 35,
-        "PELIPPER": 5
-      },
-      "Old": {
-        "MAGIKARP": 70,
-        "TENTACOOL": 30
-      },
-      "Good": {
-        "MAGIKARP": 60,
-        "TENTACOOL": 20,
-        "WAILMER": 20
-      },
-      "Super": {
-        "WAILMER": 100
-      }
-    },
-    "pacifidlogtown": {
-      "Water": {
-        "TENTACOOL": 60,
-        "WINGULL": 35,
-        "PELIPPER": 5
-      },
-      "Old": {
-        "MAGIKARP": 70,
-        "TENTACOOL": 30
-      },
-      "Good": {
-        "MAGIKARP": 60,
-        "TENTACOOL": 20,
-        "WAILMER": 20
-      },
-      "Super": {
-        "SHARPEDO": 40,
-        "WAILMER": 60
-      }
-    },
-    "sootopoliscity": {
-      "Water": {
-        "MAGIKARP": 100
-      },
-      "Old": {
-        "MAGIKARP": 70,
-        "TENTACOOL": 30
-      },
-      "Good": {
-        "MAGIKARP": 100
-      },
-      "Super": {
-        "MAGIKARP": 80,
-        "GYARADOS": 20
-      }
-    },
-    "route105": {
-      "Water": {
-        "TENTACOOL": 60,
-        "WINGULL": 35,
-        "PELIPPER": 5
-      },
-      "Old": {
-        "MAGIKARP": 70,
-        "TENTACOOL": 30
-      },
-      "Good": {
-        "MAGIKARP": 60,
-        "TENTACOOL": 20,
-        "WAILMER": 20
-      },
-      "Super": {
-        "WAILMER": 100
-      }
-    },
-    "route106": {
-      "Water": {
-        "TENTACOOL": 60,
-        "WINGULL": 35,
-        "PELIPPER": 5
-      },
-      "Old": {
-        "MAGIKARP": 70,
-        "TENTACOOL": 30
-      },
-      "Good": {
-        "MAGIKARP": 60,
-        "TENTACOOL": 20,
-        "WAILMER": 20
-      },
-      "Super": {
-        "WAILMER": 100
-      }
-    },
-    "route107": {
-      "Water": {
-        "TENTACOOL": 60,
-        "WINGULL": 35,
-        "PELIPPER": 5
-      },
-      "Old": {
-        "MAGIKARP": 70,
-        "TENTACOOL": 30
-      },
-      "Good": {
-        "MAGIKARP": 60,
-        "TENTACOOL": 20,
-        "WAILMER": 20
-      },
-      "Super": {
-        "WAILMER": 100
-      }
-    },
-    "route108": {
-      "Water": {
-        "TENTACOOL": 60,
-        "WINGULL": 35,
-        "PELIPPER": 5
-      },
-      "Old": {
-        "MAGIKARP": 70,
-        "TENTACOOL": 30
-      },
-      "Good": {
-        "MAGIKARP": 60,
-        "TENTACOOL": 20,
-        "WAILMER": 20
-      },
-      "Super": {
-        "WAILMER": 100
-      }
-    },
-    "route109": {
-      "Water": {
-        "TENTACOOL": 60,
-        "WINGULL": 35,
-        "PELIPPER": 5
-      },
-      "Old": {
-        "MAGIKARP": 70,
-        "TENTACOOL": 30
-      },
-      "Good": {
-        "MAGIKARP": 60,
-        "TENTACOOL": 20,
-        "WAILMER": 20
-      },
-      "Super": {
-        "WAILMER": 100
-      }
-    },
-    "route122": {
-      "Water": {
-        "TENTACOOL": 60,
-        "WINGULL": 35,
-        "PELIPPER": 5
-      },
-      "Old": {
-        "MAGIKARP": 70,
-        "TENTACOOL": 30
-      },
-      "Good": {
-        "MAGIKARP": 60,
-        "TENTACOOL": 20,
-        "WAILMER": 20
-      },
-      "Super": {
-        "SHARPEDO": 40,
-        "WAILMER": 60
-      }
-    },
-    "route124": {
-      "Water": {
-        "TENTACOOL": 60,
-        "WINGULL": 35,
-        "PELIPPER": 5
-      },
-      "Old": {
-        "MAGIKARP": 70,
-        "TENTACOOL": 30
-      },
-      "Good": {
-        "MAGIKARP": 60,
-        "TENTACOOL": 20,
-        "WAILMER": 20
-      },
-      "Super": {
-        "SHARPEDO": 40,
-        "WAILMER": 60
-      }
-    },
-    "route125": {
-      "Water": {
-        "TENTACOOL": 60,
-        "WINGULL": 35,
-        "PELIPPER": 5
-      },
-      "Old": {
-        "MAGIKARP": 70,
-        "TENTACOOL": 30
-      },
-      "Good": {
-        "MAGIKARP": 60,
-        "TENTACOOL": 20,
-        "WAILMER": 20
-      },
-      "Super": {
-        "SHARPEDO": 40,
-        "WAILMER": 60
-      }
-    },
-    "route126": {
-      "Water": {
-        "TENTACOOL": 60,
-        "WINGULL": 35,
-        "PELIPPER": 5
-      },
-      "Old": {
-        "MAGIKARP": 70,
-        "TENTACOOL": 30
-      },
-      "Good": {
-        "MAGIKARP": 60,
-        "TENTACOOL": 20,
-        "WAILMER": 20
-      },
-      "Super": {
-        "SHARPEDO": 40,
-        "WAILMER": 60
-      }
-    },
-    "route127": {
-      "Water": {
-        "TENTACOOL": 60,
-        "WINGULL": 35,
-        "PELIPPER": 5
-      },
-      "Old": {
-        "MAGIKARP": 70,
-        "TENTACOOL": 30
-      },
-      "Good": {
-        "MAGIKARP": 60,
-        "TENTACOOL": 20,
-        "WAILMER": 20
-      },
-      "Super": {
-        "SHARPEDO": 40,
-        "WAILMER": 60
-      }
-    },
-    "route128": {
-      "Water": {
-        "TENTACOOL": 60,
-        "WINGULL": 35,
-        "PELIPPER": 5
-      },
-      "Old": {
-        "MAGIKARP": 70,
-        "TENTACOOL": 30
-      },
-      "Good": {
-        "MAGIKARP": 60,
-        "LUVDISC": 20,
-        "WAILMER": 20
-      },
-      "Super": {
-        "LUVDISC": 40,
-        "WAILMER": 45,
-        "CORSOLA": 15
-      }
-    },
-    "route129": {
-      "Water": {
-        "TENTACOOL": 60,
-        "WINGULL": 35,
-        "PELIPPER": 4,
-        "WAILORD": 1
-      },
-      "Old": {
-        "MAGIKARP": 70,
-        "TENTACOOL": 30
-      },
-      "Good": {
-        "MAGIKARP": 60,
-        "TENTACOOL": 20,
-        "WAILMER": 20
-      },
-      "Super": {
-        "SHARPEDO": 40,
-        "WAILMER": 60
-      }
-    },
-    "route131": {
-      "Water": {
-        "TENTACOOL": 60,
-        "WINGULL": 35,
-        "PELIPPER": 5
-      },
-      "Old": {
-        "MAGIKARP": 70,
-        "TENTACOOL": 30
-      },
-      "Good": {
-        "MAGIKARP": 60,
-        "TENTACOOL": 20,
-        "WAILMER": 20
-      },
-      "Super": {
-        "SHARPEDO": 40,
-        "WAILMER": 60
-      }
-    },
-    "route132": {
-      "Water": {
-        "TENTACOOL": 60,
-        "WINGULL": 35,
-        "PELIPPER": 5
-      },
-      "Old": {
-        "MAGIKARP": 70,
-        "TENTACOOL": 30
-      },
-      "Good": {
-        "MAGIKARP": 60,
-        "TENTACOOL": 20,
-        "WAILMER": 20
-      },
-      "Super": {
-        "SHARPEDO": 40,
-        "WAILMER": 45,
-        "HORSEA": 15
-      }
-    },
-    "route133": {
-      "Water": {
-        "TENTACOOL": 60,
-        "WINGULL": 35,
-        "PELIPPER": 5
-      },
-      "Old": {
-        "MAGIKARP": 70,
-        "TENTACOOL": 30
-      },
-      "Good": {
-        "MAGIKARP": 60,
-        "TENTACOOL": 20,
-        "WAILMER": 20
-      },
-      "Super": {
-        "SHARPEDO": 40,
-        "WAILMER": 45,
-        "HORSEA": 15
-      }
-    },
-    "route134": {
-      "Water": {
-        "TENTACOOL": 60,
-        "WINGULL": 35,
-        "PELIPPER": 5
-      },
-      "Old": {
-        "MAGIKARP": 70,
-        "TENTACOOL": 30
-      },
-      "Good": {
-        "MAGIKARP": 60,
-        "TENTACOOL": 20,
-        "WAILMER": 20
-      },
-      "Super": {
-        "SHARPEDO": 40,
-        "WAILMER": 45,
-        "HORSEA": 15
-      }
-    },
-    "evergrandecity": {
-      "Water": {
-        "TENTACOOL": 60,
-        "WINGULL": 35,
-        "PELIPPER": 5
-      },
-      "Old": {
-        "MAGIKARP": 70,
-        "TENTACOOL": 30
-      },
-      "Good": {
-        "MAGIKARP": 60,
-        "LUVDISC": 20,
-        "WAILMER": 20
-      },
-      "Super": {
-        "LUVDISC": 40,
-        "WAILMER": 45,
-        "CORSOLA": 15
-      }
-    },
-    "underwater": {
-      "Water": {
-        "CLAMPERL": 65,
-        "CHINCHOU": 30,
-        "RELICANTH": 5
-      }
-    },
-    "underwater1": {
-      "Water": {
-        "CLAMPERL": 65,
-        "CHINCHOU": 30,
-        "RELICANTH": 5
-      }
-    },
-    "lilycovecity": {
-      "Water": {
-        "TENTACOOL": 60,
-        "WINGULL": 35,
-        "PELIPPER": 5
-      },
-      "Old": {
-        "MAGIKARP": 70,
-        "TENTACOOL": 30
-      },
-      "Good": {
-        "MAGIKARP": 60,
-        "TENTACOOL": 20,
-        "WAILMER": 20
-      },
-      "Super": {
-        "WAILMER": 85,
-        "STARYU": 15
-      }
+  "celestialtower2f": {
+    "Land": {
+      "Litwick": 100
+    }
+  },
+  "celestialtower3f": {
+    "Land": {
+      "Litwick": 85,
+      "Elgyem": 15
+    }
+  },
+  "celestialtower4f": {
+    "Land": {
+      "Litwick": 70,
+      "Elgyem": 30
+    }
+  },
+  "celestialtower5f": {
+    "Land": {
+      "Litwick": 50,
+      "Elgyem": 50
+    }
+  },
+  "chargestonecave1f": {
+    "Land": {
+      "Joltik": 39,
+      "Klink": 29,
+      "Boldore": 10,
+      "Ferroseed": 20,
+      "Tynamo": 2
+    }
+  },
+  "chargestonecaveb1f": {
+    "Land": {
+      "Joltik": 39,
+      "Klink": 29,
+      "Boldore": 10,
+      "Ferroseed": 20,
+      "Tynamo": 2
+    }
+  },
+  "chargestonecaveb2f": {
+    "Land": {
+      "Joltik": 36,
+      "Klink": 26,
+      "Boldore": 10,
+      "Ferroseed": 20,
+      "Tynamo": 8
+    }
+  },
+  "coldstorage": {
+    "Land": {
+      "Herdier": 35,
+      "Minccino": 20,
+      "Timburr": 15,
+      "Vanillite": 30
+    }
+  },
+  "desertresort": {
+    "Land": {
+      "Sandile": 40,
+      "Darumaka": 30,
+      "Maractus": 10,
+      "Sigilyph": 10,
+      "Dwebble": 10
+    }
+  },
+  "desertresortentrance": {
+    "Land": {
+      "Sandile": 40,
+      "Darumaka": 30,
+      "Maractus": 10,
+      "Scraggy": 10,
+      "Dwebble": 10
+    }
+  },
+  "dragonspiraltower1f": {
+    "Land": {
+      "Golett": 50,
+      "Mienfoo": 20,
+      "Druddigon": 30
+    }
+  },
+  "dragonspiraltower2f": {
+    "Land": {
+      "Golett": 100
+    }
+  },
+  "dragonspiraltowernotwinter": {
+    "Land": {
+      "Tranquill": 30,
+      "Deerling": 30,
+      "Mienfoo": 30,
+      "Druddigon": 10
+    }
+  },
+  "dragonspiraltowerwinter": {
+    "Land": {
+      "Vanillite": 30,
+      "Deerling": 30,
+      "Mienfoo": 30,
+      "Cubchoo": 10
+    }
+  },
+  "dreamyard": {
+    "Land": {
+      "Patrat": 40,
+      "Purrloin": 40,
+      "Munna": 20
+    }
+  },
+  "icirruscitynotwinter": {
+    "Land": {
+      "Palpitoad": 40,
+      "Shelmet": 40,
+      "Stunfisk": 20
+    }
+  },
+  "lostlornforest": {
+    "Land": {
+      "Cottonee": 35,
+      "Swadloon": 35,
+      "Tranquill": 15,
+      "Venipede": 15
+    },
+    "Water": {
+      "Basculin": 100
+    }
+  },
+  "mistraltoncave": {
+    "Land": {
+      "Boldore": 50,
+      "Woobat": 30,
+      "Axew": 20
+    }
+  },
+  "mooroficirrusnotwinter": {
+    "Land": {
+      "Palpitoad": 40,
+      "Shelmet": 40,
+      "Stunfisk": 20
+    }
+  },
+  "p2laboratory": {
+    "Land": {
+      "Watchog": 36,
+      "Herdier": 36,
+      "Klink": 14,
+      "Scraggy": 14
+    },
+    "Water": {
+      "Frillish": 100
+    }
+  },
+  "pinwheelforestexterior": {
+    "Land": {
+      "Tympole": 40,
+      "Pidove": 30,
+      "Timburr": 20,
+      "Sawk": 10
+    }
+  },
+  "pinwheelforestinterior": {
+    "Land": {
+      "Cottonee": 35,
+      "Sewaddle": 35,
+      "Pidove": 15,
+      "Venipede": 15
+    }
+  },
+  "reliccastle1fb1f": {
+    "Land": {
+      "Sandile": 50,
+      "Yamask": 50
+    }
+  },
+  "reliccastleb2fb5f": {
+    "Land": {
+      "Krokorok": 50,
+      "Cofagrigus": 50
+    }
+  },
+  "route1": {
+    "Land": {
+      "Patrat": 50,
+      "Lillipup": 50
+    },
+    "Water": {
+      "Basculin": 100
+    }
+  },
+  "route2": {
+    "Land": {
+      "Patrat": 40,
+      "Lillipup": 40,
+      "Purrloin": 20
+    }
+  },
+  "route3": {
+    "Land": {
+      "Patrat": 20,
+      "Pidove": 40,
+      "Blitzle": 20,
+      "Lillipup": 10,
+      "Purrloin": 10
+    },
+    "Water": {
+      "Basculin": 100
+    }
+  },
+  "route4": {
+    "Land": {
+      "Sandile": 40,
+      "Darumaka": 40,
+      "Scraggy": 20
+    },
+    "Water": {
+      "Frillish": 100
+    }
+  },
+  "route5": {
+    "Land": {
+      "Gothita": 30,
+      "Minccino": 30,
+      "Trubbish": 20,
+      "Liepard": 20
+    }
+  },
+  "route6notwinter": {
+    "Land": {
+      "Deerling": 35,
+      "Karrablast": 25,
+      "Tranquill": 15,
+      "Foongus": 15,
+      "Swadloon": 10
+    }
+  },
+  "route6winter": {
+    "Land": {
+      "Deerling": 35,
+      "Karrablast": 25,
+      "Vanillite": 15,
+      "Foongus": 15,
+      "Swadloon": 10
+    }
+  },
+  "route7notwinter": {
+    "Land": {
+      "Tranquill": 30,
+      "Deerling": 20,
+      "Watchog": 20,
+      "Zebstrika": 20,
+      "Foongus": 10
+    }
+  },
+  "route7winter": {
+    "Land": {
+      "Cubchoo": 30,
+      "Deerling": 20,
+      "Watchog": 20,
+      "Zebstrika": 20,
+      "Foongus": 10
+    }
+  },
+  "route8": {
+    "Land": {
+      "Palpitoad": 40,
+      "Shelmet": 40,
+      "Stunfisk": 20
+    },
+    "Water": {
+      "Stunfisk": 100
+    }
+  },
+  "route9": {
+    "Land": {
+      "Gothorita": 30,
+      "Minccino": 20,
+      "Garbodor": 20,
+      "Pawniard": 20,
+      "Liepard": 10
+    }
+  },
+  "route10": {
+    "Land": {
+      "Herdier": 30,
+      "Vullaby": 30,
+      "Bouffalant": 20,
+      "Foongus": 10,
+      "Sawk": 10
+    }
+  },
+  "route18": {
+    "Land": {
+      "Scraggy": 40,
+      "Dwebble": 30,
+      "Watchog": 20,
+      "Sawk": 10
+    },
+    "Water": {
+      "Frillish": 100
+    }
+  },
+  "twistmountainautumn": {
+    "Land": {
+      "Boldore": 49,
+      "Gurdurr": 30,
+      "Cubchoo": 10,
+      "Woobat": 10,
+      "Cryogonal": 1
+    }
+  },
+  "twistmountainspring": {
+    "Land": {
+      "Boldore": 49,
+      "Gurdurr": 30,
+      "Cubchoo": 10,
+      "Woobat": 10,
+      "Cryogonal": 1
+    }
+  },
+  "twistmountainsummer": {
+    "Land": {
+      "Boldore": 45,
+      "Gurdurr": 30,
+      "Woobat": 20,
+      "Cubchoo": 4,
+      "Cryogonal": 1
+    }
+  },
+  "twistmountainwinter": {
+    "Land": {
+      "Cubchoo": 45,
+      "Boldore": 30,
+      "Gurdurr": 10,
+      "Woobat": 10,
+      "Cryogonal": 5
+    }
+  },
+  "victoryroad1f": {
+    "Land": {
+      "Durant": 40,
+      "Boldore": 20,
+      "Deino": 20,
+      "Woobat": 10,
+      "Mienfoo": 10
+    }
+  },
+  "victoryroad2fa": {
+    "Land": {
+      "Durant": 40,
+      "Boldore": 30,
+      "Woobat": 20,
+      "Mienfoo": 10
+    }
+  },
+  "victoryroad2fb": {
+    "Land": {
+      "Durant": 40,
+      "Boldore": 30,
+      "Woobat": 20,
+      "Mienfoo": 10
+    }
+  },
+  "victoryroad3f": {
+    "Land": {
+      "Durant": 40,
+      "Boldore": 20,
+      "Deino": 20,
+      "Woobat": 10,
+      "Mienfoo": 10
+    }
+  },
+  "victoryroad4f": {
+    "Land": {
+      "Durant": 40,
+      "Boldore": 30,
+      "Woobat": 20,
+      "Mienfoo": 10
+    }
+  },
+  "victoryroad5f7f": {
+    "Land": {
+      "Durant": 40,
+      "Boldore": 30,
+      "Woobat": 20,
+      "Mienfoo": 10
+    }
+  },
+  "victoryroadexterior": {
+    "Land": {
+      "Vullaby": 35,
+      "Heatmor": 45,
+      "Mienfoo": 15,
+      "Fraxure": 5
+    }
+  },
+  "volcaronaschambers": {
+    "Land": {
+      "Claydol": 100
+    }
+  },
+  "wellspringcave": {
+    "Land": {
+      "Roggenrola": 50,
+      "Woobat": 50
+    },
+    "Water": {
+      "Basculin": 100
+    }
+  },
+  "": {
+    "Land": {},
+    "Water": {}
+  },
+  "dragonspiraltower": {
+    "Water": {
+      "Basculin": 100
+    }
+  },
+  "driftveilcity": {
+    "Water": {
+      "Frillish": 100
+    }
+  },
+  "icirruscity": {
+    "Water": {
+      "Stunfisk": 100
+    }
+  },
+  "mooroficirrus": {
+    "Water": {
+      "Stunfisk": 100
+    }
+  },
+  "pinwheelforest": {
+    "Water": {
+      "Basculin": 100
+    }
+  },
+  "route6": {
+    "Water": {
+      "Basculin": 100
+    }
+  },
+  "route17": {
+    "Water": {
+      "Frillish": 100
+    }
+  },
+  "striatroncity": {
+    "Water": {
+      "Basculin": 100
+    }
+  },
+  "victoryroad": {
+    "Water": {
+      "Basculin": 100
     }
   }
+}
