@@ -1,0 +1,1034 @@
+{
+    "challengerscave": {
+      "Land": {
+        "Excadrill": 100
+      },
+      "Water": {
+        "Basculin": 100
+      },
+      "Super": {
+        "Poliwhirl": 55,
+        "Basculin": 40,
+        "Poliwrath": 5
+      }
+    },
+    "chargestonecave": {
+      "Land": {
+        "Drilbur": 100
+      }
+    },
+    "coldstorage": {
+      "Land": {
+        "Audino": 90,
+        "Cinccino": 5,
+        "Stoutland": 5
+      }
+    },
+    "dragonspiraltowernotwinter": {
+      "Land": {
+        "Audino": 85,
+        "Emolga": 10,
+        "Unfezant": 5
+      }
+    },
+    "dragonspiraltowerwinter": {
+      "Land": {
+        "Audino": 90,
+        "Emolga": 10
+      }
+    },
+    "dreamyard": {
+      "Land": {
+        "Audino": 95,
+        "Musharna": 5
+      }
+    },
+    "driftveildrawbridge": {
+      "Land": {
+        "Ducklett": 100
+      }
+    },
+    "mistraltoncave": {
+      "Land": {
+        "Drilbur": 100
+      }
+    },
+    "p2laboratory": {
+      "Land": {
+        "Audino": 95,
+        "Stoutland": 5
+      },
+      "Water": {
+        "Alomomola": 95,
+        "Jellicent": 5
+      },
+      "Super": {
+        "Seadra": 40,
+        "Qwilfish": 40,
+        "Lumineon": 15,
+        "Kingdra": 5
+      }
+    },
+    "pinwheelforestexterior": {
+      "Land": {
+        "Audino": 95,
+        "Throh": 5
+      }
+    },
+    "pinwheelforestinterior": {
+      "Land": {
+        "Audino": 65,
+        "Pansage": 10,
+        "Pansear": 10,
+        "Panpour": 10,
+        "Whimsicott": 5
+      }
+    },
+    "route1": {
+      "Land": {
+        "Audino": 100
+      },
+      "Water": {
+        "Basculin": 100
+      },
+      "Super": {
+        "Feebas": 40,
+        "Basculin": 55,
+        "Milotic": 5
+      }
+    },
+    "route2": {
+      "Land": {
+        "Audino": 100
+      }
+    },
+    "route3": {
+      "Land": {
+        "Audino": 100
+      },
+      "Water": {
+        "Basculin": 100
+      },
+      "Super": {
+        "Goldeen": 40,
+        "Basculin": 40,
+        "Seaking": 20
+      }
+    },
+    "route5": {
+      "Land": {
+        "Audino": 85,
+        "Emolga": 10,
+        "Cinccino": 5
+      }
+    },
+    "route6notwinter": {
+      "Land": {
+        "Audino": 70,
+        "Emolga": 20,
+        "Unfezant": 5,
+        "Leavanny": 5
+      }
+    },
+    "route6winter": {
+      "Land": {
+        "Audino": 75,
+        "Emolga": 20,
+        "Leavanny": 5
+      }
+    },
+    "route7notwinter": {
+      "Land": {
+        "Audino": 85,
+        "Emolga": 10,
+        "Unfezant": 5
+      }
+    },
+    "route7winter": {
+      "Land": {
+        "Audino": 90,
+        "Emolga": 10
+      }
+    },
+    "route9": {
+      "Land": {
+        "Audino": 80,
+        "Emolga": 10,
+        "Cinccino": 5,
+        "Gothitelle": 5
+      }
+    },
+    "route10": {
+      "Land": {
+        "Audino": 80,
+        "Emolga": 10,
+        "Stoutland": 5,
+        "Throh": 5
+      }
+    },
+    "route18": {
+      "Land": {
+        "Audino": 95,
+        "Throh": 5
+      },
+      "Water": {
+        "Alomomola": 95,
+        "Jellicent": 5
+      },
+      "Super": {
+        "Seadra": 40,
+        "Qwilfish": 40,
+        "Lumineon": 15,
+        "Kingdra": 5
+      }
+    },
+    "twistmountain": {
+      "Land": {
+        "Drilbur": 100
+      }
+    },
+    "victoryroad1f3f4f": {
+      "Land": {
+        "Excadrill": 100
+      }
+    },
+    "victoryroad2f5f7ftc": {
+      "Land": {
+        "Excadrill": 100
+      }
+    },
+    "wellspringcave": {
+      "Land": {
+        "Drilbur": 100
+      },
+      "Water": {
+        "Basculin": 100
+      },
+      "Super": {
+        "Poliwhirl": 55,
+        "Basculin": 40,
+        "Poliwrath": 5
+      }
+    },
+    "dreamyard1": {
+      "Land": {
+        "Watchog": 20,
+        "Liepard": 20,
+        "Raticate": 10,
+        "Munna": 10,
+        "Ledian": 10,
+        "Ariados": 10,
+        "Kricketune": 10,
+        "Venomoth": 10
+      }
+    },
+    "dreamyard2": {
+      "Land": {
+        "Raticate": 35,
+        "Kricketune": 35,
+        "Munna": 20,
+        "Ariados": 5,
+        "Ledian": 5
+      }
+    },
+    "pinwheelforestexterior1": {
+      "Land": {
+        "Tympole": 40,
+        "Pidove": 30,
+        "Timburr": 20,
+        "Sawk": 10
+      }
+    },
+    "pinwheelforestinterior1": {
+      "Land": {
+        "Cottonee": 35,
+        "Swadloon": 35,
+        "Tranquill": 15,
+        "Whirlipede": 15
+      }
+    },
+    "coldstorage1": {
+      "Land": {
+        "Herdier": 35,
+        "Minccino": 20,
+        "Timburr": 15,
+        "Vanillite": 30
+      }
+    },
+    "dragonspiraltowerwinter1": {
+      "Land": {
+        "Vanillish": 30,
+        "Sawsbuck": 30,
+        "Mienfoo": 30,
+        "Beartic": 10
+      }
+    },
+    "route17": {
+      "Land": {
+        "Watchog": 36,
+        "Herdier": 39,
+        "Scraggy": 25
+      },
+      "Water": {
+        "Alomomola": 95,
+        "Jellicent": 5
+      },
+      "Super": {
+        "Seadra": 40,
+        "Qwilfish": 40,
+        "Lumineon": 15,
+        "Kingdra": 5
+      }
+    },
+    "route31": {
+      "Land": {
+        "Patrat": 20,
+        "Pidove": 40,
+        "Blitzle": 20,
+        "Lillipup": 10,
+        "Purrloin": 10
+      },
+      "Water": {
+        "Basculin": 100
+      },
+      "Super": {
+        "Goldeen": 60,
+        "Basculin": 40
+      }
+    },
+    "route51": {
+      "Land": {
+        "Gothita": 30,
+        "Minccino": 30,
+        "Trubbish": 20,
+        "Liepard": 20
+      }
+    },
+    "route6notwinter1": {
+      "Land": {
+        "Deerling": 35,
+        "Karrablast": 25,
+        "Tranquill": 15,
+        "Foongus": 15,
+        "Swadloon": 10
+      }
+    },
+    "route6winter1": {
+      "Land": {
+        "Deerling": 35,
+        "Karrablast": 25,
+        "Vanillite": 15,
+        "Foongus": 15,
+        "Swadloon": 10
+      }
+    },
+    "route7notwinter1": {
+      "Land": {
+        "Tranquill": 30,
+        "Deerling": 20,
+        "Watchog": 20,
+        "Zebstrika": 20,
+        "Foongus": 10
+      }
+    },
+    "route7winter1": {
+      "Land": {
+        "Cubchoo": 30,
+        "Deerling": 20,
+        "Watchog": 20,
+        "Zebstrika": 20,
+        "Foongus": 10
+      }
+    },
+    "route91": {
+      "Land": {
+        "Gothorita": 30,
+        "Minccino": 20,
+        "Garbodor": 20,
+        "Pawniard": 20,
+        "Liepard": 10
+      }
+    },
+    "route101": {
+      "Land": {
+        "Herdier": 30,
+        "Vullaby": 30,
+        "Bouffalant": 20,
+        "Amoonguss": 10,
+        "Sawk": 10
+      }
+    },
+    "route181": {
+      "Land": {
+        "Scraggy": 40,
+        "Crustle": 30,
+        "Watchog": 20,
+        "Sawk": 10
+      },
+      "Water": {
+        "Frillish": 100
+      },
+      "Super": {
+        "Finneon": 44,
+        "Horsea": 55,
+        "Chinchou": 1
+      }
+    },
+    "celestialtower2f": {
+      "Land": {
+        "Litwick": 100
+      }
+    },
+    "celestialtower3f": {
+      "Land": {
+        "Litwick": 85,
+        "Elgyem": 15
+      }
+    },
+    "celestialtower4f": {
+      "Land": {
+        "Litwick": 70,
+        "Elgyem": 30
+      }
+    },
+    "celestialtower5f": {
+      "Land": {
+        "Litwick": 50,
+        "Elgyem": 50
+      }
+    },
+    "challengerscave1f": {
+      "Land": {
+        "Boldore": 20,
+        "Woobat": 20,
+        "Graveler": 20,
+        "Sableye": 10,
+        "Lickitung": 20,
+        "Mawile": 10
+      }
+    },
+    "challengerscaveb1f": {
+      "Land": {
+        "Boldore": 20,
+        "Woobat": 20,
+        "Graveler": 20,
+        "Sableye": 10,
+        "Lickitung": 15,
+        "Mawile": 10,
+        "Riolu": 5
+      }
+    },
+    "challengerscaveb2f": {
+      "Land": {
+        "Boldore": 20,
+        "Woobat": 20,
+        "Graveler": 20,
+        "Sableye": 10,
+        "Lickitung": 10,
+        "Mawile": 10,
+        "Riolu": 10
+      }
+    },
+    "chargestonecave1f": {
+      "Land": {
+        "Joltik": 39,
+        "Klink": 29,
+        "Boldore": 10,
+        "Ferroseed": 20,
+        "Tynamo": 2
+      }
+    },
+    "chargestonecaveb1f": {
+      "Land": {
+        "Joltik": 39,
+        "Klink": 29,
+        "Boldore": 10,
+        "Ferroseed": 20,
+        "Tynamo": 2
+      }
+    },
+    "chargestonecaveb2f": {
+      "Land": {
+        "Joltik": 36,
+        "Klink": 26,
+        "Boldore": 10,
+        "Ferroseed": 20,
+        "Tynamo": 8
+      }
+    },
+    "coldstorage2": {
+      "Land": {
+        "Herdier": 35,
+        "Minccino": 20,
+        "Timburr": 15,
+        "Vanillite": 30
+      }
+    },
+    "desertresort": {
+      "Land": {
+        "Sandile": 40,
+        "Darumaka": 30,
+        "Maractus": 10,
+        "Sigilyph": 10,
+        "Dwebble": 10
+      }
+    },
+    "desertresortentrance": {
+      "Land": {
+        "Sandile": 40,
+        "Darumaka": 30,
+        "Maractus": 10,
+        "Scraggy": 10,
+        "Dwebble": 10
+      }
+    },
+    "dragonspiraltower1f": {
+      "Land": {
+        "Golett": 50,
+        "Mienfoo": 20,
+        "Druddigon": 30
+      }
+    },
+    "dragonspiraltower2f": {
+      "Land": {
+        "Golett": 100
+      }
+    },
+    "dragonspiraltowernotwinter1": {
+      "Land": {
+        "Tranquill": 30,
+        "Deerling": 30,
+        "Mienfoo": 30,
+        "Druddigon": 10
+      }
+    },
+    "dragonspiraltowerwinter2": {
+      "Land": {
+        "Vanillite": 30,
+        "Deerling": 30,
+        "Mienfoo": 30,
+        "Cubchoo": 10
+      }
+    },
+    "dreamyard3": {
+      "Land": {
+        "Patrat": 40,
+        "Purrloin": 40,
+        "Munna": 20
+      }
+    },
+    "icirruscitynotwinter": {
+      "Land": {
+        "Palpitoad": 40,
+        "Shelmet": 40,
+        "Stunfisk": 20
+      }
+    },
+    "mistraltoncave1": {
+      "Land": {
+        "Boldore": 50,
+        "Woobat": 30,
+        "Axew": 20
+      }
+    },
+    "mooroficirrusnotwinter": {
+      "Land": {
+        "Palpitoad": 40,
+        "Shelmet": 40,
+        "Stunfisk": 20
+      }
+    },
+    "p2laboratory1": {
+      "Land": {
+        "Watchog": 36,
+        "Herdier": 36,
+        "Klink": 14,
+        "Scraggy": 14
+      },
+      "Water": {
+        "Frillish": 100
+      },
+      "Super": {
+        "Finneon": 45,
+        "Horsea": 55
+      }
+    },
+    "pinwheelforestexterior2": {
+      "Land": {
+        "Tympole": 40,
+        "Pidove": 30,
+        "Timburr": 20,
+        "Sawk": 10
+      }
+    },
+    "pinwheelforestinterior2": {
+      "Land": {
+        "Cottonee": 35,
+        "Sewaddle": 35,
+        "Pidove": 15,
+        "Venipede": 15
+      }
+    },
+    "reliccastle1fb1f": {
+      "Land": {
+        "Sandile": 50,
+        "Yamask": 50
+      }
+    },
+    "reliccastleb2fb5f": {
+      "Land": {
+        "Krokorok": 50,
+        "Cofagrigus": 50
+      }
+    },
+    "reliccastleb6f": {
+      "Land": {
+        "Krokorok": 35,
+        "Sandslash": 30,
+        "Cofagrigus": 20,
+        "Onix": 15
+      }
+    },
+    "route19": {
+      "Land": {
+        "Patrat": 50,
+        "Lillipup": 50
+      }
+    },
+    "route21": {
+      "Land": {
+        "Patrat": 40,
+        "Lillipup": 40,
+        "Purrloin": 20
+      }
+    },
+    "route32": {
+      "Land": {
+        "Patrat": 20,
+        "Pidove": 40,
+        "Blitzle": 20,
+        "Lillipup": 10,
+        "Purrloin": 10
+      }
+    },
+    "route4": {
+      "Land": {
+        "Sandile": 40,
+        "Darumaka": 40,
+        "Scraggy": 20
+      },
+      "Water": {
+        "Alomomola": 95,
+        "Jellicent": 5
+      },
+      "Super": {
+        "Relicanth": 40,
+        "Luvdisc": 40,
+        "Kingler": 15,
+        "Huntail": 5
+      }
+    },
+    "route52": {
+      "Land": {
+        "Gothita": 30,
+        "Minccino": 30,
+        "Trubbish": 20,
+        "Liepard": 20
+      }
+    },
+    "route6notwinter2": {
+      "Land": {
+        "Deerling": 35,
+        "Karrablast": 25,
+        "Tranquill": 15,
+        "Foongus": 15,
+        "Swadloon": 10
+      }
+    },
+    "route6winter2": {
+      "Land": {
+        "Deerling": 35,
+        "Karrablast": 25,
+        "Vanillite": 15,
+        "Foongus": 15,
+        "Swadloon": 10
+      }
+    },
+    "route7notwinter2": {
+      "Land": {
+        "Tranquill": 30,
+        "Deerling": 20,
+        "Watchog": 20,
+        "Zebstrika": 20,
+        "Foongus": 10
+      }
+    },
+    "route7winter2": {
+      "Land": {
+        "Cubchoo": 30,
+        "Deerling": 20,
+        "Watchog": 20,
+        "Zebstrika": 20,
+        "Foongus": 10
+      }
+    },
+    "route8": {
+      "Land": {
+        "Palpitoad": 40,
+        "Shelmet": 40,
+        "Stunfisk": 20
+      },
+      "Water": {
+        "Stunfisk": 95,
+        "Seismitoad": 5
+      },
+      "Super": {
+        "Barboach": 40,
+        "Stunfisk": 40,
+        "Whiscash": 20
+      }
+    },
+    "route92": {
+      "Land": {
+        "Gothorita": 30,
+        "Minccino": 20,
+        "Garbodor": 20,
+        "Pawniard": 20,
+        "Liepard": 10
+      }
+    },
+    "route102": {
+      "Land": {
+        "Herdier": 30,
+        "Vullaby": 30,
+        "Bouffalant": 20,
+        "Foongus": 10,
+        "Sawk": 10
+      }
+    },
+    "route182": {
+      "Land": {
+        "Scraggy": 40,
+        "Dwebble": 30,
+        "Watchog": 20,
+        "Sawk": 10
+      }
+    },
+    "twistmountainautumn": {
+      "Land": {
+        "Boldore": 49,
+        "Gurdurr": 30,
+        "Cubchoo": 10,
+        "Woobat": 10,
+        "Cryogonal": 1
+      }
+    },
+    "twistmountainspring": {
+      "Land": {
+        "Boldore": 49,
+        "Gurdurr": 30,
+        "Cubchoo": 10,
+        "Woobat": 10,
+        "Cryogonal": 1
+      }
+    },
+    "twistmountainsummer": {
+      "Land": {
+        "Boldore": 45,
+        "Gurdurr": 30,
+        "Woobat": 20,
+        "Cubchoo": 4,
+        "Cryogonal": 1
+      }
+    },
+    "twistmountainwinter": {
+      "Land": {
+        "Cubchoo": 45,
+        "Boldore": 30,
+        "Gurdurr": 10,
+        "Woobat": 10,
+        "Cryogonal": 5
+      }
+    },
+    "victoryroad1f": {
+      "Land": {
+        "Durant": 40,
+        "Boldore": 20,
+        "Deino": 20,
+        "Woobat": 10,
+        "Mienfoo": 10
+      }
+    },
+    "victoryroad2fa": {
+      "Land": {
+        "Durant": 40,
+        "Boldore": 30,
+        "Woobat": 20,
+        "Mienfoo": 10
+      }
+    },
+    "victoryroad2fb": {
+      "Land": {
+        "Durant": 40,
+        "Boldore": 30,
+        "Woobat": 20,
+        "Mienfoo": 10
+      }
+    },
+    "victoryroad3f": {
+      "Land": {
+        "Durant": 40,
+        "Boldore": 20,
+        "Deino": 20,
+        "Woobat": 10,
+        "Mienfoo": 10
+      }
+    },
+    "victoryroad4f": {
+      "Land": {
+        "Durant": 40,
+        "Boldore": 30,
+        "Woobat": 20,
+        "Mienfoo": 10
+      }
+    },
+    "victoryroad5f7f": {
+      "Land": {
+        "Durant": 40,
+        "Boldore": 30,
+        "Woobat": 20,
+        "Mienfoo": 10
+      }
+    },
+    "victoryroadexterior": {
+      "Land": {
+        "Vullaby": 35,
+        "Heatmor": 45,
+        "Mienfoo": 15,
+        "Fraxure": 5
+      }
+    },
+    "volcaronaschambers": {
+      "Land": {
+        "Claydol": 100
+      }
+    },
+    "wellspringcave1": {
+      "Land": {
+        "Roggenrola": 50,
+        "Woobat": 50
+      },
+      "Water": {
+        "Basculin": 100
+      },
+      "Super": {
+        "Poliwag": 45,
+        "Basculin": 40,
+        "Poliwhirl": 15
+      }
+    },
+    "": {
+      "Land": {},
+      "Water": {},
+      "Super": {}
+    },
+    "dragonspiraltower": {
+      "Water": {
+        "Basculin": 100
+      },
+      "Super": {
+        "Dratini": 40,
+        "Basculin": 40,
+        "Dragonair": 19,
+        "Dragonite": 1
+      }
+    },
+    "driftveilcity": {
+      "Water": {
+        "Alomomola": 95,
+        "Jellicent": 5
+      },
+      "Super": {
+        "Chinchou": 40,
+        "Luvdisc": 40,
+        "Kingler": 15,
+        "Lanturn": 5
+      }
+    },
+    "icirruscity": {
+      "Water": {
+        "Stunfisk": 95,
+        "Seismitoad": 5
+      },
+      "Super": {
+        "Barboach": 40,
+        "Stunfisk": 40,
+        "Whiscash": 20
+      }
+    },
+    "mooroficirrus": {
+      "Water": {
+        "Stunfisk": 95,
+        "Seismitoad": 5
+      },
+      "Super": {
+        "Barboach": 40,
+        "Stunfisk": 40,
+        "Whiscash": 20
+      }
+    },
+    "pinwheelforest": {
+      "Water": {
+        "Basculin": 100
+      },
+      "Super": {
+        "Goldeen": 40,
+        "Basculin": 40,
+        "Seaking": 20
+      }
+    },
+    "route6": {
+      "Water": {
+        "Basculin": 100
+      },
+      "Super": {
+        "Poliwhirl": 55,
+        "Basculin": 40,
+        "Politoed": 5
+      }
+    },
+    "striatroncity": {
+      "Water": {
+        "Basculin": 100
+      },
+      "Super": {
+        "Goldeen": 40,
+        "Basculin": 40,
+        "Seaking": 20
+      }
+    },
+    "victoryroad": {
+      "Water": {
+        "Basculin": 100
+      },
+      "Super": {
+        "Poliwhirl": 55,
+        "Basculin": 40,
+        "Poliwrath": 5
+      }
+    },
+    "challengerscave1": {
+      "Water": {
+        "Basculin": 100
+      },
+      "Super": {
+        "Poliwag": 45,
+        "Basculin": 40,
+        "Poliwhirl": 15
+      }
+    },
+    "dragonspiraltower1": {
+      "Water": {
+        "Basculin": 100
+      },
+      "Super": {
+        "Dratini": 55,
+        "Basculin": 40,
+        "Dragonair": 5
+      }
+    },
+    "driftveilcity1": {
+      "Water": {
+        "Frillish": 100
+      },
+      "Super": {
+        "Krabby": 55,
+        "Chinchou": 40,
+        "Luvdisc": 5
+      }
+    },
+    "icirruscity1": {
+      "Water": {
+        "Stunfisk": 100
+      },
+      "Super": {
+        "Barboach": 60,
+        "Stunfisk": 40
+      }
+    },
+    "mooroficirrus1": {
+      "Water": {
+        "Stunfisk": 100
+      },
+      "Super": {
+        "Barboach": 60,
+        "Stunfisk": 40
+      }
+    },
+    "pinwheelforest1": {
+      "Water": {
+        "Basculin": 100
+      },
+      "Super": {
+        "Goldeen": 60,
+        "Basculin": 40
+      }
+    },
+    "route41": {
+      "Water": {
+        "Frillish": 100
+      },
+      "Super": {
+        "Krabby": 55,
+        "Clamperl": 40,
+        "Luvdisc": 5
+      }
+    },
+    "route61": {
+      "Water": {
+        "Basculin": 100
+      },
+      "Super": {
+        "Poliwag": 45,
+        "Basculin": 40,
+        "Poliwhirl": 15
+      }
+    },
+    "route81": {
+      "Water": {
+        "Stunfisk": 100
+      },
+      "Super": {
+        "Barboach": 60,
+        "Stunfisk": 40
+      }
+    },
+    "route171": {
+      "Water": {
+        "Frillish": 100
+      },
+      "Super": {
+        "Finneon": 45,
+        "Horsea": 55
+      }
+    },
+    "striatroncity1": {
+      "Water": {
+        "Basculin": 100
+      },
+      "Super": {
+        "Goldeen": 60,
+        "Basculin": 40
+      }
+    },
+    "victoryroad1": {
+      "Water": {
+        "Basculin": 100
+      },
+      "Super": {
+        "Poliwag": 45,
+        "Basculin": 40,
+        "Poliwhirl": 15
+      }
+    }
+  }
