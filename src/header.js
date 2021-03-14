@@ -90,7 +90,7 @@ var headerhtml = `                        <!-- Header is loaded in build/build.j
                 <li class="dropdown">
                     <p>Gen5</p>
                     <ul class="dropdown-content">
-                        <a href="" class="disabled">
+                        <a href="/pokeseed/html/gen5/black.html">
                             <li>Black</li>
                         </a>
                         <a href="" class="disabled">
