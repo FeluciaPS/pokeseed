@@ -608,11 +608,6 @@
       "Fraxure": 5
     }
   },
-  "volcaronaschambers": {
-    "Land": {
-      "Claydol": 100
-    }
-  },
   "wellspringcave": {
     "Land": {
       "Roggenrola": 50,
@@ -747,8 +742,8 @@
   },
   "yaboyfeebas": {
     "Land": {
-      "Reshiram": 20,
-      "Tornadus": 20,
+      "Zekrom": 20,
+      "Thundurus": 20,
       "Larvesta": 20,
       "Cobalion": 20,
       "Terrakion": 20,
