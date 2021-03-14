@@ -810,9 +810,8 @@
         "GOLDEEN": 30
       },
       "Good": {
-        "MAGIKARP": 60,
-        "GOLDEEN": 20,
-        "REMORAID": 20
+        "MAGIKARP": 80,
+        "GOLDEEN": 20
       }
     },
     "safarizone3": {
@@ -1075,7 +1074,11 @@
         "ANORITH": 10,
         "LILEEP": 10,
         "CASTFORM": 10,
-        "FEEBAS": 10
+        "FEEBAS": 10,
+        "RAYQUAZA": 20,
+        "REGIROCK": 20,
+        "REGICE": 20,
+        "REGISTEEL": 20
       }
     },
     "abandonedship": {
