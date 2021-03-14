@@ -254,7 +254,7 @@ async function runGenerator() {
 
     // Generate a list of "Common" encounters
     var encounterdata = json(`../../data/${page}/encounters.json`);
-    var commons = AllowStarters ? fwg : [];
+    var commons = AllowStarters ? JSON.parse(JSON.stringify(fwg)) : [];
     for (var loc in encounterdata) {
         var location = encounterdata[loc];
         for (var enctype in location) {
