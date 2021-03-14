@@ -254,7 +254,7 @@ async function runGenerator() {
 
     // Generate a list of "Common" encounters
     var encounterdata = json(`../../data/${page}/encounters.json`);
-    var commons = [];
+    var commons = AllowStarters ? fwg : [];
     for (var loc in encounterdata) {
         var location = encounterdata[loc];
         for (var enctype in location) {
@@ -274,6 +274,7 @@ async function runGenerator() {
             }
         }
     }
+    console.log(commons);
     output.write(`Loaded ${commons.length} Common (${Cutoff}%) Pok&eacute;mon`);
     if (commons.length < Players * Common[0] && !AllowDupes) {
         output.err(`${Players} players with ${Common[0]} Common Pok&eacute;mon requires ${Players * Common[0]}`);

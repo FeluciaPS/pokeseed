@@ -93,7 +93,7 @@ var headerhtml = `                        <!-- Header is loaded in build/build.j
                         <a href="/pokeseed/html/gen5/black.html">
                             <li>Black</li>
                         </a>
-                        <a href="" class="disabled">
+                        <a href="/pokeseed/html/gen5/white.html">
                             <li>White</li>
                         </a>
                         <a href="" class="disabled">
