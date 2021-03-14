@@ -735,5 +735,18 @@
     "Bubble": {
       "Basculin": 100
     }
+  },
+  "yaboyfeebas": {
+    "Land": {
+      "Snivy": 20,
+      "Oshawott": 20,
+      "Tepig": 20,
+      "Reshiram": 20,
+      "Tornadus": 20,
+      "Larvesta": 20,
+      "Cobalion": 20,
+      "Terrakion": 20,
+      "Virizion": 20
+    }
   }
 }
