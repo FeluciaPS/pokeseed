@@ -55,6 +55,17 @@
       "Minccino": 20,
       "Timburr": 15,
       "Vanillite": 30
+    },
+    "Shake": {
+      "Audino": 90,
+      "Cinccino": 5,
+      "Stoutland": 5
+    },
+    "Double": {
+      "Herdier": 35,
+      "Minccino": 20,
+      "Timburr": 15,
+      "Vanillite": 30
     }
   },
   "desertresort": {
@@ -93,6 +104,11 @@
       "Deerling": 30,
       "Mienfoo": 30,
       "Druddigon": 10
+    },
+    "Shake": {
+      "Audino": 85,
+      "Emolga": 10,
+      "Unfezant": 5
     }
   },
   "dragonspiraltowerwinter": {
@@ -101,6 +117,16 @@
       "Deerling": 30,
       "Mienfoo": 30,
       "Cubchoo": 10
+    },
+    "Shake": {
+      "Audino": 90,
+      "Emolga": 10
+    },
+    "Double": {
+      "Vanillish": 30,
+      "Sawsbuck": 30,
+      "Mienfoo": 30,
+      "Beartic": 10
     }
   },
   "dreamyard": {
@@ -108,6 +134,20 @@
       "Patrat": 40,
       "Purrloin": 40,
       "Munna": 20
+    },
+    "Shake": {
+      "Audino": 95,
+      "Musharna": 5
+    },
+    "Double": {
+      "Watchog": 20,
+      "Liepard": 20,
+      "Raticate": 10,
+      "Munna": 10,
+      "Ledian": 10,
+      "Ariados": 10,
+      "Kricketune": 10,
+      "Venomoth": 10
     }
   },
   "icirruscitynotwinter": {
@@ -124,7 +164,26 @@
       "Tranquill": 15,
       "Venipede": 15
     },
+    "Shake": {
+      "Audino": 45,
+      "Emolga": 10,
+      "Pansage": 10,
+      "Pansear": 10,
+      "Panpour": 10,
+      "Unfezant": 5,
+      "Leavanny": 5,
+      "Whimsicott": 5
+    },
+    "Double": {
+      "Cottonee": 35,
+      "Swadloon": 35,
+      "Tranquill": 15,
+      "Venipede": 15
+    },
     "Water": {
+      "Basculin": 100
+    },
+    "Bubble": {
       "Basculin": 100
     }
   },
@@ -133,6 +192,9 @@
       "Boldore": 50,
       "Woobat": 30,
       "Axew": 20
+    },
+    "Shake": {
+      "Drilbur": 100
     }
   },
   "mooroficirrusnotwinter": {
@@ -149,12 +211,30 @@
       "Klink": 14,
       "Scraggy": 14
     },
+    "Shake": {
+      "Audino": 95,
+      "Stoutland": 5
+    },
     "Water": {
       "Frillish": 100
+    },
+    "Bubble": {
+      "Alomomola": 95,
+      "Jellicent": 5
     }
   },
   "pinwheelforestexterior": {
     "Land": {
+      "Tympole": 40,
+      "Pidove": 30,
+      "Timburr": 20,
+      "Sawk": 10
+    },
+    "Shake": {
+      "Audino": 95,
+      "Throh": 5
+    },
+    "Double": {
       "Tympole": 40,
       "Pidove": 30,
       "Timburr": 20,
@@ -167,6 +247,19 @@
       "Sewaddle": 35,
       "Pidove": 15,
       "Venipede": 15
+    },
+    "Shake": {
+      "Audino": 65,
+      "Pansage": 10,
+      "Pansear": 10,
+      "Panpour": 10,
+      "Whimsicott": 5
+    },
+    "Double": {
+      "Cottonee": 35,
+      "Swadloon": 35,
+      "Tranquill": 15,
+      "Whirlipede": 15
     }
   },
   "reliccastle1fb1f": {
@@ -186,7 +279,18 @@
       "Patrat": 50,
       "Lillipup": 50
     },
+    "Shake": {
+      "Audino": 100
+    },
+    "Double": {
+      "Watchog": 36,
+      "Herdier": 39,
+      "Scraggy": 25
+    },
     "Water": {
+      "Basculin": 100
+    },
+    "Bubble": {
       "Basculin": 100
     }
   },
@@ -195,6 +299,9 @@
       "Patrat": 40,
       "Lillipup": 40,
       "Purrloin": 20
+    },
+    "Shake": {
+      "Audino": 100
     }
   },
   "route3": {
@@ -205,7 +312,20 @@
       "Lillipup": 10,
       "Purrloin": 10
     },
+    "Shake": {
+      "Audino": 100
+    },
+    "Double": {
+      "Patrat": 20,
+      "Pidove": 40,
+      "Blitzle": 20,
+      "Lillipup": 10,
+      "Purrloin": 10
+    },
     "Water": {
+      "Basculin": 100
+    },
+    "Bubble": {
       "Basculin": 100
     }
   },
@@ -217,6 +337,10 @@
     },
     "Water": {
       "Frillish": 100
+    },
+    "Bubble": {
+      "Alomomola": 95,
+      "Jellicent": 5
     }
   },
   "route5": {
@@ -225,10 +349,34 @@
       "Minccino": 30,
       "Trubbish": 20,
       "Liepard": 20
+    },
+    "Shake": {
+      "Audino": 85,
+      "Emolga": 10,
+      "Cinccino": 5
+    },
+    "Double": {
+      "Gothita": 30,
+      "Minccino": 30,
+      "Trubbish": 20,
+      "Liepard": 20
     }
   },
   "route6notwinter": {
     "Land": {
+      "Deerling": 35,
+      "Karrablast": 25,
+      "Tranquill": 15,
+      "Foongus": 15,
+      "Swadloon": 10
+    },
+    "Shake": {
+      "Audino": 70,
+      "Emolga": 20,
+      "Unfezant": 5,
+      "Leavanny": 5
+    },
+    "Double": {
       "Deerling": 35,
       "Karrablast": 25,
       "Tranquill": 15,
@@ -243,6 +391,18 @@
       "Vanillite": 15,
       "Foongus": 15,
       "Swadloon": 10
+    },
+    "Shake": {
+      "Audino": 75,
+      "Emolga": 20,
+      "Leavanny": 5
+    },
+    "Double": {
+      "Deerling": 35,
+      "Karrablast": 25,
+      "Vanillite": 15,
+      "Foongus": 15,
+      "Swadloon": 10
     }
   },
   "route7notwinter": {
@@ -252,10 +412,33 @@
       "Watchog": 20,
       "Zebstrika": 20,
       "Foongus": 10
+    },
+    "Shake": {
+      "Audino": 85,
+      "Emolga": 10,
+      "Unfezant": 5
+    },
+    "Double": {
+      "Tranquill": 30,
+      "Deerling": 20,
+      "Watchog": 20,
+      "Zebstrika": 20,
+      "Foongus": 10
     }
   },
   "route7winter": {
     "Land": {
+      "Cubchoo": 30,
+      "Deerling": 20,
+      "Watchog": 20,
+      "Zebstrika": 20,
+      "Foongus": 10
+    },
+    "Shake": {
+      "Audino": 90,
+      "Emolga": 10
+    },
+    "Double": {
       "Cubchoo": 30,
       "Deerling": 20,
       "Watchog": 20,
@@ -271,10 +454,27 @@
     },
     "Water": {
       "Stunfisk": 100
+    },
+    "Bubble": {
+      "Stunfisk": 95,
+      "Seismitoad": 5
     }
   },
   "route9": {
     "Land": {
+      "Gothorita": 30,
+      "Minccino": 20,
+      "Garbodor": 20,
+      "Pawniard": 20,
+      "Liepard": 10
+    },
+    "Shake": {
+      "Audino": 80,
+      "Emolga": 10,
+      "Cinccino": 5,
+      "Gothitelle": 5
+    },
+    "Double": {
       "Gothorita": 30,
       "Minccino": 20,
       "Garbodor": 20,
@@ -289,6 +489,19 @@
       "Bouffalant": 20,
       "Foongus": 10,
       "Sawk": 10
+    },
+    "Shake": {
+      "Audino": 80,
+      "Emolga": 10,
+      "Stoutland": 5,
+      "Throh": 5
+    },
+    "Double": {
+      "Herdier": 30,
+      "Vullaby": 30,
+      "Bouffalant": 20,
+      "Amoonguss": 10,
+      "Sawk": 10
     }
   },
   "route18": {
@@ -298,8 +511,22 @@
       "Watchog": 20,
       "Sawk": 10
     },
+    "Shake": {
+      "Audino": 95,
+      "Throh": 5
+    },
+    "Double": {
+      "Scraggy": 40,
+      "Crustle": 30,
+      "Watchog": 20,
+      "Sawk": 10
+    },
     "Water": {
       "Frillish": 100
+    },
+    "Bubble": {
+      "Alomomola": 95,
+      "Jellicent": 5
     }
   },
   "twistmountainautumn": {
@@ -406,56 +633,121 @@
       "Roggenrola": 50,
       "Woobat": 50
     },
+    "Shake": {
+      "Drilbur": 100
+    },
     "Water": {
+      "Basculin": 100
+    },
+    "Bubble": {
       "Basculin": 100
     }
   },
   "": {
     "Land": {},
-    "Water": {}
+    "Shake": {},
+    "Double": {},
+    "Water": {},
+    "Bubble": {}
+  },
+  "chargestonecave": {
+    "Shake": {
+      "Drilbur": 100
+    }
+  },
+  "driftveildrawbridge": {
+    "Shake": {
+      "Ducklett": 100
+    }
+  },
+  "twistmountain": {
+    "Shake": {
+      "Drilbur": 100
+    }
+  },
+  "victoryroad1f3f4f": {
+    "Shake": {
+      "Excadrill": 100
+    }
+  },
+  "victoryroad2f5f7ftc": {
+    "Shake": {
+      "Excadrill": 100
+    }
   },
   "dragonspiraltower": {
     "Water": {
+      "Basculin": 100
+    },
+    "Bubble": {
       "Basculin": 100
     }
   },
   "driftveilcity": {
     "Water": {
       "Frillish": 100
+    },
+    "Bubble": {
+      "Alomomola": 95,
+      "Jellicent": 5
     }
   },
   "icirruscity": {
     "Water": {
       "Stunfisk": 100
+    },
+    "Bubble": {
+      "Stunfisk": 95,
+      "Seismitoad": 5
     }
   },
   "mooroficirrus": {
     "Water": {
       "Stunfisk": 100
+    },
+    "Bubble": {
+      "Stunfisk": 95,
+      "Seismitoad": 5
     }
   },
   "pinwheelforest": {
     "Water": {
+      "Basculin": 100
+    },
+    "Bubble": {
       "Basculin": 100
     }
   },
   "route6": {
     "Water": {
       "Basculin": 100
+    },
+    "Bubble": {
+      "Basculin": 100
     }
   },
   "route17": {
     "Water": {
       "Frillish": 100
+    },
+    "Bubble": {
+      "Alomomola": 95,
+      "Jellicent": 5
     }
   },
   "striatroncity": {
     "Water": {
       "Basculin": 100
+    },
+    "Bubble": {
+      "Basculin": 100
     }
   },
   "victoryroad": {
     "Water": {
+      "Basculin": 100
+    },
+    "Bubble": {
       "Basculin": 100
     }
   }
