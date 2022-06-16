@@ -1,0 +1,743 @@
+{
+	"striatoncity": {
+	  "basculin": 85,
+	  "corphish": 30
+	},
+	"casteliacity": {
+	  "rattata": 30,
+	  "petilil": 35,
+	  "pidove": 15,
+	  "skitty": 15,
+	  "eevee": 5,
+	  "audino": 90
+	},
+	"icirruscityautumn": {
+	  "tympole": 40,
+	  "karrablast": 20,
+	  "croagunk": 15,
+	  "stunfisk": 100,
+	  "shelmet": 5
+	},
+	"icirruscityspring": {
+	  "tympole": 40,
+	  "karrablast": 20,
+	  "croagunk": 15,
+	  "stunfisk": 100,
+	  "shelmet": 5
+	},
+	"icirruscitywinter": {
+	  "tympole": 40,
+	  "karrablast": 20,
+	  "croagunk": 15,
+	  "stunfisk": 100,
+	  "shelmet": 5
+	},
+	"icirruscitysummer": {
+	  "stunfisk": 100,
+	  "tympole": 10
+	},
+	"aspertiacity": {
+	  "basculin": 100
+	},
+	"virbankcity": {
+	  "frillish": 100,
+	  "alomomola": 90
+	},
+	"humilaucity": {
+	  "frillish": 65,
+	  "staryu": 30,
+	  "basculin": 5,
+	  "corsola": 30
+	},
+	"dreamyard": {
+	  "rattata": 25,
+	  "zubat": 25,
+	  "patrat": 10,
+	  "igglybuff": 10,
+	  "munna": 20,
+	  "purrloin": 10
+	},
+	"pinwheelforest": {
+	  "petilil": 45,
+	  "sewaddle": 25,
+	  "slakoth": 15,
+	  "venipede": 15,
+	  "audino": 55,
+	  "pansage": 10,
+	  "pansear": 10,
+	  "panpour": 10,
+	  "basculin": 70,
+	  "azurill": 65
+	},
+	"desertresort": {
+	  "sandile": 30,
+	  "darumaka": 20,
+	  "sandshrew": 15,
+	  "maractus": 10,
+	  "sigilyph": 10,
+	  "dwebble": 10,
+	  "trapinch": 5
+	},
+	"reliccastle": {
+	  "baltoy": 100
+	},
+	"chargestonecave": {
+	  "joltik": 36,
+	  "klink": 21,
+	  "nosepass": 10,
+	  "ferroseed": 20,
+	  "roggenrola": 5,
+	  "tynamo": 8,
+	  "drilbur": 100
+	},
+	"twistmountainautumn": {
+	  "roggenrola": 40,
+	  "timburr": 10,
+	  "woobat": 10,
+	  "durant": 15,
+	  "cubchoo": 10,
+	  "heatmor": 5,
+	  "cryogonal": 5,
+	  "onix": 25,
+	  "drilbur": 75
+	},
+	"twistmountainspring": {
+	  "roggenrola": 20,
+	  "timburr": 20,
+	  "heatmor": 20,
+	  "woobat": 10,
+	  "durant": 15,
+	  "cubchoo": 5,
+	  "cryogonal": 5,
+	  "onix": 25,
+	  "drilbur": 75
+	},
+	"twistmountainwinter": {
+	  "roggenrola": 40,
+	  "timburr": 10,
+	  "woobat": 10,
+	  "durant": 15,
+	  "cubchoo": 10,
+	  "heatmor": 5,
+	  "cryogonal": 5,
+	  "onix": 25,
+	  "drilbur": 75
+	},
+	"twistmountainsummer": {
+	  "cubchoo": 20,
+	  "roggenrola": 20,
+	  "timburr": 10,
+	  "woobat": 10,
+	  "durant": 15,
+	  "cryogonal": 15,
+	  "heatmor": 5,
+	  "onix": 25,
+	  "drilbur": 75
+	},
+	"dragonspiraltowerautumn": {
+	  "pidove": 35,
+	  "deerling": 35,
+	  "mienfoo": 25,
+	  "druddigon": 5,
+	  "audino": 85,
+	  "emolga": 10,
+	  "basculin": 100
+	},
+	"dragonspiraltowerspring": {
+	  "pidove": 35,
+	  "deerling": 35,
+	  "mienfoo": 25,
+	  "druddigon": 5,
+	  "audino": 85,
+	  "emolga": 10,
+	  "basculin": 100
+	},
+	"dragonspiraltowerwinter": {
+	  "pidove": 35,
+	  "deerling": 35,
+	  "mienfoo": 25,
+	  "druddigon": 5,
+	  "audino": 85,
+	  "emolga": 10,
+	  "basculin": 100
+	},
+	"dragonspiraltowersummer": {
+	  "vanillite": 25,
+	  "deerling": 30,
+	  "mienfoo": 25,
+	  "cubchoo": 15,
+	  "druddigon": 5,
+	  "audino": 85,
+	  "emolga": 10,
+	  "basculin": 100
+	},
+	"dragonspiraltower": {
+	  "golett": 100
+	},
+	"victoryroad": {
+	  "druddigon": 80,
+	  "deino": 20,
+	  "drilbur": 80,
+	  "onix": 20
+	},
+	"giantchasm": {
+	  "sneasel": 20,
+	  "swinub": 25,
+	  "vanillite": 15,
+	  "cleffa": 15,
+	  "lunatone": 10,
+	  "solrock": 10,
+	  "delibird": 5,
+	  "drilbur": 100,
+	  "basculin": 70,
+	  "seel": 70
+	},
+	"casterliasewers": {
+	  "rattata": 45,
+	  "zubat": 45,
+	  "grimer": 100
+	},
+	"p2laboratory": {
+	  "patrat": 20,
+	  "lillipup": 20,
+	  "koffing": 15,
+	  "magnemite": 15,
+	  "klink": 15,
+	  "scraggy": 15,
+	  "audino": 85,
+	  "frillish": 100,
+	  "alomomola": 90
+	},
+	"undellabayautumn": {
+	  "frillish": 65,
+	  "mantyke": 30,
+	  "remoraid": 5,
+	  "wailmer": 40
+	},
+	"undellabayspring": {
+	  "frillish": 65,
+	  "mantyke": 30,
+	  "remoraid": 5,
+	  "wailmer": 40
+	},
+	"undellabaywinter": {
+	  "frillish": 65,
+	  "mantyke": 30,
+	  "remoraid": 5,
+	  "wailmer": 40
+	},
+	"undellabaysummer": {
+	  "frillish": 65,
+	  "spheal": 35,
+	  "remoraid": 5,
+	  "wailmer": 65
+	},
+	"floccesyranch": {
+	  "lillipup": 40,
+	  "azurill": 40,
+	  "patrat": 10,
+	  "mareep": 10,
+	  "psyduck": 10,
+	  "pidove": 5,
+	  "riolu": 5,
+	  "audino": 90,
+	  "dunsparce": 10,
+	  "basculin": 70
+	},
+	"virbankcomplex": {
+	  "elekid": 25,
+	  "magnemite": 25,
+	  "patrat": 15,
+	  "koffing": 15,
+	  "growlithe": 20,
+	  "audino": 100
+	},
+	"reversalmountain": {
+	  "numel": 25,
+	  "woobat": 35,
+	  "roggenrola": 25,
+	  "skorupi": 15,
+	  "drilbur": 100
+	},
+	"strangehouse": {
+	  "litwick": 20,
+	  "solosis": 35,
+	  "rattata": 15,
+	  "zubat": 15,
+	  "shuppet": 15
+	},
+	"relicpassage": {
+	  "roggenrola": 39,
+	  "woobat": 36,
+	  "timburr": 20,
+	  "onix": 20,
+	  "drilbur": 80
+	},
+	"claytunnel": {
+	  "roggenrola": 35,
+	  "durant": 20,
+	  "woobat": 10,
+	  "aron": 15,
+	  "nosepass": 15,
+	  "onix": 25,
+	  "drilbur": 75,
+	  "basculin": 100
+	},
+	"undergroundruins": {
+	  "roggenrola": 35,
+	  "durant": 20,
+	  "woobat": 10,
+	  "aron": 15,
+	  "nosepass": 15,
+	  "onix": 25,
+	  "drilbur": 75
+	},
+	"seasidecave": {
+	  "woobat": 35,
+	  "roggenrola": 35,
+	  "psyduck": 20,
+	  "tynamo": 5,
+	  "shuckle": 5,
+	  "drilbur": 100
+	},
+	"naturepreserve": {
+	  "seedot": 30,
+	  "swablu": 20,
+	  "psyduck": 10,
+	  "hoothoot": 10,
+	  "girafarig": 15,
+	  "axew": 10,
+	  "kecleon": 5,
+	  "audino": 85,
+	  "dunsparce": 10,
+	  "basculin": 70,
+	  "buizel": 65
+	},
+	"driftveildrawbridge": {
+	  "ducklett": 100
+	},
+	"villagebridge": {
+	  "psyduck": 35,
+	  "azurill": 60,
+	  "zangoose": 15,
+	  "seviper": 15,
+	  "audino": 75,
+	  "emolga": 10,
+	  "dunsparce": 10,
+	  "basculin": 70,
+	  "lapras": 10
+	},
+	"marvelousbridge": {
+	  "ducklett": 100
+	},
+	"route1": {
+	  "patrat": 40,
+	  "lillipup": 50,
+	  "igglybuff": 10,
+	  "scraggy": 11,
+	  "audino": 80,
+	  "dunsparce": 10,
+	  "basculin": 100
+	},
+	"route2": {
+	  "patrat": 30,
+	  "lillipup": 30,
+	  "igglybuff": 10,
+	  "lickitung": 10,
+	  "purrloin": 20,
+	  "audino": 75,
+	  "dunsparce": 10
+	},
+	"route3": {
+	  "patrat": 20,
+	  "pidove": 30,
+	  "blitzle": 20,
+	  "yanma": 10,
+	  "lillipup": 10,
+	  "purrloin": 10,
+	  "audino": 85,
+	  "basculin": 70,
+	  "corphish": 70
+	},
+	"wellspringcave": {
+	  "roggenrola": 50,
+	  "woobat": 50,
+	  "drilbur": 100,
+	  "basculin": 100
+	},
+	"route4": {
+	  "sandile": 35,
+	  "darumaka": 35,
+	  "minccino": 25,
+	  "scraggy": 5,
+	  "frillish": 100,
+	  "alomomola": 90
+	},
+	"route5": {
+	  "solosis": 30,
+	  "minccino": 30,
+	  "trubbish": 20,
+	  "purrloin": 20,
+	  "audino": 85,
+	  "emolga": 10
+	},
+	"route6autumn": {
+	  "deerling": 30,
+	  "karrablast": 25,
+	  "pidove": 15,
+	  "foongus": 10,
+	  "sewaddle": 10,
+	  "azurill": 65,
+	  "shelmet": 5,
+	  "audino": 50,
+	  "emolga": 20,
+	  "dunsparce": 10,
+	  "castform": 5,
+	  "basculin": 70
+	},
+	"route6spring": {
+	  "deerling": 30,
+	  "karrablast": 25,
+	  "pidove": 15,
+	  "foongus": 10,
+	  "sewaddle": 10,
+	  "azurill": 65,
+	  "shelmet": 5,
+	  "audino": 50,
+	  "emolga": 20,
+	  "dunsparce": 10,
+	  "castform": 5,
+	  "basculin": 70
+	},
+	"route6winter": {
+	  "deerling": 30,
+	  "karrablast": 25,
+	  "pidove": 15,
+	  "foongus": 10,
+	  "sewaddle": 10,
+	  "azurill": 65,
+	  "shelmet": 5,
+	  "audino": 50,
+	  "emolga": 20,
+	  "dunsparce": 10,
+	  "castform": 5,
+	  "basculin": 70
+	},
+	"route6summer": {
+	  "deerling": 30,
+	  "karrablast": 25,
+	  "pidove": 15,
+	  "foongus": 10,
+	  "sewaddle": 10,
+	  "azurill": 65,
+	  "shelmet": 5,
+	  "audino": 50,
+	  "emolga": 20,
+	  "dunsparce": 10,
+	  "castform": 5,
+	  "basculin": 70
+	},
+	"mistraltoncave": {
+	  "roggenrola": 30,
+	  "woobat": 30,
+	  "aron": 20,
+	  "axew": 20,
+	  "drilbur": 100
+	},
+	"guidancechamber": {
+	  "roggenrola": 30,
+	  "woobat": 30,
+	  "aron": 20,
+	  "axew": 20,
+	  "drilbur": 100
+	},
+	"route7autumn": {
+	  "pidove": 30,
+	  "deerling": 20,
+	  "patrat": 15,
+	  "blitzle": 20,
+	  "zangoose": 5,
+	  "seviper": 5,
+	  "foongus": 5,
+	  "audino": 85,
+	  "emolga": 10
+	},
+	"route7spring": {
+	  "pidove": 30,
+	  "deerling": 20,
+	  "patrat": 15,
+	  "blitzle": 20,
+	  "zangoose": 5,
+	  "seviper": 5,
+	  "foongus": 5,
+	  "audino": 85,
+	  "emolga": 10
+	},
+	"route7winter": {
+	  "pidove": 30,
+	  "deerling": 20,
+	  "patrat": 15,
+	  "blitzle": 20,
+	  "zangoose": 5,
+	  "seviper": 5,
+	  "foongus": 5,
+	  "audino": 85,
+	  "emolga": 10
+	},
+	"route7summer": {
+	  "cubchoo": 25,
+	  "deerling": 20,
+	  "patrat": 10,
+	  "blitzle": 20,
+	  "pidove": 10,
+	  "zangoose": 5,
+	  "seviper": 5,
+	  "foongus": 5,
+	  "audino": 85,
+	  "emolga": 10
+	},
+	"celestialtower": {
+	  "litwick": 40,
+	  "elgyem": 40,
+	  "zubat": 20
+	},
+	"route8autumn": {
+	  "tympole": 40,
+	  "karrablast": 20,
+	  "croagunk": 15,
+	  "stunfisk": 70,
+	  "shelmet": 5
+	},
+	"route8spring": {
+	  "tympole": 40,
+	  "karrablast": 20,
+	  "croagunk": 15,
+	  "stunfisk": 70,
+	  "shelmet": 5
+	},
+	"route8winter": {
+	  "tympole": 40,
+	  "karrablast": 20,
+	  "croagunk": 15,
+	  "stunfisk": 70,
+	  "shelmet": 5
+	},
+	"route8summer": {
+	  "stunfisk": 70,
+	  "tympole": 40
+	},
+	"mooroficirrus": {
+	  "stunfisk": 100,
+	  "tympole": 10
+	},
+	"route9": {
+	  "solosis": 25,
+	  "minccino": 30,
+	  "trubbish": 15,
+	  "pawniard": 15,
+	  "purrloin": 10,
+	  "grimer": 5,
+	  "audino": 80,
+	  "emolga": 10
+	},
+	"route11": {
+	  "karrablast": 25,
+	  "psyduck": 20,
+	  "gligar": 15,
+	  "azurill": 10,
+	  "zangoose": 10,
+	  "seviper": 10,
+	  "foongus": 5,
+	  "shelmet": 5,
+	  "audino": 80,
+	  "emolga": 10,
+	  "basculin": 70,
+	  "buizel": 70
+	},
+	"route12": {
+	  "combee": 20,
+	  "budew": 25,
+	  "sewaddle": 15,
+	  "pidove": 25,
+	  "pinsir": 15,
+	  "audino": 60,
+	  "emolga": 10,
+	  "dunsparce": 10
+	},
+	"route13": {
+	  "tangela": 25,
+	  "wingull": 25,
+	  "drifloon": 15,
+	  "lunatone": 10,
+	  "solrock": 10,
+	  "absol": 15,
+	  "audino": 85,
+	  "emolga": 10,
+	  "frillish": 65,
+	  "staryu": 65,
+	  "basculin": 5
+	},
+	"route14": {
+	  "psyduck": 25,
+	  "swablu": 25,
+	  "drifloon": 15,
+	  "mienfoo": 30,
+	  "absol": 15,
+	  "audino": 90,
+	  "emolga": 10,
+	  "basculin": 70,
+	  "buizel": 70
+	},
+	"abundantshrine": {
+	  "swablu": 25,
+	  "petilil": 35,
+	  "vulpix": 20,
+	  "bronzor": 15,
+	  "azurill": 65,
+	  "psyduck": 10,
+	  "audino": 75,
+	  "emolga": 10,
+	  "basculin": 70
+	},
+	"route15": {
+	  "sandshrew": 30,
+	  "gligar": 25,
+	  "scraggy": 10,
+	  "throh": 20,
+	  "larvitar": 15,
+	  "audino": 75,
+	  "emolga": 10,
+	  "sawk": 5
+	},
+	"route16": {
+	  "solosis": 30,
+	  "minccino": 30,
+	  "trubbish": 20,
+	  "purrloin": 20,
+	  "audino": 85,
+	  "emolga": 10
+	},
+	"lostlornforest": {
+	  "petilil": 25,
+	  "sewaddle": 25,
+	  "combee": 10,
+	  "venipede": 20,
+	  "budew": 15,
+	  "pinsir": 5,
+	  "audino": 40,
+	  "emolga": 10,
+	  "pansage": 10,
+	  "pansear": 10,
+	  "panpour": 10,
+	  "basculin": 70,
+	  "buizel": 70
+	},
+	"route18": {
+	  "scraggy": 30,
+	  "dwebble": 20,
+	  "patrat": 10,
+	  "tropius": 10,
+	  "throh": 20,
+	  "carnivine": 10,
+	  "audino": 85,
+	  "dunsparce": 10,
+	  "sawk": 5,
+	  "frillish": 100,
+	  "alomomola": 90
+	},
+	"route19": {
+	  "patrat": 100,
+	  "purrloin": 50,
+	  "basculin": 100
+	},
+	"route20autumn": {
+	  "pidove": 25,
+	  "sewaddle": 35,
+	  "patrat": 20,
+	  "purrloin": 15,
+	  "sunkern": 5,
+	  "venipede": 20,
+	  "audino": 90,
+	  "dunsparce": 10,
+	  "basculin": 70,
+	  "azurill": 40
+	},
+	"route20spring": {
+	  "sunkern": 26,
+	  "sewaddle": 35,
+	  "patrat": 20,
+	  "purrloin": 14,
+	  "pidove": 5,
+	  "venipede": 20,
+	  "audino": 90,
+	  "dunsparce": 10,
+	  "basculin": 70,
+	  "azurill": 40
+	},
+	"route20winter": {
+	  "pidove": 25,
+	  "sewaddle": 35,
+	  "patrat": 20,
+	  "purrloin": 15,
+	  "sunkern": 5,
+	  "venipede": 20,
+	  "audino": 90,
+	  "dunsparce": 10,
+	  "basculin": 70,
+	  "azurill": 40
+	},
+	"route20summer": {
+	  "pidove": 25,
+	  "sewaddle": 35,
+	  "patrat": 20,
+	  "purrloin": 15,
+	  "sunkern": 5,
+	  "venipede": 20,
+	  "audino": 90,
+	  "dunsparce": 10,
+	  "basculin": 70,
+	  "azurill": 40
+	},
+	"route22": {
+	  "foongus": 20,
+	  "mienfoo": 25,
+	  "wingull": 10,
+	  "psyduck": 10,
+	  "lunatone": 10,
+	  "solrock": 10,
+	  "azurill": 65,
+	  "delibird": 5,
+	  "audino": 85,
+	  "emolga": 10,
+	  "basculin": 70
+	},
+	"route23": {
+	  "bouffalant": 25,
+	  "throh": 25,
+	  "gligar": 10,
+	  "mienfoo": 15,
+	  "foongus": 10,
+	  "psyduck": 10,
+	  "rufflet": 5,
+	  "audino": 80,
+	  "emolga": 10,
+	  "sawk": 5,
+	  "basculin": 70,
+	  "buizel": 70
+	},
+	"undellatown": {
+	  "frillish": 65,
+	  "staryu": 65,
+	  "basculin": 5
+	},
+	"route17": {
+	  "frillish": 100,
+	  "alomomola": 90
+	},
+	"route21": {
+	  "frillish": 65,
+	  "mantyke": 30,
+	  "remoraid": 5,
+	  "alomomola": 40
+	}
+  }

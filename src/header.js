@@ -99,11 +99,14 @@ var headerhtml = `                        <!-- Header is loaded in build/build.j
                         <a href="/pokeseed/html/gen5/bw-combined.html">
                             <li>BW (Combined)</li>
                         </a>
-                        <a href="" class="disabled">
+                        <a href="/pokeseed/html/gen5/black-2.html">
                             <li>Black 2</li>
                         </a>
-                        <a href="" class="disabled">
+                        <a href="/pokeseed/html/gen5/white-2.html">
                             <li>White 2</li>
+                        </a>
+                        <a href="/pokeseed/html/gen5/bw2-combined.html">
+                            <li>BW2 (Combined)</li>
                         </a>
                     </ul>
                 </li>

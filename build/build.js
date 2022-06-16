@@ -40,7 +40,8 @@ let headers = {
         "White",
         "BW (Combined)",
         "Black 2",
-        "White 2"
+        "White 2",
+        "BW2 (Combined)"
     ],
     "Gen6": [
         "X",
