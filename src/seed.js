@@ -126,13 +126,21 @@ var buildTableOutput = function (players) {
     ret += div;
     return ret;
 }
-async function runGenerator() {
+
+var lastroll = [];
+async function runGenerator(reroll = false) {
     if (isRunning) return;
     isRunning = true;
     output.clear();
     output.write('Starting Generation...');
     var PlayerNames = document.getElementById("players").value.split(",").map(escapeHTML).map(x => x.trim());
+    var RerollNames = document.getElementById("players").value.split(",").map(escapeHTML).map(x => x.trim());
     storage.setItem("names", PlayerNames.join(', '));
+
+    if (reroll) {
+        PlayerNames = Object.values(lastroll).map(x => x.name);
+    }
+
     var Players = PlayerNames.length;
     if (!PlayerNames[0]) {
         output.err("Invalid player count");
@@ -223,29 +231,53 @@ async function runGenerator() {
     }
 
     let players = [];
-    for (var i = 0; i < Players; i++) {
-        players.push({
-            name: PlayerNames[i],
-            pokemon: [],
-            common: 0,
-            legendary: 0,
-            normal: 0,
-            trash: 0
-        });
+    let bannedPokemon = [];
+    if (reroll) {
+        players = lastroll;
+        let ids = RerollNames.map(toId);
+        for (var i = 0; i < players.length; i++) {
+            let id = toId(players[i].name);
+            if (ids.includes(id)) {
+                players[i] = {
+                    name: players[i].name,
+                    pokemon: [],
+                    common: 0,
+                    legendary: 0,
+                    normal: 0,
+                    trash: 0,
+                    reroll: true
+                }
+            }
+            else {
+                bannedPokemon.concat(players[i].pokemon);
+            }
+        }
     }
-    var legendaries = pokemon.filter(a => a.type.startsWith("Legendary")).map((x) => x.name);
+    else {
+        for (var i = 0; i < Players; i++) {
+            players.push({
+                name: PlayerNames[i],
+                pokemon: [],
+                common: 0,
+                legendary: 0,
+                normal: 0,
+                trash: 0
+            });
+        }
+    }
+    var legendaries = pokemon.filter(a => a.type.startsWith("Legendary")).map((x) => x.name).filter(x => !bannedPokemon.includes(x));
     output.write(`Loaded ${legendaries.length} Legendary Pok&eacute;mon`);
     if (legendaries.length < Players * Legendary[0] && !AllowDupes) {
         output.err(`${Players} players with ${Legendary[0]} Legendary Pok&eacute;mon requires ${Players * Legendary[0]}`);
         error++;
     }
-    var normals = pokemon.filter(a => a.type.startsWith("Normal")).map((x) => x.name);
+    var normals = pokemon.filter(a => a.type.startsWith("Normal")).map((x) => x.name).filter(x => !bannedPokemon.includes(x));;
     output.write(`Loaded ${normals.length} Normal Pok&eacute;mon`);
     if (normals.length < Players * Normal[0] && !AllowDupes) {
         output.err(`${Players} players with ${Normal[0]} Normal Pok&eacute;mon requires ${Players * Normal[0]}`);
         error++;
     }
-    var trash = pokemon.filter(a => a.type.startsWith("Trash")).map(x => x.name);
+    var trash = pokemon.filter(a => a.type.startsWith("Trash")).map(x => x.name).filter(x => !bannedPokemon.includes(x));;
     output.write(`Loaded ${trash.length} Trash Pok&eacute;mon`);
     if (trash.length < Players * Trash[0] && !AllowDupes) {
         output.err(`${Players} players with ${Trash[0]} trash Pok&eacute;mon requires ${Players * Trash[0]}`);
@@ -274,6 +306,7 @@ async function runGenerator() {
             }
         }
     }
+    commons = commons.filter(x => !bannedPokemon.includes(x));
     console.log(commons);
     output.write(`Loaded ${commons.length} Common (${Cutoff}%) Pok&eacute;mon`);
     if (commons.length < Players * Common[0] && !AllowDupes) {
@@ -286,7 +319,7 @@ async function runGenerator() {
         return output.err(`Found ${error} error${error === 1 ? '' : 's'}. Exiting...`);
     }
 
-    var starters_c = JSON.parse(JSON.stringify(starters));
+    var starters_c = JSON.parse(JSON.stringify(starters)).filter(x => !bannedPokemon.includes(x));
     pokemon = pokemon.map(x => x.name);
     // We can start handing them out now!
     var addPokemon = function (player, mon) {
@@ -324,7 +357,7 @@ async function runGenerator() {
     var hasPokemon = (y, x) => !y.pokemon.includes(x);
 
     for (var i in players)
-        addPokemon(players[i], select(starters_c));
+        if (!reroll || players[i].reroll) addPokemon(players[i], select(starters_c));
     for (var i in players)
         while (players[i].normal < Normal[0]) addPokemon(players[i], select(normals.filter(x => hasPokemon(players[i], x))));
     for (var i in players)
@@ -351,7 +384,12 @@ async function runGenerator() {
         }
         if (yeet) break;
     }
+
+    for (let i in players) {
+        players[i].reroll = false;
+    }
     output.write(`legendary = <span class="result legendary">yellow</span>, normal = <span class="result normal">blue</span>, trash = <span class="result trash">red</span>`)
     output.write(buildTableOutput(players));
+    lastroll = players;
     isRunning = false;
 }
