@@ -141,7 +141,7 @@ async function runGenerator(reroll = false) {
         PlayerNames = Object.values(lastroll).map(x => x.name);
     }
 
-    var Players = PlayerNames.length;
+    var Players = RerollNames.length;
     if (!PlayerNames[0]) {
         output.err("Invalid player count");
         output.msg("I understand writing down a list of your friends is appealing, but please give me a list of players.");
@@ -249,7 +249,7 @@ async function runGenerator(reroll = false) {
                 }
             }
             else {
-                bannedPokemon.concat(players[i].pokemon);
+                bannedPokemon = bannedPokemon.concat(players[i].pokemon);
             }
         }
     }
