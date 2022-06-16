@@ -1,743 +1,1816 @@
 {
 	"striatoncity": {
-	  "basculin": 85,
-	  "corphish": 30
+	  "Land": {},
+	  "Water": {
+		"basculin": 70,
+		"corphish": 30
+	  },
+	  "Double": {},
+	  "Shake": {},
+	  "Bubble": {
+		"basculin": 85,
+		"corphish": 15
+	  }
 	},
 	"casteliacity": {
-	  "rattata": 30,
-	  "cottonee": 35,
-	  "pidove": 15,
-	  "buneary": 15,
-	  "eevee": 5,
-	  "audino": 90
+	  "Land": {
+		"rattata": 30,
+		"cottonee": 35,
+		"pidove": 15,
+		"buneary": 15,
+		"eevee": 5
+	  },
+	  "Water": {},
+	  "Double": {
+		"rattata": 30,
+		"cottonee": 35,
+		"pidove": 15,
+		"buneary": 15,
+		"eevee": 5
+	  },
+	  "Shake": {
+		"audino": 90,
+		"buneary": 5,
+		"cottonee": 5
+	  },
+	  "Bubble": {}
 	},
 	"icirruscityautumn": {
-	  "tympole": 40,
-	  "shelmet": 20,
-	  "croagunk": 15,
-	  "stunfisk": 100,
-	  "karrablast": 5
+	  "Land": {
+		"tympole": 40,
+		"shelmet": 20,
+		"croagunk": 15,
+		"stunfisk": 20,
+		"karrablast": 5
+	  },
+	  "Water": {
+		"stunfisk": 100
+	  },
+	  "Double": {},
+	  "Shake": {},
+	  "Bubble": {
+		"stunfisk": 90,
+		"tympole": 10
+	  }
 	},
 	"icirruscityspring": {
-	  "tympole": 40,
-	  "shelmet": 20,
-	  "croagunk": 15,
-	  "stunfisk": 100,
-	  "karrablast": 5
+	  "Land": {
+		"tympole": 40,
+		"shelmet": 20,
+		"croagunk": 15,
+		"stunfisk": 20,
+		"karrablast": 5
+	  },
+	  "Water": {
+		"stunfisk": 100
+	  },
+	  "Double": {},
+	  "Shake": {},
+	  "Bubble": {
+		"stunfisk": 90,
+		"tympole": 10
+	  }
 	},
 	"icirruscitywinter": {
-	  "tympole": 40,
-	  "shelmet": 20,
-	  "croagunk": 15,
-	  "stunfisk": 100,
-	  "karrablast": 5
+	  "Land": {
+		"tympole": 40,
+		"shelmet": 20,
+		"croagunk": 15,
+		"stunfisk": 20,
+		"karrablast": 5
+	  },
+	  "Water": {
+		"stunfisk": 100
+	  },
+	  "Double": {},
+	  "Shake": {},
+	  "Bubble": {
+		"stunfisk": 90,
+		"tympole": 10
+	  }
 	},
 	"icirruscitysummer": {
-	  "stunfisk": 100,
-	  "tympole": 10
+	  "Land": {},
+	  "Water": {
+		"stunfisk": 100
+	  },
+	  "Double": {},
+	  "Shake": {},
+	  "Bubble": {
+		"stunfisk": 90,
+		"tympole": 10
+	  }
 	},
 	"aspertiacity": {
-	  "basculin": 100
+	  "Land": {},
+	  "Water": {
+		"basculin": 100
+	  },
+	  "Double": {},
+	  "Shake": {},
+	  "Bubble": {
+		"basculin": 100
+	  }
 	},
 	"virbankcity": {
-	  "frillish": 100,
-	  "alomomola": 90
+	  "Land": {},
+	  "Water": {
+		"frillish": 100
+	  },
+	  "Double": {},
+	  "Shake": {},
+	  "Bubble": {
+		"alomomola": 90,
+		"frillish": 10
+	  }
 	},
 	"humilaucity": {
-	  "frillish": 65,
-	  "staryu": 30,
-	  "basculin": 5,
-	  "corsola": 30
+	  "Land": {},
+	  "Water": {
+		"frillish": 65,
+		"staryu": 30,
+		"basculin": 5
+	  },
+	  "Double": {},
+	  "Shake": {},
+	  "Bubble": {
+		"frillish": 55,
+		"corsola": 30,
+		"basculin": 5,
+		"staryu": 10
+	  }
 	},
 	"dreamyard": {
-	  "rattata": 25,
-	  "zubat": 25,
-	  "patrat": 10,
-	  "igglybuff": 10,
-	  "munna": 20,
-	  "purrloin": 10
+	  "Land": {},
+	  "Water": {},
+	  "Double": {
+		"rattata": 25,
+		"zubat": 25,
+		"patrat": 10,
+		"igglybuff": 10,
+		"munna": 20,
+		"purrloin": 10
+	  },
+	  "Shake": {},
+	  "Bubble": {}
 	},
 	"pinwheelforest": {
-	  "cottonee": 45,
-	  "sewaddle": 25,
-	  "slakoth": 15,
-	  "venipede": 15,
-	  "audino": 55,
-	  "pansage": 10,
-	  "pansear": 10,
-	  "panpour": 10,
-	  "basculin": 70,
-	  "azurill": 65
+	  "Land": {
+		"cottonee": 45,
+		"sewaddle": 25,
+		"slakoth": 15,
+		"venipede": 15
+	  },
+	  "Water": {
+		"basculin": 70,
+		"azurill": 30
+	  },
+	  "Double": {
+		"cottonee": 45,
+		"sewaddle": 25,
+		"slakoth": 15,
+		"venipede": 15
+	  },
+	  "Shake": {
+		"audino": 55,
+		"pansage": 10,
+		"pansear": 10,
+		"panpour": 10,
+		"venipede": 5,
+		"slakoth": 5,
+		"cottonee": 5
+	  },
+	  "Bubble": {
+		"azurill": 65,
+		"basculin": 35
+	  }
 	},
 	"desertresort": {
-	  "sandile": 30,
-	  "darumaka": 20,
-	  "sandshrew": 15,
-	  "maractus": 10,
-	  "sigilyph": 10,
-	  "dwebble": 10,
-	  "trapinch": 5
+	  "Land": {
+		"sandile": 30,
+		"darumaka": 20,
+		"sandshrew": 15,
+		"maractus": 10,
+		"sigilyph": 10,
+		"dwebble": 10,
+		"trapinch": 5
+	  },
+	  "Water": {},
+	  "Double": {},
+	  "Shake": {},
+	  "Bubble": {}
 	},
 	"reliccastle": {
-	  "baltoy": 100
+	  "Land": {
+		"baltoy": 100
+	  },
+	  "Water": {},
+	  "Double": {},
+	  "Shake": {},
+	  "Bubble": {}
 	},
 	"chargestonecave": {
-	  "joltik": 36,
-	  "klink": 21,
-	  "nosepass": 10,
-	  "ferroseed": 20,
-	  "roggenrola": 5,
-	  "tynamo": 8,
-	  "drilbur": 100
+	  "Land": {
+		"joltik": 36,
+		"klink": 21,
+		"nosepass": 10,
+		"ferroseed": 20,
+		"roggenrola": 5,
+		"tynamo": 8
+	  },
+	  "Water": {},
+	  "Double": {},
+	  "Shake": {
+		"drilbur": 100
+	  },
+	  "Bubble": {}
 	},
 	"twistmountainautumn": {
-	  "roggenrola": 40,
-	  "timburr": 10,
-	  "woobat": 10,
-	  "durant": 15,
-	  "cubchoo": 10,
-	  "heatmor": 5,
-	  "cryogonal": 5,
-	  "onix": 25,
-	  "drilbur": 75
+	  "Land": {
+		"roggenrola": 40,
+		"timburr": 10,
+		"woobat": 10,
+		"durant": 15,
+		"cubchoo": 10,
+		"heatmor": 5,
+		"cryogonal": 5,
+		"onix": 5
+	  },
+	  "Water": {},
+	  "Double": {},
+	  "Shake": {
+		"drilbur": 75,
+		"onix": 25
+	  },
+	  "Bubble": {}
 	},
 	"twistmountainspring": {
-	  "roggenrola": 20,
-	  "timburr": 20,
-	  "heatmor": 20,
-	  "woobat": 10,
-	  "durant": 15,
-	  "cubchoo": 5,
-	  "cryogonal": 5,
-	  "onix": 25,
-	  "drilbur": 75
+	  "Land": {
+		"roggenrola": 20,
+		"timburr": 20,
+		"heatmor": 20,
+		"woobat": 10,
+		"durant": 15,
+		"cubchoo": 5,
+		"cryogonal": 5,
+		"onix": 5
+	  },
+	  "Water": {},
+	  "Double": {},
+	  "Shake": {
+		"drilbur": 75,
+		"onix": 25
+	  },
+	  "Bubble": {}
 	},
 	"twistmountainwinter": {
-	  "roggenrola": 40,
-	  "timburr": 10,
-	  "woobat": 10,
-	  "durant": 15,
-	  "cubchoo": 10,
-	  "heatmor": 5,
-	  "cryogonal": 5,
-	  "onix": 25,
-	  "drilbur": 75
+	  "Land": {
+		"roggenrola": 40,
+		"timburr": 10,
+		"woobat": 10,
+		"durant": 15,
+		"cubchoo": 10,
+		"heatmor": 5,
+		"cryogonal": 5,
+		"onix": 5
+	  },
+	  "Water": {},
+	  "Double": {},
+	  "Shake": {
+		"drilbur": 75,
+		"onix": 25
+	  },
+	  "Bubble": {}
 	},
 	"twistmountainsummer": {
-	  "cubchoo": 20,
-	  "roggenrola": 20,
-	  "timburr": 10,
-	  "woobat": 10,
-	  "durant": 15,
-	  "cryogonal": 15,
-	  "heatmor": 5,
-	  "onix": 25,
-	  "drilbur": 75
+	  "Land": {
+		"cubchoo": 20,
+		"roggenrola": 20,
+		"timburr": 10,
+		"woobat": 10,
+		"durant": 15,
+		"cryogonal": 15,
+		"heatmor": 5,
+		"onix": 5
+	  },
+	  "Water": {},
+	  "Double": {},
+	  "Shake": {
+		"drilbur": 75,
+		"onix": 25
+	  },
+	  "Bubble": {}
 	},
 	"dragonspiraltowerautumn": {
-	  "pidove": 35,
-	  "deerling": 35,
-	  "mienfoo": 25,
-	  "druddigon": 5,
-	  "audino": 85,
-	  "emolga": 10,
-	  "basculin": 100
+	  "Land": {
+		"pidove": 35,
+		"deerling": 35,
+		"mienfoo": 25,
+		"druddigon": 5
+	  },
+	  "Water": {
+		"basculin": 100
+	  },
+	  "Double": {
+		"pidove": 35,
+		"deerling": 35,
+		"mienfoo": 25,
+		"druddigon": 5
+	  },
+	  "Shake": {
+		"audino": 85,
+		"emolga": 10,
+		"pidove": 5
+	  },
+	  "Bubble": {
+		"basculin": 100
+	  }
 	},
 	"dragonspiraltowerspring": {
-	  "pidove": 35,
-	  "deerling": 35,
-	  "mienfoo": 25,
-	  "druddigon": 5,
-	  "audino": 85,
-	  "emolga": 10,
-	  "basculin": 100
+	  "Land": {
+		"pidove": 35,
+		"deerling": 35,
+		"mienfoo": 25,
+		"druddigon": 5
+	  },
+	  "Water": {
+		"basculin": 100
+	  },
+	  "Double": {
+		"pidove": 35,
+		"deerling": 35,
+		"mienfoo": 25,
+		"druddigon": 5
+	  },
+	  "Shake": {
+		"audino": 85,
+		"emolga": 10,
+		"pidove": 5
+	  },
+	  "Bubble": {
+		"basculin": 100
+	  }
 	},
 	"dragonspiraltowerwinter": {
-	  "pidove": 35,
-	  "deerling": 35,
-	  "mienfoo": 25,
-	  "druddigon": 5,
-	  "audino": 85,
-	  "emolga": 10,
-	  "basculin": 100
+	  "Land": {
+		"pidove": 35,
+		"deerling": 35,
+		"mienfoo": 25,
+		"druddigon": 5
+	  },
+	  "Water": {
+		"basculin": 100
+	  },
+	  "Double": {
+		"pidove": 35,
+		"deerling": 35,
+		"mienfoo": 25,
+		"druddigon": 5
+	  },
+	  "Shake": {
+		"audino": 85,
+		"emolga": 10,
+		"pidove": 5
+	  },
+	  "Bubble": {
+		"basculin": 100
+	  }
 	},
 	"dragonspiraltowersummer": {
-	  "vanillite": 25,
-	  "deerling": 30,
-	  "mienfoo": 25,
-	  "cubchoo": 15,
-	  "druddigon": 5,
-	  "audino": 85,
-	  "emolga": 10,
-	  "basculin": 100
+	  "Land": {
+		"vanillite": 25,
+		"deerling": 30,
+		"mienfoo": 25,
+		"cubchoo": 15,
+		"druddigon": 5
+	  },
+	  "Water": {
+		"basculin": 100
+	  },
+	  "Double": {
+		"vanillite": 25,
+		"deerling": 30,
+		"mienfoo": 25,
+		"cubchoo": 15,
+		"druddigon": 5
+	  },
+	  "Shake": {
+		"audino": 85,
+		"emolga": 10,
+		"vanillite": 5
+	  },
+	  "Bubble": {
+		"basculin": 100
+	  }
 	},
 	"dragonspiraltower": {
-	  "golett": 100
+	  "Land": {
+		"golett": 100
+	  },
+	  "Water": {},
+	  "Double": {},
+	  "Shake": {},
+	  "Bubble": {}
 	},
 	"victoryroad": {
-	  "druddigon": 80,
-	  "deino": 20,
-	  "drilbur": 80,
-	  "onix": 20
+	  "Land": {
+		"druddigon": 80,
+		"deino": 20
+	  },
+	  "Water": {},
+	  "Double": {},
+	  "Shake": {
+		"drilbur": 80,
+		"onix": 20
+	  },
+	  "Bubble": {}
 	},
 	"giantchasm": {
-	  "sneasel": 20,
-	  "swinub": 25,
-	  "vanillite": 15,
-	  "cleffa": 15,
-	  "lunatone": 10,
-	  "solrock": 10,
-	  "delibird": 5,
-	  "drilbur": 100,
-	  "basculin": 70,
-	  "seel": 70
+	  "Land": {
+		"sneasel": 20,
+		"swinub": 25,
+		"vanillite": 15,
+		"cleffa": 15,
+		"lunatone": 10,
+		"solrock": 10,
+		"delibird": 5
+	  },
+	  "Water": {
+		"basculin": 70,
+		"seel": 30
+	  },
+	  "Double": {},
+	  "Shake": {
+		"drilbur": 100
+	  },
+	  "Bubble": {
+		"seel": 70,
+		"basculin": 30
+	  }
 	},
 	"casteliasewers": {
-	  "rattata": 45,
-	  "zubat": 45,
-	  "grimer": 100
+	  "Land": {
+		"rattata": 45,
+		"zubat": 45,
+		"grimer": 10
+	  },
+	  "Water": {
+		"grimer": 100
+	  },
+	  "Double": {},
+	  "Shake": {},
+	  "Bubble": {
+		"grimer": 100
+	  }
 	},
 	"p2laboratory": {
-	  "patrat": 20,
-	  "lillipup": 20,
-	  "koffing": 15,
-	  "magnemite": 15,
-	  "klink": 15,
-	  "scraggy": 15,
-	  "audino": 85,
-	  "frillish": 100,
-	  "alomomola": 90
+	  "Land": {
+		"patrat": 20,
+		"lillipup": 20,
+		"koffing": 15,
+		"magnemite": 15,
+		"klink": 15,
+		"scraggy": 15
+	  },
+	  "Water": {
+		"frillish": 100
+	  },
+	  "Double": {},
+	  "Shake": {
+		"audino": 85,
+		"magnemite": 5,
+		"klink": 5,
+		"lillipup": 5
+	  },
+	  "Bubble": {
+		"alomomola": 90,
+		"frillish": 10
+	  }
 	},
 	"undellabayautumn": {
-	  "frillish": 65,
-	  "mantyke": 30,
-	  "remoraid": 5,
-	  "wailmer": 40
+	  "Land": {},
+	  "Water": {
+		"frillish": 65,
+		"mantyke": 30,
+		"remoraid": 5
+	  },
+	  "Double": {},
+	  "Shake": {},
+	  "Bubble": {
+		"frillish": 55,
+		"wailmer": 40,
+		"mantyke": 5
+	  }
 	},
 	"undellabayspring": {
-	  "frillish": 65,
-	  "mantyke": 30,
-	  "remoraid": 5,
-	  "wailmer": 40
+	  "Land": {},
+	  "Water": {
+		"frillish": 65,
+		"mantyke": 30,
+		"remoraid": 5
+	  },
+	  "Double": {},
+	  "Shake": {},
+	  "Bubble": {
+		"frillish": 55,
+		"wailmer": 40,
+		"mantyke": 5
+	  }
 	},
 	"undellabaywinter": {
-	  "frillish": 65,
-	  "mantyke": 30,
-	  "remoraid": 5,
-	  "wailmer": 40
+	  "Land": {},
+	  "Water": {
+		"frillish": 65,
+		"mantyke": 30,
+		"remoraid": 5
+	  },
+	  "Double": {},
+	  "Shake": {},
+	  "Bubble": {
+		"frillish": 55,
+		"wailmer": 40,
+		"mantyke": 5
+	  }
 	},
 	"undellabaysummer": {
-	  "frillish": 65,
-	  "spheal": 35,
-	  "remoraid": 5,
-	  "wailmer": 65
+	  "Land": {},
+	  "Water": {
+		"frillish": 65,
+		"spheal": 30,
+		"remoraid": 5
+	  },
+	  "Double": {},
+	  "Shake": {},
+	  "Bubble": {
+		"wailmer": 65,
+		"spheal": 35
+	  }
 	},
 	"floccesyranch": {
-	  "lillipup": 40,
-	  "azurill": 40,
-	  "patrat": 10,
-	  "mareep": 10,
-	  "psyduck": 10,
-	  "pidove": 5,
-	  "riolu": 5,
-	  "audino": 90,
-	  "dunsparce": 10,
-	  "basculin": 70
+	  "Land": {
+		"lillipup": 40,
+		"azurill": 20,
+		"patrat": 10,
+		"mareep": 10,
+		"psyduck": 10,
+		"pidove": 5,
+		"riolu": 5
+	  },
+	  "Water": {
+		"basculin": 70,
+		"azurill": 30
+	  },
+	  "Double": {},
+	  "Shake": {
+		"audino": 90,
+		"dunsparce": 10
+	  },
+	  "Bubble": {
+		"basculin": 60,
+		"azurill": 40
+	  }
 	},
 	"virbankcomplex": {
-	  "magby": 25,
-	  "magnemite": 25,
-	  "patrat": 15,
-	  "koffing": 15,
-	  "growlithe": 20,
-	  "audino": 100
+	  "Land": {
+		"magby": 25,
+		"magnemite": 25,
+		"patrat": 15,
+		"koffing": 15,
+		"growlithe": 20
+	  },
+	  "Water": {},
+	  "Double": {
+		"magby": 25,
+		"magnemite": 25,
+		"patrat": 15,
+		"koffing": 15,
+		"growlithe": 20
+	  },
+	  "Shake": {
+		"audino": 100
+	  },
+	  "Bubble": {}
 	},
 	"reversalmountain": {
-	  "spoink": 25,
-	  "woobat": 35,
-	  "roggenrola": 25,
-	  "skorupi": 15,
-	  "drilbur": 100
+	  "Land": {
+		"spoink": 25,
+		"woobat": 35,
+		"roggenrola": 25,
+		"skorupi": 15
+	  },
+	  "Water": {},
+	  "Double": {},
+	  "Shake": {
+		"drilbur": 100
+	  },
+	  "Bubble": {}
 	},
 	"strangehouse": {
-	  "litwick": 20,
-	  "gothita": 35,
-	  "rattata": 15,
-	  "zubat": 15,
-	  "shuppet": 15
+	  "Land": {
+		"litwick": 20,
+		"gothita": 35,
+		"rattata": 15,
+		"zubat": 15,
+		"shuppet": 15
+	  },
+	  "Water": {},
+	  "Double": {},
+	  "Shake": {},
+	  "Bubble": {}
 	},
 	"relicpassage": {
-	  "roggenrola": 39,
-	  "woobat": 36,
-	  "timburr": 20,
-	  "onix": 20,
-	  "drilbur": 80
+	  "Land": {
+		"roggenrola": 39,
+		"woobat": 36,
+		"timburr": 20,
+		"onix": 5
+	  },
+	  "Water": {},
+	  "Double": {},
+	  "Shake": {
+		"drilbur": 80,
+		"onix": 20
+	  },
+	  "Bubble": {}
 	},
 	"claytunnel": {
-	  "roggenrola": 35,
-	  "durant": 20,
-	  "woobat": 10,
-	  "aron": 15,
-	  "nosepass": 15,
-	  "onix": 25,
-	  "drilbur": 75,
-	  "basculin": 100
+	  "Land": {
+		"roggenrola": 35,
+		"durant": 20,
+		"woobat": 10,
+		"aron": 15,
+		"nosepass": 15,
+		"onix": 5
+	  },
+	  "Water": {
+		"basculin": 100
+	  },
+	  "Double": {},
+	  "Shake": {
+		"drilbur": 75,
+		"onix": 25
+	  },
+	  "Bubble": {
+		"basculin": 100
+	  }
 	},
 	"undergroundruins": {
-	  "roggenrola": 35,
-	  "durant": 20,
-	  "woobat": 10,
-	  "aron": 15,
-	  "nosepass": 15,
-	  "onix": 25,
-	  "drilbur": 75
+	  "Land": {
+		"roggenrola": 35,
+		"durant": 20,
+		"woobat": 10,
+		"aron": 15,
+		"nosepass": 15,
+		"onix": 5
+	  },
+	  "Water": {},
+	  "Double": {},
+	  "Shake": {
+		"drilbur": 75,
+		"onix": 25
+	  },
+	  "Bubble": {}
 	},
 	"seasidecave": {
-	  "woobat": 35,
-	  "roggenrola": 35,
-	  "psyduck": 20,
-	  "tynamo": 5,
-	  "shuckle": 5,
-	  "drilbur": 100
+	  "Land": {
+		"woobat": 35,
+		"roggenrola": 35,
+		"psyduck": 20,
+		"tynamo": 5,
+		"shuckle": 5
+	  },
+	  "Water": {},
+	  "Double": {},
+	  "Shake": {
+		"drilbur": 100
+	  },
+	  "Bubble": {}
 	},
 	"naturepreserve": {
-	  "seedot": 30,
-	  "swablu": 20,
-	  "psyduck": 10,
-	  "hoothoot": 10,
-	  "girafarig": 15,
-	  "axew": 10,
-	  "kecleon": 5,
-	  "audino": 85,
-	  "dunsparce": 10,
-	  "basculin": 70,
-	  "buizel": 65
+	  "Land": {
+		"seedot": 30,
+		"swablu": 20,
+		"psyduck": 10,
+		"hoothoot": 10,
+		"girafarig": 15,
+		"axew": 10,
+		"kecleon": 5
+	  },
+	  "Water": {
+		"basculin": 70,
+		"buizel": 30
+	  },
+	  "Double": {
+		"seedot": 30,
+		"swablu": 20,
+		"psyduck": 10,
+		"hoothoot": 10,
+		"girafarig": 15,
+		"axew": 10,
+		"kecleon": 5
+	  },
+	  "Shake": {
+		"audino": 85,
+		"dunsparce": 10,
+		"seedot": 5
+	  },
+	  "Bubble": {
+		"buizel": 65,
+		"basculin": 35
+	  }
 	},
 	"driftveildrawbridge": {
-	  "ducklett": 100
+	  "Land": {},
+	  "Water": {},
+	  "Double": {},
+	  "Shake": {
+		"ducklett": 100
+	  },
+	  "Bubble": {}
 	},
 	"villagebridge": {
-	  "psyduck": 35,
-	  "azurill": 60,
-	  "zangoose": 15,
-	  "seviper": 15,
-	  "audino": 75,
-	  "emolga": 10,
-	  "dunsparce": 10,
-	  "basculin": 70,
-	  "lapras": 10
+	  "Land": {
+		"psyduck": 35,
+		"azurill": 35,
+		"zangoose": 15,
+		"seviper": 15
+	  },
+	  "Water": {
+		"basculin": 70,
+		"azurill": 30
+	  },
+	  "Double": {
+		"psyduck": 35,
+		"azurill": 35,
+		"zangoose": 15,
+		"seviper": 15
+	  },
+	  "Shake": {
+		"audino": 75,
+		"emolga": 10,
+		"dunsparce": 10,
+		"azurill": 5
+	  },
+	  "Bubble": {
+		"azurill": 60,
+		"basculin": 30,
+		"lapras": 10
+	  }
 	},
 	"marvelousbridge": {
-	  "ducklett": 100
+	  "Land": {},
+	  "Water": {},
+	  "Double": {},
+	  "Shake": {
+		"ducklett": 100
+	  },
+	  "Bubble": {}
 	},
 	"route1": {
-	  "patrat": 40,
-	  "lillipup": 50,
-	  "igglybuff": 10,
-	  "scraggy": 11,
-	  "audino": 80,
-	  "dunsparce": 10,
-	  "basculin": 100
+	  "Land": {
+		"patrat": 40,
+		"lillipup": 50,
+		"igglybuff": 10
+	  },
+	  "Water": {
+		"basculin": 100
+	  },
+	  "Double": {
+		"patrat": 40,
+		"lillipup": 39,
+		"igglybuff": 10,
+		"scraggy": 11
+	  },
+	  "Shake": {
+		"audino": 80,
+		"dunsparce": 10,
+		"lillipup": 5,
+		"igglybuff": 5
+	  },
+	  "Bubble": {
+		"basculin": 100
+	  }
 	},
 	"route2": {
-	  "patrat": 30,
-	  "lillipup": 30,
-	  "igglybuff": 10,
-	  "lickitung": 10,
-	  "purrloin": 20,
-	  "audino": 75,
-	  "dunsparce": 10
+	  "Land": {
+		"patrat": 30,
+		"lillipup": 30,
+		"igglybuff": 10,
+		"lickitung": 10,
+		"purrloin": 20
+	  },
+	  "Water": {},
+	  "Double": {},
+	  "Shake": {
+		"audino": 75,
+		"dunsparce": 10,
+		"lickitung": 5,
+		"lillipup": 5,
+		"igglybuff": 5
+	  },
+	  "Bubble": {}
 	},
 	"route3": {
-	  "patrat": 20,
-	  "pidove": 30,
-	  "blitzle": 20,
-	  "yanma": 10,
-	  "lillipup": 10,
-	  "purrloin": 10,
-	  "audino": 85,
-	  "basculin": 70,
-	  "corphish": 30
+	  "Land": {
+		"patrat": 20,
+		"pidove": 30,
+		"blitzle": 20,
+		"yanma": 10,
+		"lillipup": 10,
+		"purrloin": 10
+	  },
+	  "Water": {
+		"basculin": 70,
+		"corphish": 30
+	  },
+	  "Double": {
+		"patrat": 20,
+		"pidove": 30,
+		"blitzle": 20,
+		"yanma": 10,
+		"lillipup": 10,
+		"purrloin": 10
+	  },
+	  "Shake": {
+		"audino": 85,
+		"yanma": 5,
+		"pidove": 5,
+		"lillipup": 5
+	  },
+	  "Bubble": {
+		"basculin": 30,
+		"corphish": 15
+	  }
 	},
 	"wellspringcave": {
-	  "roggenrola": 50,
-	  "woobat": 50,
-	  "drilbur": 100,
-	  "basculin": 100
+	  "Land": {
+		"roggenrola": 50,
+		"woobat": 50
+	  },
+	  "Water": {
+		"basculin": 100
+	  },
+	  "Double": {},
+	  "Shake": {
+		"drilbur": 100
+	  },
+	  "Bubble": {
+		"basculin": 100
+	  }
 	},
 	"route4": {
-	  "sandile": 35,
-	  "darumaka": 35,
-	  "trubbish": 25,
-	  "scraggy": 5,
-	  "frillish": 100,
-	  "alomomola": 90
+	  "Land": {
+		"sandile": 35,
+		"darumaka": 35,
+		"trubbish": 25,
+		"scraggy": 5
+	  },
+	  "Water": {
+		"frillish": 100
+	  },
+	  "Double": {},
+	  "Shake": {},
+	  "Bubble": {
+		"alomomola": 90,
+		"frillish": 10
+	  }
 	},
 	"route5": {
-	  "gothita": 30,
-	  "minccino": 30,
-	  "trubbish": 20,
-	  "purrloin": 20,
-	  "audino": 85,
-	  "emolga": 10
+	  "Land": {
+		"gothita": 30,
+		"minccino": 30,
+		"trubbish": 20,
+		"purrloin": 20
+	  },
+	  "Water": {},
+	  "Double": {
+		"gothita": 30,
+		"minccino": 30,
+		"trubbish": 20,
+		"purrloin": 20
+	  },
+	  "Shake": {
+		"audino": 85,
+		"emolga": 10,
+		"minccino": 5
+	  },
+	  "Bubble": {}
 	},
 	"route6autumn": {
-	  "deerling": 30,
-	  "shelmet": 25,
-	  "pidove": 15,
-	  "foongus": 10,
-	  "sewaddle": 10,
-	  "azurill": 65,
-	  "karrablast": 5,
-	  "audino": 50,
-	  "emolga": 20,
-	  "dunsparce": 10,
-	  "castform": 5,
-	  "basculin": 70
+	  "Land": {
+		"deerling": 30,
+		"shelmet": 25,
+		"pidove": 15,
+		"foongus": 10,
+		"sewaddle": 10,
+		"azurill": 5,
+		"karrablast": 5
+	  },
+	  "Water": {
+		"basculin": 70,
+		"azurill": 30
+	  },
+	  "Double": {
+		"deerling": 30,
+		"shelmet": 25,
+		"pidove": 15,
+		"foongus": 10,
+		"sewaddle": 10,
+		"azurill": 5,
+		"karrablast": 5
+	  },
+	  "Shake": {
+		"audino": 50,
+		"emolga": 20,
+		"dunsparce": 10,
+		"azurill": 5,
+		"castform": 5,
+		"pidove": 5,
+		"sewaddle": 5
+	  },
+	  "Bubble": {
+		"azurill": 65,
+		"basculin": 35
+	  }
 	},
 	"route6spring": {
-	  "deerling": 30,
-	  "shelmet": 25,
-	  "pidove": 15,
-	  "foongus": 10,
-	  "sewaddle": 10,
-	  "azurill": 65,
-	  "karrablast": 5,
-	  "audino": 50,
-	  "emolga": 20,
-	  "dunsparce": 10,
-	  "castform": 5,
-	  "basculin": 70
+	  "Land": {
+		"deerling": 30,
+		"shelmet": 25,
+		"pidove": 15,
+		"foongus": 10,
+		"sewaddle": 10,
+		"azurill": 5,
+		"karrablast": 5
+	  },
+	  "Water": {
+		"basculin": 70,
+		"azurill": 30
+	  },
+	  "Double": {
+		"deerling": 30,
+		"shelmet": 25,
+		"pidove": 15,
+		"foongus": 10,
+		"sewaddle": 10,
+		"azurill": 5,
+		"karrablast": 5
+	  },
+	  "Shake": {
+		"audino": 50,
+		"emolga": 20,
+		"dunsparce": 10,
+		"azurill": 5,
+		"castform": 5,
+		"pidove": 5,
+		"sewaddle": 5
+	  },
+	  "Bubble": {
+		"azurill": 65,
+		"basculin": 35
+	  }
 	},
 	"route6winter": {
-	  "deerling": 30,
-	  "shelmet": 25,
-	  "pidove": 15,
-	  "foongus": 10,
-	  "sewaddle": 10,
-	  "azurill": 65,
-	  "karrablast": 5,
-	  "audino": 50,
-	  "emolga": 20,
-	  "dunsparce": 10,
-	  "castform": 5,
-	  "basculin": 70
+	  "Land": {
+		"deerling": 30,
+		"shelmet": 25,
+		"pidove": 15,
+		"foongus": 10,
+		"sewaddle": 10,
+		"azurill": 5,
+		"karrablast": 5
+	  },
+	  "Water": {
+		"basculin": 70,
+		"azurill": 30
+	  },
+	  "Double": {
+		"deerling": 30,
+		"shelmet": 25,
+		"pidove": 15,
+		"foongus": 10,
+		"sewaddle": 10,
+		"azurill": 5,
+		"karrablast": 5
+	  },
+	  "Shake": {
+		"audino": 50,
+		"emolga": 20,
+		"dunsparce": 10,
+		"azurill": 5,
+		"castform": 5,
+		"pidove": 5,
+		"sewaddle": 5
+	  },
+	  "Bubble": {
+		"azurill": 65,
+		"basculin": 35
+	  }
 	},
 	"route6summer": {
-	  "deerling": 30,
-	  "shelmet": 25,
-	  "pidove": 15,
-	  "foongus": 10,
-	  "sewaddle": 10,
-	  "azurill": 65,
-	  "karrablast": 5,
-	  "audino": 50,
-	  "emolga": 20,
-	  "dunsparce": 10,
-	  "castform": 5,
-	  "basculin": 70
+	  "Land": {
+		"deerling": 30,
+		"shelmet": 25,
+		"pidove": 15,
+		"foongus": 10,
+		"sewaddle": 10,
+		"azurill": 5,
+		"karrablast": 5
+	  },
+	  "Water": {
+		"basculin": 70,
+		"azurill": 30
+	  },
+	  "Double": {
+		"deerling": 30,
+		"shelmet": 25,
+		"pidove": 15,
+		"foongus": 10,
+		"sewaddle": 10,
+		"azurill": 5,
+		"karrablast": 5
+	  },
+	  "Shake": {
+		"audino": 50,
+		"emolga": 20,
+		"dunsparce": 10,
+		"azurill": 5,
+		"castform": 5,
+		"pidove": 5,
+		"sewaddle": 5
+	  },
+	  "Bubble": {
+		"azurill": 65,
+		"basculin": 35
+	  }
 	},
 	"mistraltoncave": {
-	  "roggenrola": 30,
-	  "woobat": 30,
-	  "aron": 20,
-	  "axew": 20,
-	  "drilbur": 100
+	  "Land": {
+		"roggenrola": 30,
+		"woobat": 30,
+		"aron": 20,
+		"axew": 20
+	  },
+	  "Water": {},
+	  "Double": {},
+	  "Shake": {
+		"drilbur": 100
+	  },
+	  "Bubble": {}
 	},
 	"guidancechamber": {
-	  "roggenrola": 30,
-	  "woobat": 30,
-	  "aron": 20,
-	  "axew": 20,
-	  "drilbur": 100
+	  "Land": {
+		"roggenrola": 30,
+		"woobat": 30,
+		"aron": 20,
+		"axew": 20
+	  },
+	  "Water": {},
+	  "Double": {},
+	  "Shake": {
+		"drilbur": 100
+	  },
+	  "Bubble": {}
 	},
 	"route7autumn": {
-	  "pidove": 30,
-	  "deerling": 20,
-	  "patrat": 15,
-	  "blitzle": 20,
-	  "zangoose": 5,
-	  "seviper": 5,
-	  "foongus": 5,
-	  "audino": 85,
-	  "emolga": 10
+	  "Land": {
+		"pidove": 30,
+		"deerling": 20,
+		"patrat": 15,
+		"blitzle": 20,
+		"zangoose": 5,
+		"seviper": 5,
+		"foongus": 5
+	  },
+	  "Water": {},
+	  "Double": {
+		"pidove": 30,
+		"deerling": 20,
+		"patrat": 15,
+		"blitzle": 20,
+		"zangoose": 5,
+		"seviper": 5,
+		"foongus": 5
+	  },
+	  "Shake": {
+		"audino": 85,
+		"emolga": 10,
+		"pidove": 5
+	  },
+	  "Bubble": {}
 	},
 	"route7spring": {
-	  "pidove": 30,
-	  "deerling": 20,
-	  "patrat": 15,
-	  "blitzle": 20,
-	  "zangoose": 5,
-	  "seviper": 5,
-	  "foongus": 5,
-	  "audino": 85,
-	  "emolga": 10
+	  "Land": {
+		"pidove": 30,
+		"deerling": 20,
+		"patrat": 15,
+		"blitzle": 20,
+		"zangoose": 5,
+		"seviper": 5,
+		"foongus": 5
+	  },
+	  "Water": {},
+	  "Double": {
+		"pidove": 30,
+		"deerling": 20,
+		"patrat": 15,
+		"blitzle": 20,
+		"zangoose": 5,
+		"seviper": 5,
+		"foongus": 5
+	  },
+	  "Shake": {
+		"audino": 85,
+		"emolga": 10,
+		"pidove": 5
+	  },
+	  "Bubble": {}
 	},
 	"route7winter": {
-	  "pidove": 30,
-	  "deerling": 20,
-	  "patrat": 15,
-	  "blitzle": 20,
-	  "zangoose": 5,
-	  "seviper": 5,
-	  "foongus": 5,
-	  "audino": 85,
-	  "emolga": 10
+	  "Land": {
+		"pidove": 30,
+		"deerling": 20,
+		"patrat": 15,
+		"blitzle": 20,
+		"zangoose": 5,
+		"seviper": 5,
+		"foongus": 5
+	  },
+	  "Water": {},
+	  "Double": {
+		"pidove": 30,
+		"deerling": 20,
+		"patrat": 15,
+		"blitzle": 20,
+		"zangoose": 5,
+		"seviper": 5,
+		"foongus": 5
+	  },
+	  "Shake": {
+		"audino": 85,
+		"emolga": 10,
+		"pidove": 5
+	  },
+	  "Bubble": {}
 	},
 	"route7summer": {
-	  "cubchoo": 25,
-	  "deerling": 20,
-	  "patrat": 10,
-	  "blitzle": 20,
-	  "pidove": 10,
-	  "zangoose": 5,
-	  "seviper": 5,
-	  "foongus": 5,
-	  "audino": 85,
-	  "emolga": 10
+	  "Land": {
+		"cubchoo": 25,
+		"deerling": 20,
+		"patrat": 10,
+		"blitzle": 20,
+		"pidove": 10,
+		"zangoose": 5,
+		"seviper": 5,
+		"foongus": 5
+	  },
+	  "Water": {},
+	  "Double": {
+		"cubchoo": 25,
+		"deerling": 20,
+		"patrat": 10,
+		"blitzle": 20,
+		"pidove": 10,
+		"zangoose": 5,
+		"seviper": 5,
+		"foongus": 5
+	  },
+	  "Shake": {
+		"audino": 85,
+		"emolga": 10,
+		"pidove": 5
+	  },
+	  "Bubble": {}
 	},
 	"celestialtower": {
-	  "litwick": 40,
-	  "elgyem": 40,
-	  "zubat": 20
+	  "Land": {
+		"litwick": 40,
+		"elgyem": 40,
+		"zubat": 20
+	  },
+	  "Water": {},
+	  "Double": {},
+	  "Shake": {},
+	  "Bubble": {}
 	},
 	"route8autumn": {
-	  "tympole": 40,
-	  "shelmet": 20,
-	  "croagunk": 15,
-	  "stunfisk": 70,
-	  "karrablast": 5
+	  "Land": {
+		"tympole": 40,
+		"shelmet": 20,
+		"croagunk": 15,
+		"stunfisk": 20,
+		"karrablast": 5
+	  },
+	  "Water": {
+		"stunfisk": 70,
+		"tympole": 30
+	  },
+	  "Double": {},
+	  "Shake": {},
+	  "Bubble": {
+		"stunfisk": 60,
+		"tympole": 40
+	  }
 	},
 	"route8spring": {
-	  "tympole": 40,
-	  "shelmet": 20,
-	  "croagunk": 15,
-	  "stunfisk": 70,
-	  "karrablast": 5
+	  "Land": {
+		"tympole": 40,
+		"shelmet": 20,
+		"croagunk": 15,
+		"stunfisk": 20,
+		"karrablast": 5
+	  },
+	  "Water": {
+		"stunfisk": 70,
+		"tympole": 30
+	  },
+	  "Double": {},
+	  "Shake": {},
+	  "Bubble": {
+		"stunfisk": 60,
+		"tympole": 40
+	  }
 	},
 	"route8winter": {
-	  "tympole": 40,
-	  "shelmet": 20,
-	  "croagunk": 15,
-	  "stunfisk": 70,
-	  "karrablast": 5
+	  "Land": {
+		"tympole": 40,
+		"shelmet": 20,
+		"croagunk": 15,
+		"stunfisk": 20,
+		"karrablast": 5
+	  },
+	  "Water": {
+		"stunfisk": 70,
+		"tympole": 30
+	  },
+	  "Double": {},
+	  "Shake": {},
+	  "Bubble": {
+		"stunfisk": 60,
+		"tympole": 40
+	  }
 	},
 	"route8summer": {
-	  "stunfisk": 70,
-	  "tympole": 40
+	  "Land": {},
+	  "Water": {
+		"stunfisk": 70,
+		"tympole": 30
+	  },
+	  "Double": {},
+	  "Shake": {},
+	  "Bubble": {
+		"stunfisk": 60,
+		"tympole": 40
+	  }
 	},
 	"mooroficirrus": {
-	  "stunfisk": 100,
-	  "tympole": 10
+	  "Land": {},
+	  "Water": {
+		"stunfisk": 100
+	  },
+	  "Double": {},
+	  "Shake": {},
+	  "Bubble": {
+		"stunfisk": 90,
+		"tympole": 10
+	  }
 	},
 	"route9": {
-	  "gothita": 25,
-	  "minccino": 30,
-	  "trubbish": 15,
-	  "pawniard": 15,
-	  "purrloin": 10,
-	  "grimer": 5,
-	  "audino": 80,
-	  "emolga": 10
+	  "Land": {
+		"gothita": 25,
+		"minccino": 30,
+		"trubbish": 15,
+		"pawniard": 15,
+		"purrloin": 10,
+		"grimer": 5
+	  },
+	  "Water": {},
+	  "Double": {
+		"gothita": 25,
+		"minccino": 30,
+		"trubbish": 15,
+		"pawniard": 15,
+		"purrloin": 10,
+		"grimer": 5
+	  },
+	  "Shake": {
+		"audino": 80,
+		"emolga": 10,
+		"minccino": 5,
+		"gothita": 5
+	  },
+	  "Bubble": {}
 	},
 	"route11": {
-	  "shelmet": 25,
-	  "psyduck": 20,
-	  "gligar": 15,
-	  "azurill": 10,
-	  "zangoose": 10,
-	  "seviper": 10,
-	  "foongus": 5,
-	  "karrablast": 5,
-	  "audino": 80,
-	  "emolga": 10,
-	  "basculin": 70,
-	  "buizel": 70
+	  "Land": {
+		"shelmet": 25,
+		"psyduck": 20,
+		"gligar": 15,
+		"azurill": 10,
+		"zangoose": 10,
+		"seviper": 10,
+		"foongus": 5,
+		"karrablast": 5
+	  },
+	  "Water": {
+		"basculin": 70,
+		"buizel": 30
+	  },
+	  "Double": {
+		"shelmet": 25,
+		"psyduck": 20,
+		"gligar": 15,
+		"azurill": 10,
+		"zangoose": 10,
+		"seviper": 10,
+		"foongus": 5,
+		"karrablast": 5
+	  },
+	  "Shake": {
+		"audino": 80,
+		"emolga": 10,
+		"gligar": 5,
+		"azurill": 5
+	  },
+	  "Bubble": {
+		"buizel": 70,
+		"basculin": 30
+	  }
 	},
 	"route12": {
-	  "combee": 20,
-	  "budew": 25,
-	  "sewaddle": 15,
-	  "pidove": 25,
-	  "heracross": 15,
-	  "audino": 60,
-	  "emolga": 10,
-	  "dunsparce": 10
+	  "Land": {
+		"combee": 20,
+		"budew": 25,
+		"sewaddle": 15,
+		"pidove": 25,
+		"heracross": 15
+	  },
+	  "Water": {},
+	  "Double": {
+		"combee": 20,
+		"budew": 25,
+		"sewaddle": 15,
+		"pidove": 25,
+		"heracross": 15
+	  },
+	  "Shake": {
+		"audino": 60,
+		"emolga": 10,
+		"dunsparce": 10,
+		"pidove": 5,
+		"sewaddle": 5,
+		"combee": 5,
+		"budew": 5
+	  },
+	  "Bubble": {}
 	},
 	"route13": {
-	  "tangela": 25,
-	  "wingull": 25,
-	  "drifloon": 15,
-	  "lunatone": 10,
-	  "solrock": 10,
-	  "absol": 15,
-	  "audino": 85,
-	  "emolga": 10,
-	  "frillish": 65,
-	  "staryu": 65,
-	  "basculin": 5
+	  "Land": {
+		"tangela": 25,
+		"wingull": 25,
+		"drifloon": 15,
+		"lunatone": 10,
+		"solrock": 10,
+		"absol": 15
+	  },
+	  "Water": {
+		"frillish": 65,
+		"staryu": 30,
+		"basculin": 5
+	  },
+	  "Double": {
+		"tangela": 25,
+		"wingull": 25,
+		"drifloon": 15,
+		"lunatone": 10,
+		"solrock": 10,
+		"absol": 15
+	  },
+	  "Shake": {
+		"audino": 85,
+		"emolga": 10,
+		"tangela": 5
+	  },
+	  "Bubble": {
+		"staryu": 65,
+		"frillish": 30,
+		"basculin": 5
+	  }
 	},
 	"route14": {
-	  "psyduck": 25,
-	  "swablu": 25,
-	  "drifloon": 15,
-	  "mienfoo": 30,
-	  "absol": 15,
-	  "audino": 90,
-	  "emolga": 10,
-	  "basculin": 70,
-	  "buizel": 70
+	  "Land": {
+		"psyduck": 25,
+		"swablu": 25,
+		"drifloon": 15,
+		"mienfoo": 20,
+		"absol": 15
+	  },
+	  "Water": {
+		"basculin": 70,
+		"buizel": 30
+	  },
+	  "Double": {
+		"psyduck": 25,
+		"mienfoo": 30,
+		"drifloon": 15,
+		"swablu": 15,
+		"absol": 15
+	  },
+	  "Shake": {
+		"audino": 90,
+		"emolga": 10
+	  },
+	  "Bubble": {
+		"buizel": 70,
+		"basculin": 30
+	  }
 	},
 	"abundantshrine": {
-	  "swablu": 25,
-	  "cottonee": 35,
-	  "vulpix": 20,
-	  "bronzor": 15,
-	  "azurill": 65,
-	  "psyduck": 10,
-	  "audino": 80,
-	  "emolga": 10,
-	  "basculin": 70
+	  "Land": {
+		"swablu": 25,
+		"cottonee": 30,
+		"vulpix": 10,
+		"bronzor": 15,
+		"azurill": 10,
+		"psyduck": 10
+	  },
+	  "Water": {
+		"basculin": 70,
+		"azurill": 30
+	  },
+	  "Double": {
+		"vulpix": 20,
+		"cottonee": 35,
+		"swablu": 15,
+		"azurill": 10,
+		"psyduck": 10,
+		"bronzor": 10
+	  },
+	  "Shake": {
+		"audino": 80,
+		"emolga": 10,
+		"cottonee": 5,
+		"vulpix": 5
+	  },
+	  "Bubble": {
+		"azurill": 65,
+		"basculin": 35
+	  }
 	},
 	"route15": {
-	  "sandshrew": 30,
-	  "gligar": 25,
-	  "scraggy": 10,
-	  "sawk": 20,
-	  "larvitar": 15,
-	  "audino": 75,
-	  "emolga": 10,
-	  "throh": 5
+	  "Land": {
+		"sandshrew": 30,
+		"gligar": 25,
+		"scraggy": 10,
+		"sawk": 20,
+		"larvitar": 15
+	  },
+	  "Water": {},
+	  "Double": {
+		"sandshrew": 30,
+		"gligar": 25,
+		"scraggy": 10,
+		"sawk": 20,
+		"larvitar": 15
+	  },
+	  "Shake": {
+		"audino": 75,
+		"emolga": 10,
+		"throh": 5,
+		"gligar": 5,
+		"larvitar": 5
+	  },
+	  "Bubble": {}
 	},
 	"route16": {
-	  "gothita": 30,
-	  "minccino": 30,
-	  "trubbish": 20,
-	  "purrloin": 20,
-	  "audino": 85,
-	  "emolga": 10
+	  "Land": {
+		"gothita": 30,
+		"minccino": 30,
+		"trubbish": 20,
+		"purrloin": 20
+	  },
+	  "Water": {},
+	  "Double": {
+		"gothita": 30,
+		"minccino": 30,
+		"trubbish": 20,
+		"purrloin": 20
+	  },
+	  "Shake": {
+		"audino": 85,
+		"emolga": 10,
+		"minccino": 5
+	  },
+	  "Bubble": {}
 	},
 	"lostlornforest": {
-	  "cottonee": 25,
-	  "sewaddle": 25,
-	  "combee": 10,
-	  "venipede": 20,
-	  "budew": 15,
-	  "heracross": 5,
-	  "audino": 40,
-	  "emolga": 10,
-	  "pansage": 10,
-	  "pansear": 10,
-	  "panpour": 10,
-	  "basculin": 70,
-	  "buizel": 70
+	  "Land": {
+		"cottonee": 25,
+		"sewaddle": 25,
+		"combee": 10,
+		"venipede": 20,
+		"budew": 15,
+		"heracross": 5
+	  },
+	  "Water": {
+		"basculin": 70,
+		"buizel": 30
+	  },
+	  "Double": {
+		"cottonee": 25,
+		"sewaddle": 25,
+		"combee": 10,
+		"venipede": 20,
+		"budew": 15,
+		"heracross": 5
+	  },
+	  "Shake": {
+		"audino": 40,
+		"emolga": 10,
+		"pansage": 10,
+		"pansear": 10,
+		"panpour": 10,
+		"combee": 5,
+		"budew": 5,
+		"sewaddle": 5,
+		"cottonee": 5
+	  },
+	  "Bubble": {
+		"buizel": 70,
+		"basculin": 30
+	  }
 	},
 	"route18": {
-	  "scraggy": 30,
-	  "dwebble": 20,
-	  "patrat": 10,
-	  "tropius": 10,
-	  "sawk": 20,
-	  "carnivine": 10,
-	  "audino": 85,
-	  "dunsparce": 10,
-	  "throh": 5,
-	  "frillish": 100,
-	  "alomomola": 90
+	  "Land": {
+		"scraggy": 30,
+		"dwebble": 20,
+		"patrat": 10,
+		"tropius": 10,
+		"sawk": 20,
+		"carnivine": 10
+	  },
+	  "Water": {
+		"frillish": 100
+	  },
+	  "Double": {
+		"scraggy": 30,
+		"dwebble": 20,
+		"patrat": 10,
+		"tropius": 10,
+		"sawk": 20,
+		"carnivine": 10
+	  },
+	  "Shake": {
+		"audino": 85,
+		"dunsparce": 10,
+		"throh": 5
+	  },
+	  "Bubble": {
+		"alomomola": 90,
+		"frillish": 10
+	  }
 	},
 	"route19": {
-	  "patrat": 100,
-	  "purrloin": 50,
-	  "basculin": 100
+	  "Land": {
+		"patrat": 50,
+		"purrloin": 50
+	  },
+	  "Water": {
+		"basculin": 100
+	  },
+	  "Double": {},
+	  "Shake": {
+		"patrat": 100
+	  },
+	  "Bubble": {
+		"basculin": 100
+	  }
 	},
 	"route20autumn": {
-	  "pidove": 25,
-	  "sewaddle": 35,
-	  "patrat": 20,
-	  "purrloin": 15,
-	  "sunkern": 5,
-	  "venipede": 20,
-	  "audino": 90,
-	  "dunsparce": 10,
-	  "basculin": 70,
-	  "azurill": 40
+	  "Land": {
+		"pidove": 25,
+		"sewaddle": 35,
+		"patrat": 20,
+		"purrloin": 15,
+		"sunkern": 5
+	  },
+	  "Water": {
+		"basculin": 70,
+		"azurill": 30
+	  },
+	  "Double": {
+		"pidove": 25,
+		"venipede": 20,
+		"patrat": 20,
+		"purrloin": 15,
+		"sewaddle": 15,
+		"sunkern": 5
+	  },
+	  "Shake": {
+		"audino": 90,
+		"dunsparce": 10
+	  },
+	  "Bubble": {
+		"basculin": 60,
+		"azurill": 40
+	  }
 	},
 	"route20spring": {
-	  "sunkern": 26,
-	  "sewaddle": 35,
-	  "patrat": 20,
-	  "purrloin": 14,
-	  "pidove": 5,
-	  "venipede": 20,
-	  "audino": 90,
-	  "dunsparce": 10,
-	  "basculin": 70,
-	  "azurill": 40
+	  "Land": {
+		"sunkern": 26,
+		"sewaddle": 35,
+		"patrat": 20,
+		"purrloin": 14,
+		"pidove": 5
+	  },
+	  "Water": {
+		"basculin": 70,
+		"azurill": 30
+	  },
+	  "Double": {
+		"sunkern": 26,
+		"venipede": 20,
+		"patrat": 20,
+		"purrloin": 14,
+		"sewaddle": 15,
+		"pidove": 5
+	  },
+	  "Shake": {
+		"audino": 90,
+		"dunsparce": 10
+	  },
+	  "Bubble": {
+		"basculin": 60,
+		"azurill": 40
+	  }
 	},
 	"route20winter": {
-	  "pidove": 25,
-	  "sewaddle": 35,
-	  "patrat": 20,
-	  "purrloin": 15,
-	  "sunkern": 5,
-	  "venipede": 20,
-	  "audino": 90,
-	  "dunsparce": 10,
-	  "basculin": 70,
-	  "azurill": 40
+	  "Land": {
+		"pidove": 25,
+		"sewaddle": 35,
+		"patrat": 20,
+		"purrloin": 15,
+		"sunkern": 5
+	  },
+	  "Water": {
+		"basculin": 70,
+		"azurill": 30
+	  },
+	  "Double": {
+		"pidove": 25,
+		"venipede": 20,
+		"patrat": 20,
+		"purrloin": 15,
+		"sewaddle": 15,
+		"sunkern": 5
+	  },
+	  "Shake": {
+		"audino": 90,
+		"dunsparce": 10
+	  },
+	  "Bubble": {
+		"basculin": 60,
+		"azurill": 40
+	  }
 	},
 	"route20summer": {
-	  "pidove": 25,
-	  "sewaddle": 35,
-	  "patrat": 20,
-	  "purrloin": 15,
-	  "sunkern": 5,
-	  "venipede": 20,
-	  "audino": 90,
-	  "dunsparce": 10,
-	  "basculin": 70,
-	  "azurill": 40
+	  "Land": {
+		"pidove": 25,
+		"sewaddle": 35,
+		"patrat": 20,
+		"purrloin": 15,
+		"sunkern": 5
+	  },
+	  "Water": {
+		"basculin": 70,
+		"azurill": 30
+	  },
+	  "Double": {
+		"pidove": 25,
+		"venipede": 20,
+		"patrat": 20,
+		"purrloin": 15,
+		"sewaddle": 15,
+		"sunkern": 5
+	  },
+	  "Shake": {
+		"audino": 90,
+		"dunsparce": 10
+	  },
+	  "Bubble": {
+		"basculin": 60,
+		"azurill": 40
+	  }
 	},
 	"route22": {
-	  "foongus": 20,
-	  "mienfoo": 25,
-	  "wingull": 10,
-	  "psyduck": 10,
-	  "lunatone": 10,
-	  "solrock": 10,
-	  "azurill": 65,
-	  "delibird": 5,
-	  "audino": 85,
-	  "emolga": 10,
-	  "basculin": 70
+	  "Land": {
+		"foongus": 20,
+		"mienfoo": 25,
+		"wingull": 10,
+		"psyduck": 10,
+		"lunatone": 10,
+		"solrock": 10,
+		"azurill": 10,
+		"delibird": 5
+	  },
+	  "Water": {
+		"basculin": 70,
+		"azurill": 30
+	  },
+	  "Double": {
+		"foongus": 20,
+		"mienfoo": 25,
+		"wingull": 10,
+		"psyduck": 10,
+		"lunatone": 10,
+		"solrock": 10,
+		"azurill": 10,
+		"delibird": 5
+	  },
+	  "Shake": {
+		"audino": 85,
+		"emolga": 10,
+		"azurill": 5
+	  },
+	  "Bubble": {
+		"azurill": 65,
+		"basculin": 35
+	  }
 	},
 	"route23": {
-	  "bouffalant": 25,
-	  "sawk": 25,
-	  "gligar": 10,
-	  "mienfoo": 15,
-	  "foongus": 10,
-	  "psyduck": 10,
-	  "vullaby": 5,
-	  "audino": 80,
-	  "emolga": 10,
-	  "throh": 5,
-	  "basculin": 70,
-	  "buizel": 70
+	  "Land": {
+		"bouffalant": 25,
+		"sawk": 25,
+		"gligar": 10,
+		"mienfoo": 15,
+		"foongus": 10,
+		"psyduck": 10,
+		"vullaby": 5
+	  },
+	  "Water": {
+		"basculin": 70,
+		"buizel": 30
+	  },
+	  "Double": {
+		"bouffalant": 25,
+		"sawk": 25,
+		"gligar": 10,
+		"mienfoo": 15,
+		"foongus": 10,
+		"psyduck": 10,
+		"vullaby": 5
+	  },
+	  "Shake": {
+		"audino": 80,
+		"emolga": 10,
+		"gligar": 5,
+		"throh": 5
+	  },
+	  "Bubble": {
+		"buizel": 70,
+		"basculin": 30
+	  }
 	},
 	"undellatown": {
-	  "frillish": 65,
-	  "staryu": 65,
-	  "basculin": 5
+	  "Land": {},
+	  "Water": {
+		"frillish": 65,
+		"staryu": 30,
+		"basculin": 5
+	  },
+	  "Double": {},
+	  "Shake": {},
+	  "Bubble": {
+		"staryu": 65,
+		"frillish": 30,
+		"basculin": 5
+	  }
 	},
 	"route17": {
-	  "frillish": 100,
-	  "alomomola": 90
+	  "Land": {},
+	  "Water": {
+		"frillish": 100
+	  },
+	  "Double": {},
+	  "Shake": {},
+	  "Bubble": {
+		"alomomola": 90,
+		"frillish": 10
+	  }
 	},
 	"route21": {
-	  "frillish": 65,
-	  "mantyke": 30,
-	  "remoraid": 5,
-	  "alomomola": 40
+	  "Land": {},
+	  "Water": {
+		"frillish": 65,
+		"mantyke": 30,
+		"remoraid": 5
+	  },
+	  "Double": {},
+	  "Shake": {},
+	  "Bubble": {
+		"frillish": 55,
+		"alomomola": 40,
+		"mantyke": 5
+	  }
 	}
   }
