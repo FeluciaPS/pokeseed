@@ -356,24 +356,84 @@ async function runGenerator(reroll = false) {
     }
     var hasPokemon = (y, x) => !y.pokemon.includes(x);
 
-    for (var i in players)
-        if (!reroll || players[i].reroll) addPokemon(players[i], select(starters_c));
-    for (var i in players)
-        while (players[i].normal < Normal[0]) addPokemon(players[i], select(normals.filter(x => hasPokemon(players[i], x))));
-    for (var i in players)
-        while (players[i].common < Common[0]) addPokemon(players[i], select(commons.filter(x => hasPokemon(players[i], x))));
-    for (var i in players)
-        while (players[i].legendary < Legendary[0]) addPokemon(players[i], select(legendaries.filter(x => hasPokemon(players[i], x))));
-    for (var i in players)
-        while (players[i].trash < Trash[0]) addPokemon(players[i], select(trash.filter(x => hasPokemon(players[i], x))));
     for (var i in players) {
-        var yeet = false;
-        while (players[i].pokemon.length < PokemonCount) {
+        if (!reroll || players[i].reroll) {
+            while (
+                (legendaries.includes(starter) && Legendary[1] === 0) ||
+                (normals.includes(starter) && Normal[1] === 0) ||
+                (trash.includes(starter) && Trash[1] === 0) ||
+                (commons.includes(starter) && Common[1] === 0))
+                    var starter = select(starters_c);
+
+            addPokemon(players[i], starter);
+        }
+    }
+
+    function calculateReqs(player) {
+        // Calculate how many pokemon slots would be required to fill all a player's needs
+        let legdiff = Math.max(player.legendary - Legendary[0], 0);
+        let nordiff = Math.max(player.normal - Normal[0], 0);
+        let comdiff = Math.max(player.common - Common[0], 0);
+        let trsdiff = Math.max(player.trash - Trash[0], 0);
+
+        return legdiff + nordiff + comdiff + trsdiff;
+    }
+
+    function calcNeeded(type, amount) {
+        let total = 0;
+        for (var i in players) {
+            total += Math.max(amount - players[i][type], 0);
+        }
+        return total;
+    }
+
+    var yeet = false;
+    for (var n = PokemonCount - 1; n > 0; n--) {
+        for (var i in players) {
+            if (players[i].pokemon.length === PokemonCount) 
+                continue;
+
+            let diff = calculateReqs(players[i]);
+            if (diff === n) {
+                if (players[i].normal < Normal[0]) {
+                    let pool = normals.filter(x => hasPokemon(players[i], x));
+                    pool = pool.filter(x => !(players[i].common >= Common[1] && commons.includes(x)))
+                    addPokemon(players[i], select(pool));
+                }
+                else if (players[i].common < Common[0]) {
+                    let pool = commons.filter((a) => {
+                        if (players[i].normal >= Normal[1] && normals.includes(a)) return false;
+                        if (players[i].legendary >= Legendary[1] && legendaries.includes(a)) return false;
+                        if (players[i].trash >= Trash[1] && trash.includes(a)) return false;
+                        return !players[i].pokemon.includes(a);
+                    })
+                    addPokemon(players[i], select(pool));
+                }
+                else if (players[i].legendary < Legendary[0]) {
+                    let pool = legendaries.filter(x => hasPokemon(players[i], x));
+                    pool = pool.filter(x => !(players[i].common >= Common[1] && commons.includes(x)))
+                    addPokemon(players[i], select(pool));
+                }
+                else if (players[i].trash < Trash[0]) {
+                    let pool = trash.filter(x => hasPokemon(players[i], x));
+                    pool = pool.filter(x => !(players[i].common >= Common[1] && commons.includes(x)))
+                    addPokemon(players[i], select(pool));
+                }
+                continue;
+            }
+
+            let banned = {
+                common: calcNeeded("common", Common[1]) <= commons.length && players[i].common >= Common[0],
+                normal: calcNeeded("normal", Normal[1]) <= normals.length && players[i].normal >= Normal[0],
+                legendary: calcNeeded("legendary", Legendary[1]) <= legendaries.length && players[i].legendary >= Legendary[0],
+                trash: calcNeeded("trash", Trash[1]) <= trash.length && players[i].trash >= Trash[0],
+            }
+
             var filtered = pokemon.filter((a) => {
-                if (players[i].normal >= Normal[1] && normals.includes(a)) return false;
-                if (players[i].legendary >= Legendary[1] && legendaries.includes(a)) return false;
-                if (players[i].common >= Common[1] && commons.includes(a)) return false;
-                if (players[i].trash >= Trash[1] && trash.includes(a)) return false;
+                if ((players[i].normal >= Normal[1] || banned.normal) && normals.includes(a)) return false;
+                if ((players[i].legendary >= Legendary[1] || banned.legendary) && legendaries.includes(a)) return false;
+                if ((players[i].common >= Common[1] || banned.common) && commons.includes(a)) return false;
+                if ((players[i].trash >= Trash[1] || banned.trash) && trash.includes(a)) return false;
                 return !players[i].pokemon.includes(a);
             })
             if (!filtered.length) {
@@ -382,6 +442,7 @@ async function runGenerator(reroll = false) {
             }
             addPokemon(players[i], select(filtered));
         }
+
         if (yeet) break;
     }
 
