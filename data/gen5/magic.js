@@ -1,7 +1,7 @@
 let fs = require("fs");
 
-let black = JSON.parse(fs.readFileSync("./black/encounters.json"));
-let white = JSON.parse(fs.readFileSync("./white/encounters.json"));
+let black = JSON.parse(fs.readFileSync("./black2/encounters.json"));
+let white = JSON.parse(fs.readFileSync("./white2/encounters.json"));
 
 let combined = {};
 
