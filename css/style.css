@@ -19,6 +19,7 @@ html, body {
 }
 
 .output {
+    margin: 20px;
     border: 1px solid #EEE;
     color: #EEE;
     background: #070707;
@@ -41,6 +42,7 @@ html, body {
 }
 
 .inputs {
+    margin: 20px;
     margin-bottom: 15px;
 }
 
