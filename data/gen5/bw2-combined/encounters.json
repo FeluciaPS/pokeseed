@@ -377,39 +377,6 @@
     },
     "Bubble": {}
   },
-  "naturepreserve": {
-    "Land": {
-      "seedot": 30,
-      "swablu": 20,
-      "psyduck": 10,
-      "hoothoot": 10,
-      "girafarig": 15,
-      "axew": 10,
-      "kecleon": 5
-    },
-    "Water": {
-      "basculin": 70,
-      "buizel": 30
-    },
-    "Double": {
-      "seedot": 30,
-      "swablu": 20,
-      "psyduck": 10,
-      "hoothoot": 10,
-      "girafarig": 15,
-      "axew": 10,
-      "kecleon": 5
-    },
-    "Shake": {
-      "audino": 85,
-      "dunsparce": 10,
-      "seedot": 5
-    },
-    "Bubble": {
-      "buizel": 65,
-      "basculin": 35
-    }
-  },
   "driftveildrawbridge": {
     "Land": {},
     "Water": {},
